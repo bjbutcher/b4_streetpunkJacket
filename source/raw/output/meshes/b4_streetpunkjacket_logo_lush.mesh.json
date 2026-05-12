@@ -1,0 +1,5151 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.18.1-nightly.2026-05-05",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2310,
+    "ExportedDateTime": "2026-05-11T03:19:09.3609690Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\meshes\\b4_streetpunkjacket_logo_lush.mesh"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 1237396,
+    "RootChunk": {
+      "$type": "CMesh",
+      "appearances": [
+        {
+          "HandleId": "0",
+          "Data": {
+            "$type": "meshMeshAppearance",
+            "chunkMaterials": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "b4Logo"
+              }
+            ],
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "b4Logo"
+            },
+            "tags": []
+          }
+        },
+        {
+          "HandleId": "1",
+          "Data": {
+            "$type": "meshMeshAppearance",
+            "chunkMaterials": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "electricOni"
+              }
+            ],
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "electricOni"
+            },
+            "tags": []
+          }
+        },
+        {
+          "HandleId": "2",
+          "Data": {
+            "$type": "meshMeshAppearance",
+            "chunkMaterials": [
+              {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "powerSkull"
+              }
+            ],
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "powerSkull"
+            },
+            "tags": []
+          }
+        }
+      ],
+      "boneNames": [
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "Hips"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "Spine"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "Spine1"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "Spine2"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "Spine3"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "LeftShoulder"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "LeftArm"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_SHL_0_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_deltoid_top_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_deltoid_top_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_deltoid_front_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_deltoid_front_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_deltoid_back_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_deltoid_back_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_triceps_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_biceps_A_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "LeftForeArm"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_Wrist_0_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_Wrist_1_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_Wrist_2_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_wrist_A_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_wrist_B_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_wrist_C_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "LeftHand"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_thumb_side_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "LeftInHandIndex"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_thumb_thumb_A_bot_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_thumb_thumb_A_top_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "LeftInHandMiddle"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "LeftInHandRing"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "LeftInHandPinky"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_pinkyBase_A_bot_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_elbow_bend_A_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_elbow_bend_B_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_elbow_back_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_butterfly_top_CRV_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "RightShoulder"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "RightArm"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_SHL_0_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_deltoid_top_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_deltoid_top_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_deltoid_front_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_deltoid_front_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_deltoid_back_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_deltoid_back_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_triceps_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_biceps_A_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "RightForeArm"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_Wrist_0_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_Wrist_1_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_Wrist_2_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_wrist_A_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_wrist_B_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_wrist_C_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "RightHand"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_thumb_side_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "RightInHandIndex"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_thumb_thumb_A_bot_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_thumb_thumb_A_top_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "RightInHandMiddle"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "RightInHandRing"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "RightInHandPinky"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_pinkyBase_A_bot_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_elbow_bend_A_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_elbow_bend_B_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_elbow_back_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_butterfly_top_CRV_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "Neck"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "Neck1"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_sternocleidomastoid_bot_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_sternocleidomastoid_bot_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_latissimusDorsi_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_latissimusDorsi_mscl_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_chest_front_A_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_chest_front_B_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_chest_front_B_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_chest_front_C_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_chest_front_C_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_scapula_A_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "l_scapula_A_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_chest_front_A_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_chest_front_B_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_chest_front_B_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_chest_front_C_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_chest_front_C_bot_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_scapula_A_top_out_JNT"
+        },
+        {
+          "$type": "CName",
+          "$storage": "string",
+          "$value": "r_scapula_A_bot_out_JNT"
+        }
+      ],
+      "boneRigMatrices": [
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.00302911,
+            "Y": 0.146421984,
+            "Z": -1.06432553E-05
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -1.03056273E-05,
+            "Y": 2.02754404E-06,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.184309646,
+            "Y": -0.982868254,
+            "Z": 9.33820488E-08
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.982868254,
+            "Y": -0.184309646,
+            "Z": 1.05027693E-05
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.05361617,
+            "Y": -0.253534913,
+            "Z": 7.20913363E-07
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -1.92884695E-08,
+            "Y": 8.64050236E-08,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.185226828,
+            "Y": -0.982695818,
+            "Z": 8.84825937E-08
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.982695818,
+            "Y": 0.185226828,
+            "Z": 2.95017033E-09
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.16039193,
+            "Y": -0.0134298457,
+            "Z": 1.05351648E-06
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 2.86008145E-07,
+            "Y": 5.8474118E-08,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.0223750304,
+            "Y": -0.99974966,
+            "Z": 6.48589165E-08
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.99974966,
+            "Y": -0.0223750304,
+            "Z": -2.84628186E-07
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.21546233,
+            "Y": 0.279905677,
+            "Z": 3.48091419E-07
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -2.73139932E-07,
+            "Y": 5.69413459E-08,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.256583601,
+            "Y": -0.966522038,
+            "Z": -1.50481636E-08
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.966522038,
+            "Y": -0.256583601,
+            "Z": 2.78605995E-07
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.36506557,
+            "Y": -0.0339488983,
+            "Z": 6.89620322E-07
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -2.87269977E-08,
+            "Y": -7.19437931E-09,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.0281681418,
+            "Y": -0.999603212,
+            "Z": -8.0007112E-09
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.999603212,
+            "Y": -0.0281681418,
+            "Z": 2.85129467E-08
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.148503885,
+            "Y": -0.0588868894,
+            "Z": -1.48379576
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.912844241,
+            "Y": 0.390634745,
+            "Z": -0.118827097
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.392471462,
+            "Y": -0.919724822,
+            "Z": -0.00850951206
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.112612337,
+            "Y": 0.0388683863,
+            "Z": 0.992878497
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.954247594,
+            "Y": -0.120464548,
+            "Z": -1.1314435
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.692590237,
+            "Y": -0.222517222,
+            "Z": -0.68615222
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.144187778,
+            "Y": -0.97473973,
+            "Z": 0.170564696
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.7067734,
+            "Y": 0.0191966724,
+            "Z": 0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.864014387,
+            "Y": -0.120815448,
+            "Z": -1.13140595
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.692590237,
+            "Y": -0.222730011,
+            "Z": -0.686083198
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.144187778,
+            "Y": -0.974686801,
+            "Z": 0.170866981
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.7067734,
+            "Y": 0.0194159932,
+            "Z": 0.707173526
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.793659449,
+            "Y": -0.159538478,
+            "Z": -1.28006303
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.798231661,
+            "Y": -0.15490748,
+            "Z": -0.582090914
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0932536423,
+            "Y": -0.986495614,
+            "Z": 0.134648293
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.595088184,
+            "Y": 0.0531984307,
+            "Z": 0.801897764
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 1.05215645,
+            "Y": -0.123462878,
+            "Z": -1.03784144
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.609801233,
+            "Y": -0.174436182,
+            "Z": -0.773119986
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0868773982,
+            "Y": -0.984312475,
+            "Z": 0.15356189
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.787778378,
+            "Y": 0.0264755785,
+            "Z": 0.615389526
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.976491153,
+            "Y": 0.100139365,
+            "Z": -1.12338734
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.629447937,
+            "Y": -0.352455556,
+            "Z": -0.692510188
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.330209047,
+            "Y": -0.92806673,
+            "Z": 0.172203794
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.703389883,
+            "Y": -0.120279826,
+            "Z": 0.700553656
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.91324544,
+            "Y": 0.00151517533,
+            "Z": -1.12274945
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.661764383,
+            "Y": -0.286122799,
+            "Z": -0.692965806
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.233352274,
+            "Y": -0.957005739,
+            "Z": 0.172298461
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.71247077,
+            "Y": -0.0476841666,
+            "Z": 0.700079739
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.963895023,
+            "Y": -0.22932452,
+            "Z": -1.13152015
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.706718862,
+            "Y": -0.136157185,
+            "Z": -0.69426918
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0465075411,
+            "Y": -0.988124907,
+            "Z": 0.146445423
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.705964267,
+            "Y": 0.0712069944,
+            "Z": 0.704658806
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.92103976,
+            "Y": -0.184855893,
+            "Z": -1.13754964
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.703711689,
+            "Y": -0.171510682,
+            "Z": -0.689473689
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0969289318,
+            "Y": -0.984528124,
+            "Z": 0.145976678
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.703842759,
+            "Y": 0.035895545,
+            "Z": 0.709448278
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.787798166,
+            "Y": -1.13154972,
+            "Z": -0.0270972792
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.657612145,
+            "Y": -0.685958207,
+            "Z": -0.311460525
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.270582825,
+            "Y": 0.170779765,
+            "Z": -0.94742769
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.703086913,
+            "Y": 0.707315803,
+            "Z": -0.073301658
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.753674448,
+            "Y": -0.214715064,
+            "Z": -1.13141716
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.716848135,
+            "Y": -0.123936839,
+            "Z": -0.686125636
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.00694893906,
+            "Y": -0.985295653,
+            "Z": 0.170716688
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.697194695,
+            "Y": 0.117610097,
+            "Z": 0.707168579
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.603190124,
+            "Y": 0.343328536,
+            "Z": -1.1314435
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.391349494,
+            "Y": -0.613221645,
+            "Z": -0.68615216
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.732918322,
+            "Y": -0.658588231,
+            "Z": 0.170564651
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.556485653,
+            "Y": -0.4361431,
+            "Z": 0.707179546
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.517687142,
+            "Y": 0.343001842,
+            "Z": -1.13154256
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.391349494,
+            "Y": -0.613419712,
+            "Z": -0.685975075
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.732918322,
+            "Y": -0.658538938,
+            "Z": 0.170754805
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.556485653,
+            "Y": -0.435938895,
+            "Z": 0.707305431
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.432030141,
+            "Y": 0.342754573,
+            "Z": -1.13161743
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.391349494,
+            "Y": -0.613569617,
+            "Z": -0.685841024
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.732918322,
+            "Y": -0.658501625,
+            "Z": 0.170898706
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.556485653,
+            "Y": -0.43578434,
+            "Z": 0.70740068
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.351559758,
+            "Y": 0.342683941,
+            "Z": -1.13163888
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.391349494,
+            "Y": -0.613612413,
+            "Z": -0.685802698
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.732918322,
+            "Y": -0.658490956,
+            "Z": 0.170939803
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.556485653,
+            "Y": -0.435740173,
+            "Z": 0.707427859
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.442096114,
+            "Y": -1.09770823,
+            "Z": 0.422408164
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.514262617,
+            "Y": -0.757932305,
+            "Z": -0.401338547
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.724960089,
+            "Y": 0.134147868,
+            "Z": 0.675601363
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.458221376,
+            "Y": 0.638390958,
+            "Z": -0.618457913
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.402096123,
+            "Y": -1.09770823,
+            "Z": 0.422408164
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.514262617,
+            "Y": -0.757932305,
+            "Z": -0.401338547
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.724960089,
+            "Y": 0.134147868,
+            "Z": 0.675601363
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.458221376,
+            "Y": 0.638390958,
+            "Z": -0.618457913
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.16024506,
+            "Y": -0.0246202704,
+            "Z": 0.35666278
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.586456895,
+            "Y": -0.2802414,
+            "Z": -0.759955943
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0105485702,
+            "Y": 0.935517848,
+            "Z": -0.353121936
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.809911728,
+            "Y": -0.215107247,
+            "Z": -0.545684755
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.422536463,
+            "Y": 0.421988159,
+            "Z": -1.07770014
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.401264936,
+            "Y": -0.514324248,
+            "Z": -0.757929444
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.67557162,
+            "Y": -0.724961579,
+            "Z": 0.134289682
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.618538141,
+            "Y": -0.45814988,
+            "Z": 0.638364494
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.509740055,
+            "Y": -1.06341028,
+            "Z": -0.32929644
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.339743227,
+            "Y": -0.474365175,
+            "Z": 0.812128186
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.813206196,
+            "Y": 0.581975639,
+            "Z": -0.000261441164
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.472514808,
+            "Y": 0.6605165,
+            "Z": 0.583478987
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.328079879,
+            "Y": -1.14216292,
+            "Z": -0.32419461
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.359488606,
+            "Y": -0.664495885,
+            "Z": 0.655143619
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.754785597,
+            "Y": 0.205763295,
+            "Z": 0.622864485
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.548695385,
+            "Y": 0.718405664,
+            "Z": 0.427582353
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.610655248,
+            "Y": -1.00280654,
+            "Z": 0.308378547
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.278142601,
+            "Y": 0.0199268945,
+            "Z": 0.960333049
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.749335885,
+            "Y": 0.620994389,
+            "Z": -0.229916811
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.600942969,
+            "Y": 0.783561647,
+            "Z": 0.15779306
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.610655248,
+            "Y": -1.00480664,
+            "Z": 0.308378547
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.278142601,
+            "Y": 0.0199268945,
+            "Z": 0.960333049
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.749335885,
+            "Y": 0.620994389,
+            "Z": -0.229916811
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.600942969,
+            "Y": 0.783561647,
+            "Z": 0.15779306
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.392332286,
+            "Y": -1.07717144,
+            "Z": -0.448970199
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.477612227,
+            "Y": -0.761943102,
+            "Z": 0.437411994
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.614117086,
+            "Y": 0.0665066838,
+            "Z": 0.786407709
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.628288746,
+            "Y": 0.644220114,
+            "Z": 0.436157882
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.487308502,
+            "Y": -1.0304538,
+            "Z": -0.454559356
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.510986924,
+            "Y": -0.805482864,
+            "Z": 0.3001495
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.487848192,
+            "Y": 0.0157450791,
+            "Z": 0.872786462
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.707740426,
+            "Y": 0.592409849,
+            "Z": 0.384907812
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.527200699,
+            "Y": -0.963091433,
+            "Z": -0.533649445
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.600402057,
+            "Y": -0.799467087,
+            "Z": 0.0192290191
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.284272343,
+            "Y": -0.190891057,
+            "Z": 0.939547658
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.747466803,
+            "Y": 0.569572628,
+            "Z": 0.341877759
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.686430395,
+            "Y": -0.972275734,
+            "Z": 0.228581473
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.452454597,
+            "Y": -0.616845369,
+            "Z": 0.644039333
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.3131015,
+            "Y": 0.566335976,
+            "Z": 0.76238507
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.83501631,
+            "Y": 0.546594322,
+            "Z": -0.0631061345
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.679366946,
+            "Y": 0.172842994,
+            "Z": -1.14222705
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.56039387,
+            "Y": -0.463846803,
+            "Z": -0.68615222
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.495919496,
+            "Y": -0.851452589,
+            "Z": 0.170564666
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.663341939,
+            "Y": -0.244692862,
+            "Z": 0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.679366946,
+            "Y": 0.172842994,
+            "Z": -1.12065995
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.56039387,
+            "Y": -0.463846803,
+            "Z": -0.68615222
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.495919496,
+            "Y": -0.851452589,
+            "Z": 0.170564666
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.663341939,
+            "Y": -0.244692862,
+            "Z": 0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.679366946,
+            "Y": 0.11122299,
+            "Z": -1.1314435
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.56039387,
+            "Y": -0.463846833,
+            "Z": -0.68615222
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.495919496,
+            "Y": -0.851452589,
+            "Z": 0.170564666
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.663341939,
+            "Y": -0.244692862,
+            "Z": 0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.0536024831,
+            "Y": -0.0779056475,
+            "Z": -1.52576196
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.912844241,
+            "Y": 0.390634745,
+            "Z": -0.118827097
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.392471462,
+            "Y": -0.919724822,
+            "Z": -0.00850951206
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.112612337,
+            "Y": 0.0388683863,
+            "Z": 0.992878497
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.149660543,
+            "Y": 0.0588711314,
+            "Z": 1.48378432
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.912784159,
+            "Y": 0.390516937,
+            "Z": -0.119673058
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.392343521,
+            "Y": 0.919775844,
+            "Z": 0.00888350047
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.113541551,
+            "Y": -0.0388442315,
+            "Z": -0.992773592
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.954247594,
+            "Y": 0.120464191,
+            "Z": 1.1314435
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.692590237,
+            "Y": -0.222516865,
+            "Z": -0.686152339
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.144187659,
+            "Y": 0.97473985,
+            "Z": -0.170564294
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.70677346,
+            "Y": -0.01919646,
+            "Z": -0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.864014506,
+            "Y": 0.120815277,
+            "Z": 1.13140595
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.692590237,
+            "Y": -0.222729772,
+            "Z": -0.686083257
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.144187659,
+            "Y": 0.974686861,
+            "Z": -0.170866743
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.70677346,
+            "Y": -0.0194158964,
+            "Z": -0.707173467
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.794686854,
+            "Y": 0.15885888,
+            "Z": -1.27956212
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.797678888,
+            "Y": -0.155656412,
+            "Z": 0.582648635
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0940877274,
+            "Y": 0.986407936,
+            "Z": 0.13471055
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.59569782,
+            "Y": -0.0526356734,
+            "Z": 0.801482141
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 1.05275953,
+            "Y": 0.12277814,
+            "Z": -1.03732717
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.60929811,
+            "Y": -0.174817085,
+            "Z": 0.773430526
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0874387324,
+            "Y": 0.984258831,
+            "Z": 0.153587162
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.788105488,
+            "Y": -0.0259525832,
+            "Z": 0.614992857
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.977426112,
+            "Y": -0.101554886,
+            "Z": -1.12250197
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.628333151,
+            "Y": -0.353148282,
+            "Z": 0.693169355
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.331261486,
+            "Y": 0.927666187,
+            "Z": 0.172340482
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.703891516,
+            "Y": 0.121333055,
+            "Z": 0.699867845
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.913930416,
+            "Y": -0.00235353969,
+            "Z": -1.12219667
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.6610955,
+            "Y": -0.286648273,
+            "Z": 0.693387032
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.234065413,
+            "Y": 0.956815839,
+            "Z": 0.172385707
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.712857723,
+            "Y": 0.048334498,
+            "Z": 0.699641049
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.964488208,
+            "Y": 0.228812441,
+            "Z": -1.13115191
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.706349313,
+            "Y": -0.136582226,
+            "Z": 0.69456166
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.047032427,
+            "Y": 0.98809588,
+            "Z": 0.146473691
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.706299186,
+            "Y": -0.0707946718,
+            "Z": 0.704364657
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.921361446,
+            "Y": 0.184554607,
+            "Z": -1.1373477
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.703494906,
+            "Y": -0.171741247,
+            "Z": 0.689637482
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.097224243,
+            "Y": 0.984496653,
+            "Z": 0.145992532
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.704018772,
+            "Y": -0.0356555097,
+            "Z": 0.709285736
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.788048863,
+            "Y": -1.13140118,
+            "Z": 0.0269312542
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.657460093,
+            "Y": 0.686149657,
+            "Z": -0.311359644
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.270544797,
+            "Y": 0.17070058,
+            "Z": 0.947452784
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.703243673,
+            "Y": 0.707149148,
+            "Z": 0.0734054074
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.753674507,
+            "Y": -0.214710206,
+            "Z": 1.13141811
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.716848135,
+            "Y": 0.123933755,
+            "Z": -0.686126232
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.00694880728,
+            "Y": -0.985296428,
+            "Z": -0.170712382
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.697194755,
+            "Y": 0.117607087,
+            "Z": -0.707169056
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.603189886,
+            "Y": -0.343328893,
+            "Z": 1.1314435
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.391349673,
+            "Y": -0.613221407,
+            "Z": -0.686152279
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.732918322,
+            "Y": 0.65858829,
+            "Z": -0.170564264
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.556485534,
+            "Y": 0.436143339,
+            "Z": -0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.517686903,
+            "Y": -0.343002021,
+            "Z": 1.13154268
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.391349673,
+            "Y": -0.613419592,
+            "Z": -0.685975134
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.732918322,
+            "Y": 0.658538997,
+            "Z": -0.170754522
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.556485534,
+            "Y": 0.435939014,
+            "Z": -0.707305491
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.432029873,
+            "Y": -0.342754573,
+            "Z": 1.13161767
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.391349673,
+            "Y": -0.613569558,
+            "Z": -0.685840964
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.732918322,
+            "Y": 0.658501625,
+            "Z": -0.170898482
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.556485534,
+            "Y": 0.43578437,
+            "Z": -0.707400799
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.35155952,
+            "Y": -0.342683911,
+            "Z": 1.131639
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.391349673,
+            "Y": -0.613612354,
+            "Z": -0.685802639
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.732918322,
+            "Y": 0.658490956,
+            "Z": -0.170939624
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.556485534,
+            "Y": 0.435740173,
+            "Z": -0.707427979
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.442099839,
+            "Y": -1.0977118,
+            "Z": -0.422395289
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.514265001,
+            "Y": 0.757928967,
+            "Z": -0.401341766
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.72495532,
+            "Y": 0.134141222,
+            "Z": -0.6756078
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.458226234,
+            "Y": 0.638396323,
+            "Z": 0.618448734
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.402099818,
+            "Y": -1.0977118,
+            "Z": -0.422395289
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.514265001,
+            "Y": 0.757928967,
+            "Z": -0.401341766
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.72495532,
+            "Y": 0.134141222,
+            "Z": -0.6756078
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.458226234,
+            "Y": 0.638396323,
+            "Z": 0.618448734
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.16024518,
+            "Y": 0.0246199369,
+            "Z": 0.356662691
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.586456776,
+            "Y": -0.280242801,
+            "Z": 0.759955525
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0105483811,
+            "Y": -0.935517251,
+            "Z": -0.353123486
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.809911847,
+            "Y": 0.215107962,
+            "Z": -0.545684338
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.422523648,
+            "Y": -0.421991795,
+            "Z": 1.07770383
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.401268125,
+            "Y": -0.514326632,
+            "Z": -0.757926106
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.675578058,
+            "Y": 0.72495681,
+            "Z": -0.134283096
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.618529081,
+            "Y": 0.458154708,
+            "Z": -0.638369858
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.509730577,
+            "Y": 1.06341243,
+            "Z": -0.329305708
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.339736462,
+            "Y": -0.474376619,
+            "Z": -0.812124312
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.813211977,
+            "Y": -0.581967533,
+            "Z": -0.000253594859
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.472509712,
+            "Y": -0.660515368,
+            "Z": 0.583484352
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.328066856,
+            "Y": 1.1421665,
+            "Z": 0.324195921
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.359491736,
+            "Y": -0.66449213,
+            "Z": 0.655145705
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.754791021,
+            "Y": -0.205755875,
+            "Z": -0.622860372
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.548685908,
+            "Y": -0.718411267,
+            "Z": -0.427585155
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.610645711,
+            "Y": 1.00281024,
+            "Z": 0.308388889
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.278139025,
+            "Y": 0.0199318193,
+            "Z": -0.960334003
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.749342144,
+            "Y": -0.620986104,
+            "Z": -0.229918629
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.60093677,
+            "Y": -0.783568084,
+            "Z": 0.157784715
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.610645711,
+            "Y": 1.00481033,
+            "Z": 0.308388889
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.278139025,
+            "Y": 0.0199318193,
+            "Z": -0.960334003
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.749342144,
+            "Y": -0.620986104,
+            "Z": -0.229918629
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.60093677,
+            "Y": -0.783568084,
+            "Z": 0.157784715
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.392319858,
+            "Y": 1.07717431,
+            "Z": 0.448974729
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.477615744,
+            "Y": -0.761939704,
+            "Z": 0.43741411
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.614123285,
+            "Y": -0.0664999932,
+            "Z": -0.786403418
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.628279984,
+            "Y": -0.644224823,
+            "Z": -0.436163485
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.487296969,
+            "Y": 1.03045654,
+            "Z": 0.454565912
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.510990798,
+            "Y": -0.805479705,
+            "Z": 0.300151289
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.487855136,
+            "Y": -0.0157388747,
+            "Z": -0.872782707
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.707732797,
+            "Y": -0.59241432,
+            "Z": -0.384915024
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.527190864,
+            "Y": 0.96309185,
+            "Z": 0.533658683
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.60040611,
+            "Y": -0.799463987,
+            "Z": 0.019230498
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.284279644,
+            "Y": 0.190897062,
+            "Z": -0.939544261
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.747460783,
+            "Y": -0.569574952,
+            "Z": -0.341887116
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.686420798,
+            "Y": 0.97228384,
+            "Z": -0.228576496
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.452459127,
+            "Y": -0.616842687,
+            "Z": 0.644038677
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.313109726,
+            "Y": -0.566330314,
+            "Z": -0.762385905
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.835010827,
+            "Y": -0.546603262,
+            "Z": 0.0631018728
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.679366887,
+            "Y": -0.172843352,
+            "Z": 1.14222693
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.560393989,
+            "Y": -0.463846505,
+            "Z": -0.686152339
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.495919466,
+            "Y": 0.851452708,
+            "Z": -0.170564294
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.663341939,
+            "Y": 0.2446931,
+            "Z": -0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.679366887,
+            "Y": -0.172843352,
+            "Z": 1.12065995
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.560393989,
+            "Y": -0.463846505,
+            "Z": -0.686152339
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.495919466,
+            "Y": 0.851452708,
+            "Z": -0.170564294
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.663341939,
+            "Y": 0.2446931,
+            "Z": -0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.679366827,
+            "Y": -0.111223355,
+            "Z": 1.1314435
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.560393989,
+            "Y": -0.463846505,
+            "Z": -0.686152339
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.495919466,
+            "Y": 0.851452708,
+            "Z": -0.170564279
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.66334188,
+            "Y": 0.2446931,
+            "Z": -0.707179487
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.0549067184,
+            "Y": 0.0779482573,
+            "Z": 1.52578676
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.912784159,
+            "Y": 0.390516937,
+            "Z": -0.119673058
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.392343521,
+            "Y": 0.919775844,
+            "Z": 0.00888350047
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.113541551,
+            "Y": -0.0388442315,
+            "Z": -0.992773592
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.39119518,
+            "Y": -0.588628232,
+            "Z": -9.77327772E-07
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -1.13259216E-06,
+            "Y": -2.29210329E-07,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.342541695,
+            "Y": -0.939502656,
+            "Z": 1.72616325E-07
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.939502656,
+            "Y": 0.342541695,
+            "Z": 1.14258739E-06
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.52627301,
+            "Y": -0.364136755,
+            "Z": 2.25281769E-06
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 1.00093746E-06,
+            "Y": -2.1929506E-07,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.197962955,
+            "Y": -0.980209529,
+            "Z": -4.13103606E-07
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.980209529,
+            "Y": 0.197962955,
+            "Z": -9.37716095E-07
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.44774783,
+            "Y": 0.415894151,
+            "Z": -0.199207678
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.284404486,
+            "Y": -0.578108549,
+            "Z": 0.764790535
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.147055835,
+            "Y": -0.761986554,
+            "Z": -0.630675077
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.947358787,
+            "Y": -0.291833729,
+            "Z": 0.131698176
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.44774747,
+            "Y": -0.415894538,
+            "Z": -0.199209571
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.284404457,
+            "Y": -0.578107178,
+            "Z": -0.764791608
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.14705579,
+            "Y": 0.761987805,
+            "Z": -0.630673647
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.947358787,
+            "Y": 0.291833431,
+            "Z": 0.131698713
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.41183388,
+            "Y": -0.0668193623,
+            "Z": -0.126596853
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -2.87270012E-08,
+            "Y": -7.19437976E-09,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.0281681418,
+            "Y": -0.999603212,
+            "Z": -8.0007112E-09
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.999603212,
+            "Y": -0.0281681418,
+            "Z": 2.85129467E-08
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -1.41183007,
+            "Y": -0.0668112859,
+            "Z": 0.126589671
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -2.87269994E-08,
+            "Y": -7.19437976E-09,
+            "Z": 1
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.0281681418,
+            "Y": -0.999603212,
+            "Z": -8.0007112E-09
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.999603212,
+            "Y": -0.0281681418,
+            "Z": 2.85129467E-08
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.355818361,
+            "Y": 1.25889671,
+            "Z": -0.720477521
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.914554477,
+            "Y": 0.0284660123,
+            "Z": 0.403459847
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.357894868,
+            "Y": -0.521648228,
+            "Z": -0.774463952
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.18841821,
+            "Y": -0.85268563,
+            "Z": 0.48726356
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.494316995,
+            "Y": -1.12613189,
+            "Z": -0.759008765
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.844661951,
+            "Y": 0.491810739,
+            "Z": -0.211349025
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.418709219,
+            "Y": -0.361025959,
+            "Z": 0.833272398
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.333509833,
+            "Y": 0.792327225,
+            "Z": 0.510870576
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.248734549,
+            "Y": -1.21828926,
+            "Z": -0.790602148
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.943650126,
+            "Y": 0.246906936,
+            "Z": -0.220366478
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.316730142,
+            "Y": -0.480732501,
+            "Z": 0.817666352
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0959501565,
+            "Y": 0.841387689,
+            "Z": 0.531846166
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.790454865,
+            "Y": -0.913246691,
+            "Z": -0.64876771
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.79664886,
+            "Y": -0.507871449,
+            "Z": -0.327745616
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.00264541898,
+            "Y": -0.545152485,
+            "Z": 0.838332772
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.604436576,
+            "Y": 0.666989803,
+            "Z": 0.435638636
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.915610313,
+            "Y": -0.841059089,
+            "Z": -0.672376871
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.669374168,
+            "Y": 0.721781611,
+            "Z": -0.175981671
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.447867334,
+            "Y": -0.203048602,
+            "Z": 0.870738804
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.59275043,
+            "Y": 0.661666512,
+            "Z": 0.459177881
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.534771383,
+            "Y": -1.28401363,
+            "Z": 0.0784476772
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.931613684,
+            "Y": 0.349974364,
+            "Z": 0.0980503261
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0799087733,
+            "Y": -0.0659435838,
+            "Z": 0.994618535
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.354556799,
+            "Y": 0.934435308,
+            "Z": 0.0334679261
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.898451984,
+            "Y": 0.886651754,
+            "Z": 0.694725335
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.824013233,
+            "Y": -0.299961269,
+            "Z": -0.480651021
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.109151058,
+            "Y": 0.748413086,
+            "Z": -0.654189527
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.555957019,
+            "Y": -0.591524422,
+            "Z": -0.583961189
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.35957399,
+            "Y": 1.25618684,
+            "Z": 0.723397434
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.912369728,
+            "Y": -0.0304154716,
+            "Z": 0.408235759
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.362229288,
+            "Y": -0.524567306,
+            "Z": 0.770466805
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.190713018,
+            "Y": -0.850825489,
+            "Z": -0.489616692
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.496671438,
+            "Y": -1.12361348,
+            "Z": 0.761216879
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.843223572,
+            "Y": -0.494179547,
+            "Z": -0.211566895
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.420491666,
+            "Y": -0.361160129,
+            "Z": -0.832316101
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.334904075,
+            "Y": 0.790790677,
+            "Z": -0.512337148
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.249377474,
+            "Y": -1.21662021,
+            "Z": 0.792990386
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.943220258,
+            "Y": -0.248247176,
+            "Z": -0.220700935
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.317885607,
+            "Y": -0.481873691,
+            "Z": -0.816545486
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0963551328,
+            "Y": 0.840339839,
+            "Z": -0.533427238
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.783756256,
+            "Y": -0.906614721,
+            "Z": 0.666350007
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.798051775,
+            "Y": 0.500885069,
+            "Z": -0.335003704
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.00260891579,
+            "Y": -0.558807552,
+            "Z": -0.829293251
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.60258323,
+            "Y": 0.660944939,
+            "Z": -0.447264135
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.932217002,
+            "Y": -0.819006681,
+            "Z": 0.676892102
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.650444686,
+            "Y": -0.737666667,
+            "Z": -0.181023911
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": -0.457956225,
+            "Y": -0.190732628,
+            "Z": -0.868272543
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.605968475,
+            "Y": 0.647664249,
+            "Z": -0.461880058
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.534784675,
+            "Y": -1.28401029,
+            "Z": -0.0784182027
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.931616008,
+            "Y": -0.349980742,
+            "Z": 0.0980058014
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.0798595771,
+            "Y": -0.0659473315,
+            "Z": -0.994622231
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.354561865,
+            "Y": 0.934432685,
+            "Z": -0.0334882736
+          }
+        },
+        {
+          "$type": "Matrix",
+          "W": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": -0.898461223,
+            "Y": 0.886515617,
+            "Z": -0.694895089
+          },
+          "X": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.824029982,
+            "Y": 0.299952239,
+            "Z": -0.480628014
+          },
+          "Y": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.109057382,
+            "Y": 0.748500824,
+            "Z": 0.65410471
+          },
+          "Z": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0.555950642,
+            "Y": -0.591417909,
+            "Z": 0.584075093
+          }
+        }
+      ],
+      "boneVertexEpsilons": [0.270341337,0.264824331,0.249104381,0.248808146,0.283000648,0.205410376,0.187959701,0.166321471,0.126276121,0.132570356,0.166562274,0.114071704,0.138930038,0.119842701,0.207206309,0.176232517,0.231951043,0.158567473,0.111111499,0.0936039463,0.0650895983,0.0669902861,0.0620152801,0.0529273227,0.068661876,0.0507189333,0.0961181894,0.0581400767,0.0483289659,0.0486702621,0.0515143648,0.0447846763,0.163033515,0.164522171,0.0869244486,0.183772981,0.208951622,0.192430213,0.168014437,0.143798038,0.133503214,0.157893091,0.112455599,0.143770874,0.120462246,0.208608344,0.172719389,0.232242063,0.151408583,0.114374891,0.0971054733,0.0635251179,0.0724064186,0.0614977889,0.058186274,0.067756705,0.0513626151,0.0956374183,0.057167273,0.0458582938,0.0497728102,0.0561218932,0.0471065566,0.162128329,0.160726175,0.0878219828,0.183090374,0.16164273,0.121501841,0.0616423413,0.0686545894,0.200379699,0.205601364,0.133846,0.169842258,0.165698752,0.228074878,0.189475507,0.224996909,0.174022391,0.134149298,0.169532537,0.166308731,0.228231177,0.18952769,0.227707043,0.171746939
+      ],
+      "boundingBox": {
+        "$type": "Box",
+        "Max": {
+          "$type": "Vector4",
+          "W": 1,
+          "X": 0.118111312,
+          "Y": -0.10316132,
+          "Z": 1.49046803
+        },
+        "Min": {
+          "$type": "Vector4",
+          "W": 1,
+          "X": -0.109444223,
+          "Y": -0.159727409,
+          "Z": 1.24385571
+        }
+      },
+      "castGlobalShadowsCachedInCook": 1,
+      "castLocalShadowsCachedInCook": 1,
+      "castsRayTracedShadowsFromOriginalGeometry": 0,
+      "consoleBias": 0,
+      "constrainAutoHideDistanceToTerrainHeightMap": 0,
+      "cookingPlatform": "PLATFORM_PC",
+      "externalMaterials": [],
+      "floatTrackNames": [],
+      "forceLoadAllAppearances": 0,
+      "geometryHash": "11392293342809094740",
+      "inplaceResources": [],
+      "isPlayerShadowMesh": 0,
+      "isShadowMesh": 0,
+      "localMaterialBuffer": {
+        "$type": "meshMeshMaterialBuffer",
+        "materials": [
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\mesh_decal_emissive.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "DiffuseTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\electriconi_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "DiffuseAlpha": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "NormalTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\normals\\electriconi_n01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "NormalAlpha": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "RoughnessTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_r01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "MetalnessTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\black.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "RoughnessMetalnessAlpha": 0.699999988
+              },
+              {
+                "$type": "Color",
+                "DiffuseColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 255,
+                  "Green": 255,
+                  "Red": 255
+                }
+              },
+              {
+                "$type": "Float",
+                "UVOffsetX": 0
+              },
+              {
+                "$type": "Float",
+                "UVOffsetY": 0
+              },
+              {
+                "$type": "Float",
+                "UVRotation": 0
+              },
+              {
+                "$type": "rRef:ITexture",
+                "SecondaryMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_r01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "SecondaryMaskUVScale": 1
+              },
+              {
+                "$type": "Float",
+                "SecondaryMaskInfluence": 0
+              },
+              {
+                "$type": "rRef:ITexture",
+                "NormalAlphaTex": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "NormalsBlendingMode": 1
+              },
+              {
+                "$type": "Float",
+                "AlphaMaskContrast": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationSpeed": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationFramesWidth": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationFramesHeight": 1
+              },
+              {
+                "$type": "Float",
+                "DepthThreshold": 0.5
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 217,
+                  "Green": 187,
+                  "Red": 180
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 0.800000012
+              },
+              {
+                "$type": "rRef:ITexture",
+                "BaseColor": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\electriconi_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\mesh_decal_emissive.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "DiffuseTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "DiffuseAlpha": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "NormalTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\normals\\powerskull_n01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "NormalAlpha": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "BaseColor": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "RoughnessTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_r01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "MetalnessTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\black.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "RoughnessMetalnessAlpha": 0.699999988
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 198,
+                  "Green": 172,
+                  "Red": 75
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 0.5
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\mesh_decal_emissive.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "DiffuseTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "DiffuseAlpha": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "NormalTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\normals\\b4logo_n01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "NormalAlpha": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "RoughnessTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "MetalnessTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\black.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "RoughnessMetalnessAlpha": 0.699999988
+              },
+              {
+                "$type": "Color",
+                "DiffuseColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 255,
+                  "Green": 255,
+                  "Red": 255
+                }
+              },
+              {
+                "$type": "Float",
+                "UVOffsetX": 0
+              },
+              {
+                "$type": "Float",
+                "UVOffsetY": 0
+              },
+              {
+                "$type": "Float",
+                "UVRotation": 0
+              },
+              {
+                "$type": "rRef:ITexture",
+                "SecondaryMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "SecondaryMaskUVScale": 1
+              },
+              {
+                "$type": "Float",
+                "SecondaryMaskInfluence": 0
+              },
+              {
+                "$type": "rRef:ITexture",
+                "NormalAlphaTex": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "NormalsBlendingMode": 1
+              },
+              {
+                "$type": "Float",
+                "AlphaMaskContrast": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationSpeed": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationFramesWidth": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationFramesHeight": 1
+              },
+              {
+                "$type": "Float",
+                "DepthThreshold": 0.5
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 217,
+                  "Green": 187,
+                  "Red": 180
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 0.800000012
+              },
+              {
+                "$type": "rRef:ITexture",
+                "BaseColor": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          }
+        ],
+        "rawData": {
+          "BufferId": "0",
+          "Flags": 4063232,
+          "Type": "WolvenKit.RED4.Archive.Buffer.CR2WList, WolvenKit.RED4, Version=8.18.1.0, Culture=neutral, PublicKeyToken=null",
+          "Data": {
+            "Files": [
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\mesh_decal_emissive.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "DiffuseTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\electriconi_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "DiffuseAlpha": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "NormalTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\normals\\electriconi_n01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "NormalAlpha": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "RoughnessTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_r01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "MetalnessTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\black.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "RoughnessMetalnessAlpha": 0.699999988
+                    },
+                    {
+                      "$type": "Color",
+                      "DiffuseColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 255,
+                        "Green": 255,
+                        "Red": 255
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "UVOffsetX": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "UVOffsetY": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "UVRotation": 0
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "SecondaryMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_r01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "SecondaryMaskUVScale": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "SecondaryMaskInfluence": 0
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "NormalAlphaTex": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "NormalsBlendingMode": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AlphaMaskContrast": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationSpeed": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationFramesWidth": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationFramesHeight": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "DepthThreshold": 0.5
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 217,
+                        "Green": 187,
+                        "Red": 180
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 0.800000012
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "BaseColor": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\electriconi_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\mesh_decal_emissive.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "DiffuseTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "DiffuseAlpha": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "NormalTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\normals\\powerskull_n01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "NormalAlpha": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "BaseColor": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "RoughnessTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_r01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "MetalnessTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\black.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "RoughnessMetalnessAlpha": 0.699999988
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 198,
+                        "Green": 172,
+                        "Red": 75
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 0.5
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\mesh_decal_emissive.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "DiffuseTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "DiffuseAlpha": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "NormalTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\normals\\b4logo_n01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "NormalAlpha": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "RoughnessTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "MetalnessTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\black.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "RoughnessMetalnessAlpha": 0.699999988
+                    },
+                    {
+                      "$type": "Color",
+                      "DiffuseColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 255,
+                        "Green": 255,
+                        "Red": 255
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "UVOffsetX": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "UVOffsetY": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "UVRotation": 0
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "SecondaryMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "SecondaryMaskUVScale": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "SecondaryMaskInfluence": 0
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "NormalAlphaTex": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "NormalsBlendingMode": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AlphaMaskContrast": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationSpeed": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationFramesWidth": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationFramesHeight": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "DepthThreshold": 0.5
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 217,
+                        "Green": 187,
+                        "Red": 180
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 0.800000012
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "BaseColor": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              }
+            ]
+          }
+        },
+        "rawDataHeaders": [
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 0,
+            "size": 1712
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 1712,
+            "size": 1130
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 2842,
+            "size": 1628
+          }
+        ]
+      },
+      "localMaterialInstances": [],
+      "lodBoneMask": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+      ],
+      "lodLevelInfo": [0
+      ],
+      "materialEntries": [
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 0,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "electricOni"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 1,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "powerSkull"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 2,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "b4Logo"
+          }
+        }
+      ],
+      "objectType": "ROT_Character",
+      "parameters": [],
+      "preloadExternalMaterials": [],
+      "preloadLocalMaterialInstances": [],
+      "renderResourceBlob": {
+        "HandleId": "3",
+        "Data": {
+          "$type": "rendRenderMeshBlob",
+          "header": {
+            "$type": "rendRenderMeshBlobHeader",
+            "bonePositions": [
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 9.53423296E-09,
+                "Y": -0.040954411,
+                "Z": 1.0128324
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -7.19329307E-07,
+                "Y": -0.0539897233,
+                "Z": 1.0823456
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -7.20849641E-07,
+                "Y": -0.0393902883,
+                "Z": 1.15980089
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -6.96020948E-07,
+                "Y": -0.0413327217,
+                "Z": 1.24659026
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -7.29078806E-07,
+                "Y": -0.0723867863,
+                "Z": 1.36356759
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.0177509636,
+                "Y": -0.00850257464,
+                "Z": 1.49224114
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.142245352,
+                "Y": -0.06202811,
+                "Z": 1.47688293
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.204739928,
+                "Y": -0.0490176231,
+                "Z": 1.41310847
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.13630265,
+                "Y": -0.0590373278,
+                "Z": 1.50726426
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.182306111,
+                "Y": -0.0535617769,
+                "Z": 1.47081161
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.12801218,
+                "Y": -0.0360586494,
+                "Z": 1.48589182
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.173240185,
+                "Y": -0.0182098597,
+                "Z": 1.43674707
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.135600984,
+                "Y": -0.105723709,
+                "Z": 1.49414062
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.167868853,
+                "Y": -0.105215505,
+                "Z": 1.46193528
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.266569912,
+                "Y": -0.0455915704,
+                "Z": 1.35226727
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.262635231,
+                "Y": -0.0236432701,
+                "Z": 1.35081315
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.329747736,
+                "Y": -0.0229926854,
+                "Z": 1.2855407
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.363209307,
+                "Y": 0.039673999,
+                "Z": 1.2379595
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.396731079,
+                "Y": 0.102453575,
+                "Z": 1.1902926
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.428223193,
+                "Y": 0.161431804,
+                "Z": 1.14551198
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.435106337,
+                "Y": 0.182377726,
+                "Z": 1.16458654
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.455676854,
+                "Y": 0.153379321,
+                "Z": 1.14625764
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.416285276,
+                "Y": 0.161217079,
+                "Z": 1.12902546
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.430232882,
+                "Y": 0.165195554,
+                "Z": 1.14265418
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.410194606,
+                "Y": 0.204269022,
+                "Z": 1.13539732
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.42862758,
+                "Y": 0.189314544,
+                "Z": 1.13917208
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.446012557,
+                "Y": 0.236052737,
+                "Z": 1.10406971
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.445972681,
+                "Y": 0.237294778,
+                "Z": 1.10563684
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.436975658,
+                "Y": 0.183774769,
+                "Z": 1.13625538
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.444568872,
+                "Y": 0.175225258,
+                "Z": 1.13030231
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.443165988,
+                "Y": 0.167674959,
+                "Z": 1.12505841
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.436380655,
+                "Y": 0.161445275,
+                "Z": 1.11904585
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.32285589,
+                "Y": 0.00507986546,
+                "Z": 1.30070555
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.308057547,
+                "Y": 0.0014012754,
+                "Z": 1.2854538
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.344038934,
+                "Y": -0.0492259264,
+                "Z": 1.27800179
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.101938486,
+                "Y": -0.0635977983,
+                "Z": 1.52396059
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.0179710686,
+                "Y": -0.00861109793,
+                "Z": 1.4923414
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.142245412,
+                "Y": -0.06202811,
+                "Z": 1.47688293
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.204739869,
+                "Y": -0.049017638,
+                "Z": 1.41310859
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.136357605,
+                "Y": -0.059099406,
+                "Z": 1.50730109
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.18231982,
+                "Y": -0.053577289,
+                "Z": 1.47082078
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.128070831,
+                "Y": -0.0361220688,
+                "Z": 1.48592687
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.173246682,
+                "Y": -0.0182169229,
+                "Z": 1.43675101
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.13564086,
+                "Y": -0.105766848,
+                "Z": 1.49415946
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.167880177,
+                "Y": -0.105227798,
+                "Z": 1.46194077
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.266585112,
+                "Y": -0.0455877781,
+                "Z": 1.35228288
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.26263535,
+                "Y": -0.0236432552,
+                "Z": 1.35081327
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.329747736,
+                "Y": -0.0229927152,
+                "Z": 1.2855407
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.363209367,
+                "Y": 0.0396740139,
+                "Z": 1.23795962
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.396731257,
+                "Y": 0.102453575,
+                "Z": 1.19029272
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.428223252,
+                "Y": 0.161431789,
+                "Z": 1.1455121
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.435106188,
+                "Y": 0.182377487,
+                "Z": 1.16458678
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.455676824,
+                "Y": 0.153379291,
+                "Z": 1.14625776
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.416285396,
+                "Y": 0.161217064,
+                "Z": 1.12902558
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.430232942,
+                "Y": 0.16519551,
+                "Z": 1.1426543
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.410194933,
+                "Y": 0.204268992,
+                "Z": 1.13539767
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.428627789,
+                "Y": 0.189314336,
+                "Z": 1.1391722
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.446012914,
+                "Y": 0.23605299,
+                "Z": 1.10407043
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.445973039,
+                "Y": 0.237295032,
+                "Z": 1.10563767
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.436975837,
+                "Y": 0.18377459,
+                "Z": 1.1362555
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.444569051,
+                "Y": 0.175225183,
+                "Z": 1.13030243
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.443166107,
+                "Y": 0.167674899,
+                "Z": 1.12505853
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.436380923,
+                "Y": 0.161445275,
+                "Z": 1.11904597
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.322855771,
+                "Y": 0.00507980585,
+                "Z": 1.30070555
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.308057547,
+                "Y": 0.00140124559,
+                "Z": 1.2854538
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.344038993,
+                "Y": -0.0492259562,
+                "Z": 1.27800179
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.102037467,
+                "Y": -0.0637069568,
+                "Z": 1.52402294
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -7.33248612E-07,
+                "Y": -0.0764754415,
+                "Z": 1.50866127
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -8.04967272E-07,
+                "Y": -0.0547848046,
+                "Z": 1.56815302
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.0189618468,
+                "Y": -0.0216293335,
+                "Z": 1.51914394
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.0189604163,
+                "Y": -0.0216292888,
+                "Z": 1.51914394
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.126596808,
+                "Y": -0.106561586,
+                "Z": 1.40939152
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.126589715,
+                "Y": -0.106553406,
+                "Z": 1.40938795
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.0705673099,
+                "Y": -0.0286281705,
+                "Z": 1.4915483
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.0241027772,
+                "Y": 0.0189231634,
+                "Z": 1.44487977
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.10813652,
+                "Y": -0.018004179,
+                "Z": 1.4693985
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.0467277467,
+                "Y": 0.0439334214,
+                "Z": 1.36953437
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.124150932,
+                "Y": 0.00461685658,
+                "Z": 1.40796971
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.0565203018,
+                "Y": -0.119965047,
+                "Z": 1.38680899
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": -0.14045465,
+                "Y": -0.111032754,
+                "Z": 1.42966938
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.0709552169,
+                "Y": -0.0286474228,
+                "Z": 1.49155879
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.0245865583,
+                "Y": 0.0189224482,
+                "Z": 1.44488001
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.108209088,
+                "Y": -0.0180180669,
+                "Z": 1.46940589
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.0518614203,
+                "Y": 0.043931663,
+                "Z": 1.36953521
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.124735333,
+                "Y": 0.00460094213,
+                "Z": 1.40797842
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.0565205365,
+                "Y": -0.119965866,
+                "Z": 1.38680947
+              },
+              {
+                "$type": "Vector4",
+                "W": 1,
+                "X": 0.14046061,
+                "Y": -0.111039668,
+                "Z": 1.42967224
+              }
+            ],
+            "customData": [],
+            "customDataElemStride": 0,
+            "dataProcessing": 1,
+            "indexBufferOffset": 9328,
+            "indexBufferSize": 2166,
+            "opacityMicromaps": [],
+            "quantizationOffset": {
+              "$type": "Vector4",
+              "W": 1,
+              "X": 0.00433354452,
+              "Y": -0.131444365,
+              "Z": 1.36716187
+            },
+            "quantizationScale": {
+              "$type": "Vector4",
+              "W": 0,
+              "X": 0.113777772,
+              "Y": 0.0282830447,
+              "Z": 0.123306155
+            },
+            "renderChunkInfos": [
+              {
+                "$type": "rendChunk",
+                "baseRenderMask": 0,
+                "chunkIndices": {
+                  "$type": "rendIndexBufferChunk",
+                  "pe": "IBCT_IndexUShort",
+                  "teOffset": 0
+                },
+                "chunkVertices": {
+                  "$type": "rendVertexBufferChunk",
+                  "byteOffsets": {
+                    "Elements": [0,5088,5936,7632,0
+                    ]
+                  },
+                  "vertexLayout": {
+                    "$type": "GpuWrapApiVertexLayoutDesc",
+                    "elements": {
+                      "Elements": [
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 0,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_Short4N",
+                          "usage": "PS_Position",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 0,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_UByte4",
+                          "usage": "PS_SkinIndices",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 0,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_UByte4",
+                          "usage": "PS_SkinIndices",
+                          "usageIndex": 1
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 0,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_UByte4N",
+                          "usage": "PS_SkinWeights",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 0,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_UByte4N",
+                          "usage": "PS_SkinWeights",
+                          "usageIndex": 1
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 1,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_Float16_2",
+                          "usage": "PS_TexCoord",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 2,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_Dec4",
+                          "usage": "PS_Normal",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 2,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_Dec4",
+                          "usage": "PS_Tangent",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 3,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_Color",
+                          "usage": "PS_Color",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 3,
+                          "streamType": "ST_PerVertex",
+                          "type": "PT_Float16_2",
+                          "usage": "PS_TexCoord",
+                          "usageIndex": 1
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 7,
+                          "streamType": "ST_PerInstance",
+                          "type": "PT_Float4",
+                          "usage": "PS_InstanceTransform",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 7,
+                          "streamType": "ST_PerInstance",
+                          "type": "PT_Float4",
+                          "usage": "PS_InstanceTransform",
+                          "usageIndex": 1
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 7,
+                          "streamType": "ST_PerInstance",
+                          "type": "PT_Float4",
+                          "usage": "PS_InstanceTransform",
+                          "usageIndex": 2
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 7,
+                          "streamType": "ST_PerInstance",
+                          "type": "PT_UInt4",
+                          "usage": "PS_InstanceSkinningData",
+                          "usageIndex": 0
+                        },
+                        {
+                          "$type": "GpuWrapApiVertexPackingPackingElement",
+                          "streamIndex": 0,
+                          "streamType": "ST_Invalid",
+                          "type": "PT_Invalid",
+                          "usage": "PS_Invalid",
+                          "usageIndex": 0
+                        }
+                      ]
+                    },
+                    "hash": 0,
+                    "slotMask": 143,
+                    "slotStrides": {
+                      "Elements": [24,4,8,8,0,0,0,64
+                      ]
+                    }
+                  }
+                },
+                "lodMask": 1,
+                "materialId": [],
+                "mergedRenderMask": 0,
+                "numIndices": 1083,
+                "numVertices": 212,
+                "renderMask": "MCF_RenderInScene, MCF_RenderInShadows",
+                "vertexFactory": 4
+              }
+            ],
+            "renderChunks": [],
+            "renderLODs": [0
+            ],
+            "speedTreeWind": [],
+            "topology": [
+              {
+                "$type": "rendTopologyData",
+                "data": [],
+                "dataStride": 0,
+                "metadata": [],
+                "metadataStride": 0
+              }
+            ],
+            "topologyData": [],
+            "topologyDataStride": 0,
+            "topologyMetadata": [],
+            "topologyMetadataStride": 0,
+            "version": 20,
+            "vertexBufferSize": 9328
+          },
+          "renderBuffer": {
+            "BufferId": "1",
+            "Flags": 4063232,
+            "Bytes": "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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAEAAwAEAAIAAwABAAMAAgDIAMgAAgB8AHwAYwDIAMgAYwBhAAIAewB8AGMAfAB7AAAAigACAIoAewACAAAAkgCKAJ8AkgAAAIoAiQB7AJIAiQCKAJIAnwCRAJEAnwCdAJIAhwCJAJEAhwCSAJ0AkACRAJAAhwCRAJ4AkACdAJ4AqwCQAKwAqwCeALsAqwCsAJAAqwCIAIgAhwCQALoAqwC7AIgAqwCqALoAqgCrAKoAkwCIALsAxAC6ALQAqgC6AMQAtAC6ALQAkwCqAMUAxAC7AMoAxADFAMUAywDKAMoAywDPAM8AzgDKAM8A0wDOAMQAygDAAMAAtADEAMoAzgDDAMAAygDDAMMAzgDMAMAAlAC0AJQAkwC0AMMAuADAALgAlADAAMwAvwDDAL8AuADDAMkAvwDMALkAvwDJAKYAvwC5AL8ApgC4ALkAswCmADcAlAC4ALgApgA3ADYAlAA3AJQANgCTAKYAmAA3AKYAswCYADcANQA2ADcAmAA1ALMAlwCYAJgAlwA1AKkAlwCzAJwAlwCpAJoAlwCcAJkAmgCcADUAlwAzAJcAmgAzAJsAmgCZAJkApACbADMAmgBYAJsAWACaADMANAA1ADYANQA0ADMAWAAoACgANAAzADYANABIAJMANgBIACgARwA0AEgANABHAEgAhgCTAIgAkwCGAIYAhwCIAE0AhgBIAEgARwBNAGwAhwCGAIYATQBsAGwAiQCHAGsAiQBsAIkAawB7AGwATQBUAFQAawBsAE0ARwBJAE0ASQBUACcASQBHACcARwAoAHsAawBeAHsAXgBjAFoAawBUAFoAXgBrAFQASQBSAFQAUgBaAC0ASQAnAC0AUgBJAFAAYwBeAFAAYQBjAGIAYQBQAFAAUQBiAFAAPABRAF4APgBQAD4AXgBaAD8APABQAD8AUAA+ADsAPAA/ADsAPwA+AD0APAA7AFoAWQA+AFoAUgBZADsAPgBEAD4AWQBEAC4AWQBSAC4AUgAtAFkAMgBEAC8AWQAuAC8AMgBZAC8ALgAdABkALgAtAB0ALgAZABkALQAVABUALQAnAEMARAAyAEQARQA7AEUARABDAGoAOwBFADsAagA9AEUAQwB0AEUAcwBqAHQAcwBFAHcAPQBqADgAPQB3AGoAcwBvAG8AdwBqAHQAGwBzAHMAGwBvAHQAQwAaABoAGwB0ADIAEABDABoAQwAQAHcAbwAsABsAbQBvAG8AbQAsACwAKgB3AHcAKgA4ACwAbQApACkAKgAsACsAKgApACoAKwA6ADoAOAAqADoAOQA4ACkAbQDNAG0AEwDNABsAEwBtAM0AEwASABMAGwAaABMADwASABoADwATABIADwAOAAYADgAPAA8AGgAGAAcADgAGAAcABgAFAAYAGgAMAAUABgAIAAwACAAGAAUACAAeABAADAAaAA0ACAAMABAADQAMAB4ACAAfAA0AHwAIAB8AIgAeAB4AIgAjACUAHwANACUAIgAfABEADQAQABEAJQANACQAEQAQACQAEAAyADIALwAkAAsAEQAkACQALwAhACQAIQALAB0AIQAvAMYAJQARAAsAxgARAMYAJgAlACYAIgAlAB0ACgAhAAsAIQAKAEYAJgDGAMcAxgALAEYAxgDHAAsACgAJAAkAxwALACAACgAdACAACQAKABwAIAAdAB0AGQAcAKcACQAgAMcACQDSANIARgDHAAkApwDRANIACQDRAKgApwAgACAAHACoAKcAqAB2ANEApwB2ANIAVQBGANEAVQDSABgAHAAZAIAAqAAcAIAAHAAYABkAFQAYAIAAfwCoAH8AdgCoAHYAfwB+AIAAfgB/AHYAcQDRAIEAfgCAAHEAdgB1AH4AdQB2AHEAZwDRAGcAVQDRAHUAfgCNAIEAjQB+AHUAcABxAHAAZwBxAHAAdQB6AI0AegB1AGUAZwBwAGcAZQBVAHoAeQBwAHkAZQBwAHoAjQCVAHkAegCCAJUAggB6AIIAlQCPAI8AlQCgAIwAggCPAKAAlQCjAKMAlQCNAKMAvACgAH0AggCMAIIAfQB5AIsAfQCMAH0AZAB5AGQAZQB5AG4AfQCLAG4AZAB9AG4AiwB4AGUAZABdAHgAaABuAGgAZABuAHIAaAB4AFUAZQBdAGYAZABoAF0AZABmAF8AaAByAGgAXwBmAF8AcgBbAF0AZgBpAGYAXwBpAFUAXQBOAE4ARgBVAF0AaQBWAFYATgBdAGkAXwBXAFYAaQBXAFsAVwBfAFYATwBOAFcATwBWAEYATgBCAE8AQgBOAEYAQgAmACYAQgAiAFsASwBXAFwASwBbAEsAXABTAFMASgBLAEwATwBXAEIATwBMAFcASwBMAEoAQABLAEsAQABMAEEAQABKADEAQABBAEwAQAAwADAAQAAxADAAQgBMACIAQgAwACMAMAAxACIAMAAjABYAFQAUABgAFQAWABgAFgCFABgAhQCAAIQAhQAWABYAFACEAIAAhQChABQAFQAXABUAJwAXABcAJwAoACgAWAAXAFgAYAAXABcAYAAUAGAAWACbABQAYACOAI4AhAAUAGAAmwClAKUAjgBgAJsApAClAKQAsAClAKUAsACxAKUAsQCOALIAsQCwAIMAhACOAI4AsQCDAIUAhACDAIMAoQCFAIMAsQCvAK8AoQCDAK8AsQCyALIAtgCvALcAtgCyAKIAoQCvAK8AtgCiALYAtwC+AKIAgQChAKEAgQCAAKIAtgCuAK4AgQCiAL4AtQC2AK4AtgC1AL4A0ADBAMEAtQC+AMIAtQDBALUAwgC9AL0ArQC1ALUArQCuAL0AvACtAK0AvACjAJYArgCtAJYArQCjAK4AlgCBAI0AlgCjAJYAjQCBAA=="
+          }
+        }
+      },
+      "resourceVersion": 3,
+      "saveDateTime": "1048576",
+      "surfaceAreaPerAxis": {
+        "$type": "Vector3",
+        "X": 0.343964756,
+        "Y": 0.328876913,
+        "Z": 0.202443182
+      },
+      "useRayTracingShadowLODBias": 0
+    },
+    "EmbeddedFiles": []
+  }
+}

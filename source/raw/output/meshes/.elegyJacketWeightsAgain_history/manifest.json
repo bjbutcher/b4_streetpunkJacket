@@ -1,0 +1,18 @@
+{
+    "parent_file": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\raw\\output\\meshes\\elegyJacketWeightsAgain.blend",
+    "versions": [
+        {
+            "id": "autosave",
+            "timestamp": "2026-05-06 19:27:38",
+            "note": "Auto Save",
+            "thumbnail": "autosave/thumbnail.png",
+            "blend": "autosave/snapshot.blend_snapshot",
+            "object_count": 17,
+            "file_size": 9480960,
+            "is_protected": false,
+            "tag": "NONE"
+        }
+    ],
+    "schema_version": 1,
+    "project_uuid": "c0e6f8fc-bd72-4810-9f59-78cdae3f5b58"
+}

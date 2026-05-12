@@ -1,0 +1,17 @@
+Items.b4_streetpunkjacket_$(variant):
+  $instances:
+    - { variant: default }
+    - { variant: badapple }
+    - { variant: silversamurai }
+    - { variant: holypearl }
+    - { variant: netwyrm }
+    - { variant: sulfuricpsycho }
+
+  $base: Items.GenericOuterChestClothing
+  entityName: b4_streetpunkjacket_factory_name
+  appearanceName: b4_streetpunkjacket_!$(variant)
+  displayName: b4_streetpunkjacket_name
+  localizedDescription: b4_streetpunkjacket_desc
+  icon:
+    atlasResourcePath: output\data\preview_icons.inkatlas
+    atlasPartName: $(variant)

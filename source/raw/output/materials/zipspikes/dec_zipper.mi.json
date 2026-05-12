@@ -1,0 +1,103 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.18.1-nightly.2026-05-05",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2310,
+    "ExportedDateTime": "2026-05-11T03:19:07.1034627Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\materials\\zipspikes\\dec_zipper.mi"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "CMaterialInstance",
+      "audioTag": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "baseMaterial": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "string",
+          "$value": "engine\\materials\\metal_base.remt"
+        },
+        "Flags": "Default"
+      },
+      "cookingPlatform": "PLATFORM_None",
+      "enableMask": 0,
+      "metadata": null,
+      "resourceVersion": 0,
+      "values": [
+        {
+          "$type": "rRef:ITexture",
+          "BaseColor": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm"
+            },
+            "Flags": "Default"
+          }
+        },
+        {
+          "$type": "rRef:ITexture",
+          "Metalness": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "engine\\textures\\editor\\grey.xbm"
+            },
+            "Flags": "Default"
+          }
+        },
+        {
+          "$type": "Float",
+          "MetalnessBias": 0.871245027
+        },
+        {
+          "$type": "rRef:ITexture",
+          "Roughness": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "engine\\textures\\editor\\grey.xbm"
+            },
+            "Flags": "Default"
+          }
+        },
+        {
+          "$type": "Float",
+          "RoughnessBias": 0.269102991
+        },
+        {
+          "$type": "rRef:ITexture",
+          "Normal": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\characters\\common\\textures\\decals\\garment_decals_n01.xbm"
+            },
+            "Flags": "Default"
+          }
+        },
+        {
+          "$type": "Vector4",
+          "BaseColorScale": {
+            "$type": "Vector4",
+            "W": 1,
+            "X": 0.310000002,
+            "Y": 0.310000002,
+            "Z": 0.310000002
+          }
+        },
+        {
+          "$type": "Float",
+          "NormalStrength": 2
+        }
+      ]
+    },
+    "EmbeddedFiles": []
+  }
+}

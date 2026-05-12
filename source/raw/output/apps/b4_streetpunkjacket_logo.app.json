@@ -1,0 +1,1545 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.18.1-nightly.2026-05-05",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2310,
+    "ExportedDateTime": "2026-05-11T03:18:36.8081653Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\apps\\b4_streetpunkjacket_logo.app"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "appearanceAppearanceResource",
+      "alternateAppearanceMapping": [],
+      "alternateAppearanceSettingName": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "alternateAppearanceSuffixes": [],
+      "appearances": [
+        {
+          "HandleId": "0",
+          "Data": {
+            "$type": "appearanceAppearanceDefinition",
+            "censorFlags": 0,
+            "compiledData": {
+              "BufferId": "0",
+              "Flags": 0,
+              "Type": "WolvenKit.RED4.Archive.Buffer.RedPackage, WolvenKit.RED4, Version=8.18.1.0, Culture=neutral, PublicKeyToken=null",
+              "Data": {
+                "Version": 4,
+                "Sections": 6,
+                "CruidIndex": -1,
+                "CruidDict": {},
+                "Chunks": []
+              }
+            },
+            "components": [],
+            "cookedDataPathOverride": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "uint64",
+                "$value": "0"
+              },
+              "Flags": "Soft"
+            },
+            "forcedLodDistance": 0,
+            "hitRepresentationOverrides": [],
+            "inheritedVisualTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Collar"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "hide_T1part"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Large"
+                }
+              ]
+            },
+            "looseDependencies": [],
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "b4_streetpunkJacket_"
+            },
+            "parametersBuffer": {
+              "$type": "entEntityParametersBuffer",
+              "parameterBuffers": []
+            },
+            "parentAppearance": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "partsMasks": [
+              [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Full2"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Jacket"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Hood"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Vest"
+                }
+              ]
+            ],
+            "partsOverrides": [],
+            "partsValues": [
+              {
+                "$type": "appearanceAppearancePart",
+                "resource": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\ents\\b4_streetpunkjacket.ent"
+                  },
+                  "Flags": "Soft"
+                }
+              }
+            ],
+            "proxyMesh": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "uint64",
+                "$value": "0"
+              },
+              "Flags": "Soft"
+            },
+            "proxyMeshAppearance": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "resolvedDependencies": [
+              {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "string",
+                  "$value": "*output\\meshes\\b4_streetpunkjacket_{body}.mesh"
+                },
+                "Flags": "Soft"
+              },
+              {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "string",
+                  "$value": "output\\meshes\\b4_streetpunkjacket_logo_base_body.mesh"
+                },
+                "Flags": "Default"
+              },
+              {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "string",
+                  "$value": "base\\characters\\garment\\player_equipment\\torso\\shadow_meshes\\t2_pwa_jacket__racing_shadow.mesh"
+                },
+                "Flags": "Soft"
+              }
+            ],
+            "visualTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "hide_T1part"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Large"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "HandleId": "1",
+          "Data": {
+            "$type": "appearanceAppearanceDefinition",
+            "censorFlags": 0,
+            "compiledData": {
+              "BufferId": "1",
+              "Flags": 0,
+              "Type": "WolvenKit.RED4.Archive.Buffer.RedPackage, WolvenKit.RED4, Version=8.18.1.0, Culture=neutral, PublicKeyToken=null",
+              "Data": {
+                "Version": 4,
+                "Sections": 6,
+                "CruidIndex": -1,
+                "CruidDict": {},
+                "Chunks": []
+              }
+            },
+            "components": [],
+            "cookedDataPathOverride": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "uint64",
+                "$value": "0"
+              },
+              "Flags": "Soft"
+            },
+            "forcedLodDistance": 0,
+            "hitRepresentationOverrides": [],
+            "inheritedVisualTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Collar"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "hide_T1part"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Large"
+                }
+              ]
+            },
+            "looseDependencies": [],
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "b4_streetpunkJacket_\u0026camera=fpp"
+            },
+            "parametersBuffer": {
+              "$type": "entEntityParametersBuffer",
+              "parameterBuffers": []
+            },
+            "parentAppearance": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "partsMasks": [
+              [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Full2"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Jacket"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Hood"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Vest"
+                }
+              ]
+            ],
+            "partsOverrides": [],
+            "partsValues": [
+              {
+                "$type": "appearanceAppearancePart",
+                "resource": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\ents\\b4_streetpunkjacket.ent"
+                  },
+                  "Flags": "Soft"
+                }
+              }
+            ],
+            "proxyMesh": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "uint64",
+                "$value": "0"
+              },
+              "Flags": "Soft"
+            },
+            "proxyMeshAppearance": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "resolvedDependencies": [
+              {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "string",
+                  "$value": "*output\\meshes\\b4_streetpunkjacket_{body}.mesh"
+                },
+                "Flags": "Soft"
+              },
+              {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "string",
+                  "$value": "base\\characters\\garment\\player_equipment\\torso\\shadow_meshes\\t2_pwa_jacket__racing_shadow.mesh"
+                },
+                "Flags": "Soft"
+              }
+            ],
+            "visualTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "hide_T1part"
+                },
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Large"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "baseEntity": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "Flags": "Soft"
+      },
+      "baseEntityType": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "ManAverage"
+      },
+      "baseType": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "censorshipMapping": [],
+      "commonCookData": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "Flags": "Soft"
+      },
+      "cookingPlatform": "PLATFORM_PC",
+      "DismEffects": [],
+      "DismWoundConfig": {
+        "$type": "entdismembermentWoundsConfigSet",
+        "Configs": [
+          {
+            "HandleId": "2",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "3",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "4",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "5",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq017__samerai_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "6",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq017__samerai_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "7",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq017__samerai_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "8",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq017__samerai_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "9",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq025__quest_item_test"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "10",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq025__quest_item_test_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "11",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq025__quest_item_test_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "12",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq025__quest_item_test_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "13",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq025__quest_item_test_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "14",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_mq025__quest_item_test_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "15",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_q115__custom_predator_armor_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "16",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_q115__custom_predator_armor_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "17",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_q115__custom_predator_armor_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "18",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "_q115__custom_predator_armor_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "19",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "art_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "20",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "art_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "21",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "art_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "22",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "art_04"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "23",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "art_05"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "24",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "25",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_01_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "26",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_01_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "27",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_01_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "28",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_01_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "29",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_01_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "30",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "31",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_02_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "32",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_02_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "33",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_02_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "34",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_02_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "35",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_02_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "36",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "37",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_03_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "38",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_03_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "39",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_03_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "40",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_03_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "41",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_03_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "42",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_04_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "43",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_04_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "44",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_04_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "45",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "basic_04_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "46",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "black"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "47",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "blue_strippes"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "48",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "default"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "49",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "default12"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "50",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "default1213"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "51",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "dsadsa"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "52",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "new_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "53",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "new_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "54",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "new_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "55",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "56",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_01_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "57",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_01_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "58",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_01_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "59",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_01_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "60",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "61",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_02_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "62",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_02_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "63",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_02_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "64",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_02_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "65",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "66",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_03_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "67",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_03_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "68",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_03_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "69",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_03_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "70",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "old_04"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "71",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_01_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "72",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_01_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "73",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_01_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "74",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_01_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "75",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_02_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "76",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_02_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "77",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_02_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "78",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_02_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "79",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_03_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "80",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_03_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "81",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_03_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "82",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_03_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "83",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_04_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "84",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_04_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "85",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_04_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "86",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_04_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "87",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_05_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "88",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_05_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "89",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_05_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "90",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_05_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "91",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_06_m"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "92",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_06_m_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "93",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_06_w"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "94",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "rich_06_w_fpp"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "95",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "tie_black"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "96",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "tie_blue"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "97",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "tie_white"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "98",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "white_black"
+              },
+              "Wounds": []
+            }
+          }
+        ]
+      },
+      "forceCompileProxy": 0,
+      "generatePlayerBlockingCollisionForProxy": 0,
+      "partType": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "preset": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "proxyPolyCount": 1400,
+      "Wounds": []
+    },
+    "EmbeddedFiles": []
+  }
+}
