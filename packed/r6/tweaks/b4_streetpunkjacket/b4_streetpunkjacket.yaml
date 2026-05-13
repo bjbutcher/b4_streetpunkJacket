@@ -10,7 +10,7 @@ Items.b4_streetpunkjacket_$(variant):
   $base: Items.GenericOuterChestClothing
   entityName: b4_streetpunkjacket_factory_name
   appearanceName: b4_streetpunkjacket_!$(variant)
-  displayName: b4_streetpunkjacket_name
+  displayName: b4_streetpunkjacket_!$(variant)
   localizedDescription: b4_streetpunkjacket_desc
   icon:
     atlasResourcePath: output\data\preview_icons.inkatlas

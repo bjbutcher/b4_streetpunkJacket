@@ -5,124 +5,14 @@
   "MaterialRepo": "\\\\?\\B:\\billie\\tools\\cp77\\Wkit\\Depot",
   "Materials": [
     {
-      "Name": "gloPlasticPurple",
-      "BaseMaterial": "engine\\materials\\metal_base.remt",
-      "MaterialTemplate": "engine\\materials\\metal_base.remt",
-      "EnableMask": false,
-      "Data": {
-        "BaseColor": "engine\\textures\\editor\\white.xbm",
-        "BaseColorScale": {
-          "Red": 220,
-          "Green": 26,
-          "Blue": 220,
-          "Alpha": 255
-        },
-        "Metalness": "engine\\textures\\editor\\white.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 0.100000001,
-        "RoughnessBias": 0,
-        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
-        "NormalStrength": 1,
-        "AlphaThreshold": 0.379999995,
-        "Emissive": "engine\\textures\\editor\\white.xbm",
-        "EmissiveLift": 0,
-        "EmissiveEV": 2,
-        "EmissiveEVRaytracingBias": 0,
-        "EmissiveDirectionality": 0,
-        "EnableRaytracedEmissive": 1,
-        "EmissiveColor": {
-          "Red": 244,
-          "Green": 58,
-          "Blue": 244,
-          "Alpha": 255
-        },
-        "LayerTile": 1
-      }
-    },
-    {
-      "Name": "collar",
-      "BaseMaterial": "engine\\materials\\metal_base.remt",
-      "MaterialTemplate": "engine\\materials\\metal_base.remt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm",
-        "BaseColorScale": {
-          "X": 0.31,
-          "Y": 0.31,
-          "Z": 0.31,
-          "W": 1
-        },
-        "Metalness": "engine\\textures\\editor\\grey.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0.871245027,
-        "Roughness": "engine\\textures\\editor\\grey.xbm",
-        "RoughnessScale": 1,
-        "RoughnessBias": 0.269102991,
-        "Normal": "base\\characters\\common\\textures\\decals\\garment_decals_n01.xbm",
-        "NormalStrength": 2,
-        "AlphaThreshold": 0.379999995,
-        "Emissive": "engine\\textures\\editor\\black.xbm",
-        "EmissiveLift": 0,
-        "EmissiveEV": 0,
-        "EmissiveEVRaytracingBias": 0,
-        "EmissiveDirectionality": 0,
-        "EnableRaytracedEmissive": 1,
-        "EmissiveColor": {
-          "Red": 0,
-          "Green": 0,
-          "Blue": 0,
-          "Alpha": 255
-        },
-        "LayerTile": 1
-      }
-    },
-    {
-      "Name": "dec_zipper",
-      "BaseMaterial": "base\\fx\\shaders\\metal_base_glitter.mt",
-      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "base\\characters\\common\\character_customisation_items\\cyberware\\body\\woman_average\\fashionware\\textures\\t0_009_body__fashionware_d01.xbm",
-        "BaseColorScale": {
-          "Red": 132,
-          "Green": 48,
-          "Blue": 244,
-          "Alpha": 255
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 0.200000003,
-        "RoughnessBias": 0.100000001,
-        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
-        "AlphaFromEmissive": 1,
-        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_cyberplatform_datatex_tiled.xbm",
-        "EmissiveEV": 3,
-        "AlphaThreshold": 0,
-        "EmissiveColor": {
-          "Red": 43,
-          "Green": 0,
-          "Blue": 251,
-          "Alpha": 255
-        },
-        "HistogramRange": 0.848484993,
-        "ScrollSpeed": 1,
-        "EmissiveTile": 1,
-        "Looped": 1
-      }
-    },
-    {
-      "Name": "neonCablePurple",
+      "Name": "default",
       "BaseMaterial": "engine\\materials\\multilayered.mt",
       "MaterialTemplate": "engine\\materials\\multilayered.mt",
       "EnableMask": false,
       "Data": {
-        "GlobalNormal": "base\\materials\\placeholder\\normal.xbm",
-        "MultilayerMask": "base\\characters\\cyberware\\player\\a0_005__strongarms\\entities\\meshes\\textures\\white.mlmask",
-        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormal": "output\\materials\\logos\\normals\\b4_streetpunkjacketn01newnormal.xbm",
+        "MultilayerMask": "output\\materials\\multilayers\\b4_streetpunkjacket.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\shells\\b4_streetpunkjacket_default.mlsetup",
         "GlobalNormalIntensity": 1,
         "GlobalNormalUVScale": {
           "X": 1,
@@ -166,10 +56,519 @@
       }
     },
     {
-      "Name": "purePreem",
-      "BaseMaterial": "base\\fx\\shaders\\device_diode.mt",
-      "MaterialTemplate": "base\\fx\\shaders\\device_diode.mt",
+      "Name": "badapple",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "output\\materials\\logos\\normals\\b4_streetpunkjacketn01newnormal.xbm",
+        "MultilayerMask": "output\\materials\\multilayers\\b4_streetpunkjacket.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\shells\\b4_streetpunkjacket_badapple.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "silversamurai",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "output\\materials\\logos\\normals\\b4_streetpunkjacketn01newnormal.xbm",
+        "MultilayerMask": "output\\materials\\multilayers\\b4_streetpunkjacket.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\shells\\b4_streetpunkjacket_silversamurai.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "holypearl",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "output\\materials\\logos\\normals\\b4_streetpunkjacketn01newnormal.xbm",
+        "MultilayerMask": "output\\materials\\multilayers\\b4_streetpunkjacket.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\shells\\b4_streetpunkjacket_holypearl.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "netwyrm",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "output\\materials\\logos\\normals\\b4_streetpunkjacketn01newnormal.xbm",
+        "MultilayerMask": "output\\materials\\multilayers\\b4_streetpunkjacket.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\shells\\b4_streetpunkjacket_netwyrm.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "sulfuricpsycho",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "output\\materials\\logos\\normals\\b4_streetpunkjacketn01newnormal.xbm",
+        "MultilayerMask": "output\\materials\\multilayers\\b4_streetpunkjacket.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\shells\\b4_streetpunkjacket_sulfuricpsycho.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "dec_zipper",
+      "BaseMaterial": "engine\\materials\\metal_base.remt",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
       "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm",
+        "BaseColorScale": {
+          "X": 0.31,
+          "Y": 0.31,
+          "Z": 0.31,
+          "W": 1
+        },
+        "Metalness": "engine\\textures\\editor\\grey.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0.871245027,
+        "Roughness": "engine\\textures\\editor\\grey.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0.269102991,
+        "Normal": "base\\characters\\common\\textures\\decals\\garment_decals_n01.xbm",
+        "NormalStrength": 2,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "bluepink",
+      "BaseMaterial": "output\\materials\\cable\\neoncablebluepink.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "base\\characters\\common\\character_customisation_items\\cyberware\\body\\woman_average\\fashionware\\textures\\t0_009_body__fashionware_d01.xbm",
+        "BaseColorScale": {
+          "Red": 252,
+          "Green": 15,
+          "Blue": 178,
+          "Alpha": 217
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.200000003,
+        "RoughnessBias": 0.100000001,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_cyberplatform_datatex_tiled.xbm",
+        "EmissiveEV": 3,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 43,
+          "Green": 0,
+          "Blue": 251,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.848484993,
+        "ScrollSpeed": 1,
+        "EmissiveTile": 1,
+        "Looped": 1
+      }
+    },
+    {
+      "Name": "greenmagenta",
+      "BaseMaterial": "output\\materials\\cable\\neoncablegreenmagenta.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\white.xbm",
+        "BaseColorScale": {
+          "Red": 153,
+          "Green": 255,
+          "Blue": 102,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.200000003,
+        "RoughnessBias": 0.100000001,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_cyberplatform_datatex_tiled.xbm",
+        "EmissiveEV": 3,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.848484993,
+        "ScrollSpeed": 0.166666999,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "redblack",
+      "BaseMaterial": "output\\materials\\cable\\neoncableredblack.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\white.xbm",
+        "BaseColorScale": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.200000003,
+        "RoughnessBias": 0.100000001,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_cyberplatform_datatex_tiled.xbm",
+        "EmissiveEV": 3,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.848484993,
+        "ScrollSpeed": 0.166666999,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "redwhite",
+      "BaseMaterial": "output\\materials\\cable\\neoncableredwhite.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\white.xbm",
+        "BaseColorScale": {
+          "Red": 238,
+          "Green": 255,
+          "Blue": 225,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.200000003,
+        "RoughnessBias": 0.100000001,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_cyberplatform_datatex_tiled.xbm",
+        "EmissiveEV": 3,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 255,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.848484993,
+        "ScrollSpeed": 0.166666999,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "cyanpurple",
+      "BaseMaterial": "output\\materials\\cable\\neoncablecyanpurple.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\white.xbm",
+        "BaseColorScale": {
+          "Red": 3,
+          "Green": 195,
+          "Blue": 254,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.200000003,
+        "RoughnessBias": 0.100000001,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_cyberplatform_datatex_tiled.xbm",
+        "EmissiveEV": 3,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 121,
+          "Green": 7,
+          "Blue": 250,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.848484993,
+        "ScrollSpeed": 0.166666999,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "purepreem",
+      "BaseMaterial": "output\\materials\\zipspikes\\purepreem.mi",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\white.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.100000001,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "bluepink",
+      "BaseMaterial": "output\\materials\\stitches\\emissivestitches_bluepink.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": false,
       "Data": {
         "BaseColor": "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm",
         "BaseColorScale": {
@@ -213,17 +612,17 @@
       }
     },
     {
-      "Name": "emissiveStitches_bluePink",
-      "BaseMaterial": "output\\materials\\materials\\collarscreen\\emissivestitches_bluepink.mi",
-      "MaterialTemplate": "engine\\materials\\metal_base.remt",
-      "EnableMask": true,
+      "Name": "greenpink",
+      "BaseMaterial": "output\\materials\\stitches\\emissivestitches_greenpink.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": false,
       "Data": {
-        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColor": "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm",
         "BaseColorScale": {
-          "X": 1,
-          "Y": 0,
-          "Z": 0.522511,
-          "W": 1
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
         },
         "Metalness": "engine\\textures\\editor\\black.xbm",
         "MetalnessScale": 1,
@@ -231,186 +630,353 @@
         "Roughness": "engine\\textures\\editor\\white.xbm",
         "RoughnessScale": 1,
         "RoughnessBias": 0,
-        "Normal": "engine\\textures\\editor\\normal.xbm",
-        "NormalStrength": 1,
-        "AlphaThreshold": 0.379999995,
-        "Emissive": "engine\\textures\\editor\\black.xbm",
-        "EmissiveLift": 0,
-        "EmissiveEV": 0,
+        "Normal": "base\\characters\\common\\textures\\decals\\garment_decals_n01.xbm",
+        "Emissive": "engine\\textures\\editor\\white.xbm",
+        "EmissiveEV": 10,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
         "EmissiveEVRaytracingBias": 0,
         "EmissiveDirectionality": 0,
         "EnableRaytracedEmissive": 1,
-        "EmissiveColor": {
+        "BlinkingSpeed": 1,
+        "UseMaterialParameter": 0,
+        "EmissiveColor1": {
           "Red": 255,
           "Green": 0,
-          "Blue": 239,
+          "Blue": 149,
           "Alpha": 255
         },
-        "LayerTile": 1,
+        "EmissiveColor2": {
+          "Red": 2,
+          "Green": 254,
+          "Blue": 27,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 1,
+        "SwitchingTwoEmissiveColorsSpeed": 1,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "redwhite",
+      "BaseMaterial": "output\\materials\\stitches\\emissivestitches_redwhite.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm",
+        "BaseColorScale": {
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\common\\textures\\decals\\garment_decals_n01.xbm",
+        "Emissive": "engine\\textures\\editor\\white.xbm",
+        "EmissiveEV": 10,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 1,
+        "UseMaterialParameter": 0,
+        "EmissiveColor1": {
+          "Red": 238,
+          "Green": 236,
+          "Blue": 225,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 255,
+          "Green": 67,
+          "Blue": 67,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 1,
+        "SwitchingTwoEmissiveColorsSpeed": 1,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "cyanpurple",
+      "BaseMaterial": "output\\materials\\stitches\\emissivestitches_cyanpurple.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm",
+        "BaseColorScale": {
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\common\\textures\\decals\\garment_decals_n01.xbm",
+        "Emissive": "engine\\textures\\editor\\white.xbm",
+        "EmissiveEV": 1000,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 1,
+        "UseMaterialParameter": 0,
+        "EmissiveColor1": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 254,
+          "Green": 19,
+          "Blue": 215,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 1,
+        "SwitchingTwoEmissiveColorsSpeed": 1,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "server",
+      "BaseMaterial": "output\\materials\\collar\\dec_lcd_server.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\parallaxscreen_transparent.mt",
+      "EnableMask": false,
+      "Data": {
+        "AdditiveAlphaBlend": 0,
+        "ParalaxTexture": "base\\fx\\_textures\\masks\\patterns\\fx_server_scrolling_text.xbm",
+        "TexHSVControl": {
+          "X": 0,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
         "Color": {
           "Red": 252,
           "Green": 15,
           "Blue": 178,
           "Alpha": 217
+        },
+        "Emissive": 30,
+        "AdditiveOrAlphaBlened": 0,
+        "ImageScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "TextureOffsetX": 0,
+        "TextureOffsetY": -0.955555975,
+        "TilesWidth": 1,
+        "TilesHeight": 1,
+        "PlaySpeed": 0,
+        "InterlaceLines": 0,
+        "SeparateLayersFromTexture": 0,
+        "LayersSeparation": 0.0199999996,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.35,
+          "Z": 0.12,
+          "W": 0.05
+        },
+        "ScanlinesDensity": 125,
+        "ScanlinesIntensity": 0,
+        "ScanlinesSpeed": 0,
+        "NoPostORPost": 0,
+        "EdgesMask": 0,
+        "ClampUV": 1,
+        "ScrollMaskTexture": "base\\fx\\_textures\\masks\\fx_server_neomilitarism_mask.xbm",
+        "ScrollVerticalOrHorizontal": 0,
+        "ScrollMaskStartPoint1": 0.0844440013,
+        "ScrollMaskHeight1": 1,
+        "ScrollSpeed1": 0.100000001,
+        "ScrollStepFactor1": 400,
+        "ScrollMaskStartPoint2": 0,
+        "ScrollMaskHeight2": 1,
+        "ScrollSpeed2": 0.150000006,
+        "ScrollStepFactor2": 200,
+        "LayersScrollSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
         }
       }
     },
     {
-      "Name": "b4",
-      "BaseMaterial": "engine\\materials\\multilayered.mt",
-      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "Name": "waves_red",
+      "BaseMaterial": "output\\materials\\collar\\dec_lcd_waves_red.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\parallaxscreen.mt",
       "EnableMask": false,
       "Data": {
-        "GlobalNormal": "output\\textures\\normals\\b4_streetpunkjacketn01newnormal.xbm",
-        "MultilayerMask": "output\\textures\\multilayers\\b4_streetpunkjacket.mlmask",
-        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
-        "GlobalNormalIntensity": 1,
-        "GlobalNormalUVScale": {
+        "ParalaxTexture": "base\\surfaces\\textures\\screens\\generic\\colorless\\03_civil_generic_4x3.xbm",
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_rays.xbm",
+        "Metalness": 0,
+        "Roughness": 0.100000001,
+        "Emissive": 3.5,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "ImageScale": 1,
+        "LayersSeparation": 0.0250000004,
+        "IntensityPerLayer": {
           "X": 1,
+          "Y": 0.25,
+          "Z": 0.06,
+          "W": 0
+        },
+        "ScanlinesDensity": 125,
+        "ScanlinesIntensity": 0.25,
+        "BlinkingSpeed": 0,
+        "BlinkingMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollMaskTexture": "base\\surfaces\\textures\\screens\\generic\\masks\\02_civil_generic_4x3.xbm",
+        "ScrollVerticalOrHorizontal": 1,
+        "ScrollMaskStartPoint1": 0.0696519986,
+        "ScrollMaskHeight1": 0.805970013,
+        "ScrollSpeed1": 0.0500000007,
+        "ScrollStepFactor1": 11111,
+        "ScrollMaskStartPoint2": 0,
+        "ScrollMaskHeight2": 1,
+        "ScrollSpeed2": 1,
+        "ScrollStepFactor2": 1,
+        "EmissiveColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "HSV_Mod": {
+          "X": 0,
           "Y": 1,
           "Z": 0,
-          "W": 0
+          "W": -1
         },
-        "GlobalNormalUVBias": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskAtlas": "",
-        "MaskTiles": null,
-        "Layers": null,
-        "LayersStartIndex": 0,
-        "SurfaceTexAspectRatio": 0,
-        "MaskToTileScale": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskTileSize": 0,
-        "MaskAtlasDims": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskBaseResolution": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "SetupLayerMask": 0,
-        "NormalsTextureDDXYMultiplier": 1,
-        "MicroblendsTextureDDXYMultiplier": 1
+        "IsBroken": 0,
+        "FixForBlack": 1
       }
     },
     {
-      "Name": "electricOni",
-      "BaseMaterial": "engine\\materials\\multilayered.mt",
-      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "Name": "waves",
+      "BaseMaterial": "output\\materials\\collar\\dec_lcd_waves.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\parallaxscreen.mt",
       "EnableMask": false,
       "Data": {
-        "GlobalNormal": "output\\textures\\normals\\b4_streetpunkjacketn01newnormal.xbm",
-        "MultilayerMask": "output\\textures\\multilayers\\b4_streetpunkjacket.mlmask",
-        "MultilayerSetup": "output\\textures\\multilayers\\b4_streetpunkjacket_poisonapple.mlsetup",
-        "GlobalNormalIntensity": 1,
-        "GlobalNormalUVScale": {
+        "ParalaxTexture": "base\\surfaces\\textures\\screens\\generic\\colorless\\23_civil_generic_4_3_golden.xbm",
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_rays.xbm",
+        "Metalness": 0,
+        "Roughness": 0.100000001,
+        "Emissive": 3.5,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "ImageScale": 1,
+        "LayersSeparation": 0.0250000004,
+        "IntensityPerLayer": {
           "X": 1,
-          "Y": 1,
-          "Z": 0,
+          "Y": 0.25,
+          "Z": 0.06,
           "W": 0
         },
-        "GlobalNormalUVBias": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
+        "ScanlinesDensity": 125,
+        "ScanlinesIntensity": 0.25,
+        "BlinkingSpeed": 0,
+        "BlinkingMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollMaskTexture": "base\\surfaces\\textures\\screens\\generic\\masks\\02_civil_generic_4x3.xbm",
+        "ScrollVerticalOrHorizontal": 1,
+        "ScrollMaskStartPoint1": 0.0696519986,
+        "ScrollMaskHeight1": 0.805970013,
+        "ScrollSpeed1": 0.0500000007,
+        "ScrollStepFactor1": 11111,
+        "ScrollMaskStartPoint2": 0,
+        "ScrollMaskHeight2": 1,
+        "ScrollSpeed2": 1,
+        "ScrollStepFactor2": 1,
+        "EmissiveColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
         },
-        "MaskAtlas": "",
-        "MaskTiles": null,
-        "Layers": null,
-        "LayersStartIndex": 0,
-        "SurfaceTexAspectRatio": 0,
-        "MaskToTileScale": {
-          "X": 0,
-          "Y": 0,
+        "HSV_Mod": {
+          "X": 0.065,
+          "Y": 0.92,
           "Z": 0,
-          "W": 0
+          "W": -1
         },
-        "MaskTileSize": 0,
-        "MaskAtlasDims": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskBaseResolution": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "SetupLayerMask": 0,
-        "NormalsTextureDDXYMultiplier": 1,
-        "MicroblendsTextureDDXYMultiplier": 1
+        "IsBroken": 0,
+        "FixForBlack": 1
       }
     },
     {
-      "Name": "b4Cuffs",
-      "BaseMaterial": "engine\\materials\\multilayered.mt",
-      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "Name": "broken",
+      "BaseMaterial": "output\\materials\\collar\\dec_lcd_broken.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\parallaxscreen.mt",
       "EnableMask": false,
       "Data": {
-        "GlobalNormal": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
-        "MultilayerMask": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
-        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
-        "GlobalNormalIntensity": 1,
-        "GlobalNormalUVScale": {
+        "ParalaxTexture": "base\\surfaces\\textures\\screens\\generic\\colorless\\25_semi_industry_4_3_blue.xbm",
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_rays.xbm",
+        "Metalness": 0,
+        "Roughness": 0.100000001,
+        "Emissive": 3.5,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "ImageScale": 1,
+        "LayersSeparation": 0.0250000004,
+        "IntensityPerLayer": {
           "X": 1,
-          "Y": 1,
-          "Z": 0,
+          "Y": 0.25,
+          "Z": 0.06,
           "W": 0
         },
-        "GlobalNormalUVBias": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
+        "ScanlinesDensity": 125,
+        "ScanlinesIntensity": 0.25,
+        "BlinkingSpeed": 0,
+        "BlinkingMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollMaskTexture": "base\\surfaces\\textures\\screens\\generic\\masks\\02_civil_generic_4x3.xbm",
+        "ScrollVerticalOrHorizontal": 1,
+        "ScrollMaskStartPoint1": 0.0696519986,
+        "ScrollMaskHeight1": 0.805970013,
+        "ScrollSpeed1": 0.0500000007,
+        "ScrollStepFactor1": 11111,
+        "ScrollMaskStartPoint2": 0,
+        "ScrollMaskHeight2": 1,
+        "ScrollSpeed2": 1,
+        "ScrollStepFactor2": 1,
+        "EmissiveColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
         },
-        "MaskAtlas": "",
-        "MaskTiles": null,
-        "Layers": null,
-        "LayersStartIndex": 0,
-        "SurfaceTexAspectRatio": 0,
-        "MaskToTileScale": {
-          "X": 0,
-          "Y": 0,
+        "HSV_Mod": {
+          "X": 0.55,
+          "Y": 0.9,
           "Z": 0,
-          "W": 0
+          "W": -1
         },
-        "MaskTileSize": 0,
-        "MaskAtlasDims": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskBaseResolution": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "SetupLayerMask": 0,
-        "NormalsTextureDDXYMultiplier": 1,
-        "MicroblendsTextureDDXYMultiplier": 1
+        "IsBroken": 0,
+        "FixForBlack": 1
       }
     },
     {
-      "Name": "gloSilk_bluePurple",
-      "BaseMaterial": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "Name": "bluepurple",
+      "BaseMaterial": "output\\materials\\silkscreen\\glosilk_bluepurple.mi",
       "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
       "EnableMask": false,
       "Data": {
@@ -445,8 +1011,153 @@
       }
     },
     {
-      "Name": "gloPlasticGreen",
-      "BaseMaterial": "engine\\materials\\metal_base.remt",
+      "Name": "yellowpink",
+      "BaseMaterial": "output\\materials\\silkscreen\\glosilk_yellowpink.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "base\\characters\\common\\character_customisation_items\\cyberware\\body\\woman_average\\fashionware\\textures\\t0_009_body__fashionware_d01.xbm",
+        "BaseColorScale": {
+          "Red": 255,
+          "Green": 51,
+          "Blue": 204,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_server_scrolling_text.xbm",
+        "EmissiveEV": 10,
+        "AlphaThreshold": 0.0862620026,
+        "EmissiveColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.169329002,
+        "ScrollSpeed": 0.323002994,
+        "EmissiveTile": 15,
+        "Looped": 1
+      }
+    },
+    {
+      "Name": "redwhite",
+      "BaseMaterial": "output\\materials\\silkscreen\\glosilk_redwhite.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "base\\characters\\common\\character_customisation_items\\cyberware\\body\\woman_average\\fashionware\\textures\\t0_009_body__fashionware_d01.xbm",
+        "BaseColorScale": {
+          "Red": 246,
+          "Green": 0,
+          "Blue": 250,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_server_scrolling_text.xbm",
+        "EmissiveEV": 10,
+        "AlphaThreshold": 0.0862620026,
+        "EmissiveColor": {
+          "Red": 29,
+          "Green": 9,
+          "Blue": 252,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.169329002,
+        "ScrollSpeed": 0.323002994,
+        "EmissiveTile": 15,
+        "Looped": 1
+      }
+    },
+    {
+      "Name": "cyan",
+      "BaseMaterial": "output\\materials\\silkscreen\\glosilk_cyan.mi",
+      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "base\\characters\\common\\character_customisation_items\\cyberware\\body\\woman_average\\fashionware\\textures\\t0_009_body__fashionware_d01.xbm",
+        "BaseColorScale": {
+          "Red": 246,
+          "Green": 0,
+          "Blue": 250,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_server_scrolling_text.xbm",
+        "EmissiveEV": 10,
+        "AlphaThreshold": 0.0862620026,
+        "EmissiveColor": {
+          "Red": 29,
+          "Green": 9,
+          "Blue": 252,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.169329002,
+        "ScrollSpeed": 0.323002994,
+        "EmissiveTile": 15,
+        "Looped": 1
+      }
+    },
+    {
+      "Name": "gloplasticpurple",
+      "BaseMaterial": "output\\materials\\gimlets\\gloplasticpurple.mi",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\white.xbm",
+        "BaseColorScale": {
+          "Red": 220,
+          "Green": 26,
+          "Blue": 220,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.100000001,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\white.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 2,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 121,
+          "Green": 7,
+          "Blue": 250,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "gloplasticgreen",
+      "BaseMaterial": "output\\materials\\gimlets\\gloplasticgreen.mi",
       "MaterialTemplate": "engine\\materials\\metal_base.remt",
       "EnableMask": false,
       "Data": {
@@ -482,46 +1193,427 @@
       }
     },
     {
-      "Name": "neonCableGreen",
-      "BaseMaterial": "base\\fx\\shaders\\metal_base_glitter.mt",
-      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
-      "EnableMask": true,
+      "Name": "arasakared",
+      "BaseMaterial": "output\\materials\\gimlets\\arasakared.mi",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": false,
       "Data": {
         "BaseColor": "engine\\textures\\editor\\white.xbm",
         "BaseColorScale": {
-          "Red": 153,
-          "Green": 255,
-          "Blue": 102,
-          "Alpha": 255
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 0.200000003,
-        "RoughnessBias": 0.100000001,
-        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
-        "AlphaFromEmissive": 1,
-        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_cyberplatform_datatex_tiled.xbm",
-        "EmissiveEV": 3,
-        "AlphaThreshold": 0,
-        "EmissiveColor": {
           "Red": 255,
           "Green": 0,
           "Blue": 0,
           "Alpha": 255
         },
-        "HistogramRange": 0.848484993,
-        "ScrollSpeed": 0.166666999,
-        "EmissiveTile": 1,
-        "Looped": 0
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.100000001,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
       }
     },
     {
-      "Name": "emissiveStitches_greenPink",
+      "Name": "blackwallbits",
+      "BaseMaterial": "output\\materials\\gimlets\\blackwallbits.mi",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\white.xbm",
+        "BaseColorScale": {
+          "Red": 134,
+          "Green": 3,
+          "Blue": 16,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.100000001,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "gloplasticcyan",
+      "BaseMaterial": "output\\materials\\gimlets\\gloplasticcyan.mi",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\white.xbm",
+        "BaseColorScale": {
+          "Red": 3,
+          "Green": 195,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\white.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.100000001,
+        "RoughnessBias": 0,
+        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\white.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 2,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 3,
+          "Green": 195,
+          "Blue": 254,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "default",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
+        "MultilayerMask": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\cuffs\\b4_streetpunkjacket_default_cuffs.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "badapple",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
+        "MultilayerMask": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\cuffs\\b4_streetpunkjacket_badapple_cuffs.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "silversamurai",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
+        "MultilayerMask": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\cuffs\\b4_streetpunkjacket_silversamurai_cuffs.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "holypearl",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
+        "MultilayerMask": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\cuffs\\b4_streetpunkjacket_holypearl_cuffs.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "netwyrm",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
+        "MultilayerMask": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\cuffs\\b4_streetpunkjacket_netwyrm_cuffs.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "sulfuricpsycho",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
+        "MultilayerMask": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
+        "MultilayerSetup": "output\\materials\\multilayers\\cuffs\\b4_streetpunkjacket_sulfuricpsycho_cuffs.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "teststitches",
       "BaseMaterial": "base\\fx\\shaders\\device_diode.mt",
       "MaterialTemplate": "base\\fx\\shaders\\device_diode.mt",
-      "EnableMask": true,
+      "EnableMask": false,
       "Data": {
         "BaseColor": "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm",
         "BaseColorScale": {
@@ -544,12 +1636,12 @@
         "EmissiveEVRaytracingBias": 0,
         "EmissiveDirectionality": 0,
         "EnableRaytracedEmissive": 1,
-        "BlinkingSpeed": 0,
+        "BlinkingSpeed": 1,
         "UseMaterialParameter": 0,
         "EmissiveColor1": {
-          "Red": 102,
-          "Green": 255,
-          "Blue": 51,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 255,
           "Alpha": 255
         },
         "EmissiveColor2": {
@@ -563,16 +1655,17 @@
         "SwitchingTwoEmissiveColorsSpeed": 1,
         "UseFresnel": 0
       }
-    },
+    }
+  ],
+  "TexturesList": [],
+  "MaterialTemplates": [
     {
-      "Name": "electricOniCuffs",
-      "BaseMaterial": "engine\\materials\\multilayered.mt",
-      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "Name": "engine\\materials\\multilayered.mt",
       "EnableMask": false,
       "Data": {
-        "GlobalNormal": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
-        "MultilayerMask": "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
-        "MultilayerSetup": "output\\textures\\multilayers\\b4_streetpunkjacket_poisonapple_cuffs.mlsetup",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
         "GlobalNormalIntensity": 1,
         "GlobalNormalUVScale": {
           "X": 1,
@@ -616,16 +1709,294 @@
       }
     },
     {
-      "Name": "gloSilk_yellowPink",
-      "BaseMaterial": "base\\fx\\shaders\\metal_base_glitter.mt",
-      "MaterialTemplate": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "Name": "engine\\materials\\multilayered.mt",
       "EnableMask": false,
       "Data": {
-        "BaseColor": "base\\characters\\common\\character_customisation_items\\cyberware\\body\\woman_average\\fashionware\\textures\\t0_009_body__fashionware_d01.xbm",
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
         "BaseColorScale": {
-          "Red": 255,
-          "Green": 51,
-          "Blue": 204,
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "Red": 229,
+          "Green": 36,
+          "Blue": 36,
           "Alpha": 255
         },
         "Metalness": "engine\\textures\\editor\\black.xbm",
@@ -634,168 +2005,586 @@
         "Roughness": "engine\\textures\\editor\\white.xbm",
         "RoughnessScale": 0,
         "RoughnessBias": 0,
-        "Normal": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
         "AlphaFromEmissive": 1,
-        "EmissiveMask": "base\\fx\\_textures\\masks\\patterns\\fx_server_scrolling_text.xbm",
-        "EmissiveEV": 10,
-        "AlphaThreshold": 0.0862620026,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "EmissiveEV": 6.20967817,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 254,
+          "Green": 116,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.491935015,
+        "ScrollSpeed": 0.213709995,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "Red": 229,
+          "Green": 36,
+          "Blue": 36,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "EmissiveEV": 6.20967817,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 254,
+          "Green": 116,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.491935015,
+        "ScrollSpeed": 0.213709995,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "Red": 229,
+          "Green": 36,
+          "Blue": 36,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "EmissiveEV": 6.20967817,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 254,
+          "Green": 116,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.491935015,
+        "ScrollSpeed": 0.213709995,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "Red": 229,
+          "Green": 36,
+          "Blue": 36,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "EmissiveEV": 6.20967817,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 254,
+          "Green": 116,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.491935015,
+        "ScrollSpeed": 0.213709995,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "Red": 229,
+          "Green": 36,
+          "Blue": 36,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "EmissiveEV": 6.20967817,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 254,
+          "Green": 116,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.491935015,
+        "ScrollSpeed": 0.213709995,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+        "BaseColorScale": {
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
+        "Emissive": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm",
+        "EmissiveEV": 5,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 8,
+        "UseMaterialParameter": 1,
+        "EmissiveColor1": {
+          "Red": 127,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 0,
+          "Green": 12,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 0,
+        "SwitchingTwoEmissiveColorsSpeed": 0,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+        "BaseColorScale": {
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
+        "Emissive": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm",
+        "EmissiveEV": 5,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 8,
+        "UseMaterialParameter": 1,
+        "EmissiveColor1": {
+          "Red": 127,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 0,
+          "Green": 12,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 0,
+        "SwitchingTwoEmissiveColorsSpeed": 0,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+        "BaseColorScale": {
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
+        "Emissive": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm",
+        "EmissiveEV": 5,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 8,
+        "UseMaterialParameter": 1,
+        "EmissiveColor1": {
+          "Red": 127,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 0,
+          "Green": 12,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 0,
+        "SwitchingTwoEmissiveColorsSpeed": 0,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\device_diode.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+        "BaseColorScale": {
+          "Red": 150,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
+        "Emissive": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm",
+        "EmissiveEV": 5,
+        "AlphaThreshold": 0.330000013,
+        "Blinking": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "BlinkingSpeed": 8,
+        "UseMaterialParameter": 1,
+        "EmissiveColor1": {
+          "Red": 127,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "EmissiveColor2": {
+          "Red": 0,
+          "Green": 12,
+          "Blue": 127,
+          "Alpha": 255
+        },
+        "EmissiveInitialState": 0,
+        "UseTwoEmissiveColors": 0,
+        "SwitchingTwoEmissiveColorsSpeed": 0,
+        "UseFresnel": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\parallaxscreen_transparent.mt",
+      "EnableMask": true,
+      "Data": {
+        "AdditiveAlphaBlend": 0,
+        "ParalaxTexture": "base\\fx\\textures\\other\\elevator_l1.xbm",
+        "TexHSVControl": {
+          "X": 0,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Color": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "Emissive": 1,
+        "AdditiveOrAlphaBlened": 0,
+        "ImageScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "TextureOffsetX": 0,
+        "TextureOffsetY": 0,
+        "TilesWidth": 1,
+        "TilesHeight": 1,
+        "PlaySpeed": 0,
+        "InterlaceLines": 0,
+        "SeparateLayersFromTexture": 0,
+        "LayersSeparation": 0.0199999996,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.35,
+          "Z": 0.12,
+          "W": 0.05
+        },
+        "ScanlinesDensity": 0,
+        "ScanlinesIntensity": 0,
+        "ScanlinesSpeed": 0,
+        "NoPostORPost": 0,
+        "EdgesMask": 0,
+        "ClampUV": 1,
+        "ScrollMaskTexture": "engine\\textures\\editor\\black.xbm",
+        "ScrollVerticalOrHorizontal": 1,
+        "ScrollMaskStartPoint1": 0,
+        "ScrollMaskHeight1": 0.25,
+        "ScrollSpeed1": 0.5,
+        "ScrollStepFactor1": 60,
+        "ScrollMaskStartPoint2": 0,
+        "ScrollMaskHeight2": 0.100000001,
+        "ScrollSpeed2": 1,
+        "ScrollStepFactor2": 60,
+        "LayersScrollSpeed": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        }
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\parallaxscreen.mt",
+      "EnableMask": true,
+      "Data": {
+        "ParalaxTexture": "base\\surfaces\\textures\\screens\\generic\\display_block_02.xbm",
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_02_d.xbm",
+        "Metalness": 0.899999976,
+        "Roughness": 0.100000001,
+        "Emissive": 7,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "ImageScale": 1.04999995,
+        "LayersSeparation": 0.100000001,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.25,
+          "Z": 0.06,
+          "W": 0
+        },
+        "ScanlinesDensity": 125,
+        "ScanlinesIntensity": 0.25,
+        "BlinkingSpeed": 0,
+        "BlinkingMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollVerticalOrHorizontal": 0,
+        "ScrollMaskStartPoint1": 0.0199999996,
+        "ScrollMaskHeight1": 0.5,
+        "ScrollSpeed1": 0.25,
+        "ScrollStepFactor1": 30,
+        "ScrollMaskStartPoint2": 0.400000006,
+        "ScrollMaskHeight2": 0.200000003,
+        "ScrollSpeed2": 1.5,
+        "ScrollStepFactor2": 10,
         "EmissiveColor": {
           "Red": 255,
           "Green": 255,
-          "Blue": 0,
+          "Blue": 255,
           "Alpha": 255
         },
-        "HistogramRange": 0.169329002,
-        "ScrollSpeed": 0.323002994,
-        "EmissiveTile": 15,
-        "Looped": 1
-      }
-    }
-  ],
-  "TexturesList": [
-    "engine\\textures\\editor\\grey.xbm",
-    "engine\\textures\\editor\\black.xbm",
-    "engine\\textures\\editor\\white.xbm",
-    "engine\\textures\\editor\\normal.xbm",
-    "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm",
-    "base\\characters\\common\\textures\\decals\\garment_decals_d01.xbm",
-    "base\\characters\\common\\textures\\decals\\garment_decals_n01.xbm",
-    "engine\\textures\\small_flat_normal.xbm",
-    "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
-    "base\\characters\\common\\character_customisation_items\\cyberware\\body\\woman_average\\fashionware\\textures\\t0_009_body__fashionware_d01.xbm",
-    "base\\fx\\_textures\\masks\\patterns\\fx_cyberplatform_datatex_tiled.xbm",
-    "engine\\materials\\defaults\\multilayer_default.mlmask",
-    "engine\\materials\\defaults\\ml_default_microblend.xbm",
-    "engine\\materials\\defaults\\ml_default_d.xbm",
-    "engine\\materials\\defaults\\ml_default_n.xbm",
-    "engine\\materials\\defaults\\ml_default_rm.xbm",
-    "base\\surfaces\\microblends\\default.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_d.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_n.xbm",
-    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_r.xbm",
-    "base\\surfaces\\materials\\default\\white.xbm",
-    "base\\characters\\cyberware\\player\\a0_005__strongarms\\entities\\meshes\\textures\\white.mlmask",
-    "base\\materials\\placeholder\\normal.xbm",
-    "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
-    "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
-    "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
-    "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm",
-    "output\\textures\\normals\\b4_streetpunkjacketn01newnormal.xbm",
-    "output\\textures\\multilayers\\b4_streetpunkjacket.mlmask",
-    "base\\surfaces\\materials\\fabric\\mylar\\mylar_clean_01_30_d.xbm",
-    "base\\surfaces\\materials\\fabric\\mylar\\mylar_clean_01_30_n.xbm",
-    "base\\surfaces\\materials\\fabric\\mylar\\mylar_clean_01_30_r.xbm",
-    "base\\surfaces\\materials\\fabric\\nylon\\nylon_metallic_01_d.xbm",
-    "base\\surfaces\\materials\\fabric\\nylon\\nylon_metallic_01_n.xbm",
-    "base\\surfaces\\materials\\fabric\\nylon\\nylon_metallic_01_r.xbm",
-    "base\\surfaces\\materials\\fabric\\nylon\\nylon_metallic_01_m.xbm",
-    "base\\surfaces\\microblends\\wrinkles_01h.xbm",
-    "base\\surfaces\\materials\\fabric\\leather\\leather_bull_01_30_d.xbm",
-    "base\\surfaces\\materials\\fabric\\leather\\leather_bull_01_30_n.xbm",
-    "base\\surfaces\\materials\\fabric\\leather\\leather_bull_01_30_r.xbm",
-    "base\\surfaces\\materials\\default\\black.xbm",
-    "base\\surfaces\\materials\\fabric\\denim\\denim_camo_01_30_d.xbm",
-    "base\\surfaces\\materials\\fabric\\denim\\denim_clean_01_30_n.xbm",
-    "base\\surfaces\\materials\\fabric\\denim\\denim_clean_01_30_r.xbm",
-    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_d.xbm",
-    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_n.xbm",
-    "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30_r.xbm",
-    "base\\surfaces\\materials\\fabric\\nylon\\nylon_strap_01_10_d.xbm",
-    "base\\surfaces\\materials\\fabric\\nylon\\nylon_strap_01_10_n.xbm",
-    "base\\surfaces\\materials\\fabric\\nylon\\nylon_strap_01_10_r.xbm",
-    "base\\surfaces\\materials\\default\\default_d.xbm",
-    "base\\surfaces\\materials\\fabric\\latex\\latex_01_30_n.xbm",
-    "base\\surfaces\\materials\\fabric\\latex\\latex_01_30_r.xbm",
-    "base\\surfaces\\materials\\plastic\\plastic_tech\\plastic_tech_01_300_n.xbm",
-    "base\\surfaces\\materials\\plastic\\plastic_tech\\plastic_tech_01_300_r.xbm",
-    "base\\surfaces\\materials\\fabric\\polyester\\polyester_knit_clean_01_30_d.xbm",
-    "base\\surfaces\\materials\\fabric\\polyester\\polyester_knit_clean_01_30_n.xbm",
-    "base\\surfaces\\materials\\fabric\\polyester\\polyester_knit_clean_01_30_r.xbm",
-    "base\\surfaces\\microblends\\grunge_graffiti_01_100.xbm",
-    "base\\surfaces\\microblends\\dirt_stains.xbm",
-    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_d.xbm",
-    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_n.xbm",
-    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_r.xbm",
-    "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\a0_pma_001_cuffs__rolled_up_n01.xbm",
-    "base\\characters\\garment\\player_equipment\\arms\\a0_001_cuffs__rolled_up\\textures\\ml_a0_pma_001_cuffs_rolled_up_masksset.mlmask",
-    "base\\fx\\_textures\\masks\\patterns\\fx_server_scrolling_text.xbm",
-    "base\\surfaces\\materials\\fabric\\wool\\wool_knit_clean_04_30_d.xbm",
-    "base\\surfaces\\materials\\fabric\\wool\\wool_knit_clean_04_30_n.xbm",
-    "base\\surfaces\\materials\\fabric\\wool\\wool_knit_clean_04_30_r.xbm",
-    "base\\surfaces\\materials\\default\\default_n.xbm",
-    "base\\surfaces\\materials\\custom\\characters\\camo_01_30_d.xbm",
-    "base\\surfaces\\materials\\plastic\\plastic_hq\\plastic_tech_hq_01_30_n.xbm",
-    "base\\surfaces\\microblends\\lint_01.xbm"
-  ],
-  "MaterialTemplates": [
-    {
-      "Name": "engine\\materials\\metal_base.remt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "engine\\textures\\editor\\grey.xbm",
-        "BaseColorScale": {
-          "X": 1,
+        "HSV_Mod": {
+          "X": 0,
           "Y": 1,
-          "Z": 1,
-          "W": 0
+          "Z": 0,
+          "W": -1
         },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 1,
-        "RoughnessBias": 0,
-        "Normal": "engine\\textures\\editor\\normal.xbm",
-        "NormalStrength": 1,
-        "AlphaThreshold": 0.379999995,
-        "Emissive": "engine\\textures\\editor\\black.xbm",
-        "EmissiveLift": 0,
-        "EmissiveEV": 0,
-        "EmissiveEVRaytracingBias": 0,
-        "EmissiveDirectionality": 0,
-        "EnableRaytracedEmissive": 1,
-        "EmissiveColor": {
-          "Red": 0,
-          "Green": 0,
-          "Blue": 0,
-          "Alpha": 255
-        },
-        "LayerTile": 1
+        "IsBroken": 0,
+        "FixForBlack": 1
       }
     },
     {
-      "Name": "engine\\materials\\metal_base.remt",
+      "Name": "base\\fx\\shaders\\parallaxscreen.mt",
       "EnableMask": true,
       "Data": {
-        "BaseColor": "engine\\textures\\editor\\grey.xbm",
-        "BaseColorScale": {
-          "X": 1,
-          "Y": 1,
-          "Z": 1,
-          "W": 0
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 1,
-        "RoughnessBias": 0,
-        "Normal": "engine\\textures\\editor\\normal.xbm",
-        "NormalStrength": 1,
-        "AlphaThreshold": 0.379999995,
-        "Emissive": "engine\\textures\\editor\\black.xbm",
-        "EmissiveLift": 0,
-        "EmissiveEV": 0,
+        "ParalaxTexture": "base\\surfaces\\textures\\screens\\generic\\display_block_02.xbm",
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_02_d.xbm",
+        "Metalness": 0.899999976,
+        "Roughness": 0.100000001,
+        "Emissive": 7,
         "EmissiveEVRaytracingBias": 0,
         "EmissiveDirectionality": 0,
         "EnableRaytracedEmissive": 1,
+        "ImageScale": 1.04999995,
+        "LayersSeparation": 0.100000001,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.25,
+          "Z": 0.06,
+          "W": 0
+        },
+        "ScanlinesDensity": 125,
+        "ScanlinesIntensity": 0.25,
+        "BlinkingSpeed": 0,
+        "BlinkingMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollVerticalOrHorizontal": 0,
+        "ScrollMaskStartPoint1": 0.0199999996,
+        "ScrollMaskHeight1": 0.5,
+        "ScrollSpeed1": 0.25,
+        "ScrollStepFactor1": 30,
+        "ScrollMaskStartPoint2": 0.400000006,
+        "ScrollMaskHeight2": 0.200000003,
+        "ScrollSpeed2": 1.5,
+        "ScrollStepFactor2": 10,
         "EmissiveColor": {
-          "Red": 0,
-          "Green": 0,
-          "Blue": 0,
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
           "Alpha": 255
         },
-        "LayerTile": 1
+        "HSV_Mod": {
+          "X": 0,
+          "Y": 1,
+          "Z": 0,
+          "W": -1
+        },
+        "IsBroken": 0,
+        "FixForBlack": 1
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\parallaxscreen.mt",
+      "EnableMask": true,
+      "Data": {
+        "ParalaxTexture": "base\\surfaces\\textures\\screens\\generic\\display_block_02.xbm",
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_02_d.xbm",
+        "Metalness": 0.899999976,
+        "Roughness": 0.100000001,
+        "Emissive": 7,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "ImageScale": 1.04999995,
+        "LayersSeparation": 0.100000001,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.25,
+          "Z": 0.06,
+          "W": 0
+        },
+        "ScanlinesDensity": 125,
+        "ScanlinesIntensity": 0.25,
+        "BlinkingSpeed": 0,
+        "BlinkingMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollMaskTexture": "base\\surfaces\\materials\\default\\black.xbm",
+        "ScrollVerticalOrHorizontal": 0,
+        "ScrollMaskStartPoint1": 0.0199999996,
+        "ScrollMaskHeight1": 0.5,
+        "ScrollSpeed1": 0.25,
+        "ScrollStepFactor1": 30,
+        "ScrollMaskStartPoint2": 0.400000006,
+        "ScrollMaskHeight2": 0.200000003,
+        "ScrollSpeed2": 1.5,
+        "ScrollStepFactor2": 10,
+        "EmissiveColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "HSV_Mod": {
+          "X": 0,
+          "Y": 1,
+          "Z": 0,
+          "W": -1
+        },
+        "IsBroken": 0,
+        "FixForBlack": 1
       }
     },
     {
@@ -830,6 +2619,528 @@
         "ScrollSpeed": 0.213709995,
         "EmissiveTile": 1,
         "Looped": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "Red": 229,
+          "Green": 36,
+          "Blue": 36,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "EmissiveEV": 6.20967817,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 254,
+          "Green": 116,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.491935015,
+        "ScrollSpeed": 0.213709995,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "Red": 229,
+          "Green": 36,
+          "Blue": 36,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "EmissiveEV": 6.20967817,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 254,
+          "Green": 116,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.491935015,
+        "ScrollSpeed": 0.213709995,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "Red": 229,
+          "Green": 36,
+          "Blue": 36,
+          "Alpha": 255
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 0,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\small_flat_normal.xbm",
+        "AlphaFromEmissive": 1,
+        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
+        "EmissiveEV": 6.20967817,
+        "AlphaThreshold": 0,
+        "EmissiveColor": {
+          "Red": 254,
+          "Green": 116,
+          "Blue": 15,
+          "Alpha": 255
+        },
+        "HistogramRange": 0.491935015,
+        "ScrollSpeed": 0.213709995,
+        "EmissiveTile": 1,
+        "Looped": 0
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
       }
     },
     {
@@ -924,456 +3235,99 @@
         "UseTwoEmissiveColors": 0,
         "SwitchingTwoEmissiveColorsSpeed": 0,
         "UseFresnel": 0
-      }
-    },
-    {
-      "Name": "engine\\materials\\metal_base.remt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "engine\\textures\\editor\\grey.xbm",
-        "BaseColorScale": {
-          "X": 1,
-          "Y": 1,
-          "Z": 1,
-          "W": 0
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 1,
-        "RoughnessBias": 0,
-        "Normal": "engine\\textures\\editor\\normal.xbm",
-        "NormalStrength": 1,
-        "AlphaThreshold": 0.379999995,
-        "Emissive": "engine\\textures\\editor\\black.xbm",
-        "EmissiveLift": 0,
-        "EmissiveEV": 0,
-        "EmissiveEVRaytracingBias": 0,
-        "EmissiveDirectionality": 0,
-        "EnableRaytracedEmissive": 1,
-        "EmissiveColor": {
-          "Red": 0,
-          "Green": 0,
-          "Blue": 0,
-          "Alpha": 255
-        },
-        "LayerTile": 1
-      }
-    },
-    {
-      "Name": "engine\\materials\\multilayered.mt",
-      "EnableMask": false,
-      "Data": {
-        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
-        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
-        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
-        "GlobalNormalIntensity": 1,
-        "GlobalNormalUVScale": {
-          "X": 1,
-          "Y": 1,
-          "Z": 0,
-          "W": 0
-        },
-        "GlobalNormalUVBias": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskAtlas": "",
-        "MaskTiles": null,
-        "Layers": null,
-        "LayersStartIndex": 0,
-        "SurfaceTexAspectRatio": 0,
-        "MaskToTileScale": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskTileSize": 0,
-        "MaskAtlasDims": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskBaseResolution": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "SetupLayerMask": 0,
-        "NormalsTextureDDXYMultiplier": 1,
-        "MicroblendsTextureDDXYMultiplier": 1
-      }
-    },
-    {
-      "Name": "engine\\materials\\multilayered.mt",
-      "EnableMask": false,
-      "Data": {
-        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
-        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
-        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
-        "GlobalNormalIntensity": 1,
-        "GlobalNormalUVScale": {
-          "X": 1,
-          "Y": 1,
-          "Z": 0,
-          "W": 0
-        },
-        "GlobalNormalUVBias": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskAtlas": "",
-        "MaskTiles": null,
-        "Layers": null,
-        "LayersStartIndex": 0,
-        "SurfaceTexAspectRatio": 0,
-        "MaskToTileScale": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskTileSize": 0,
-        "MaskAtlasDims": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskBaseResolution": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "SetupLayerMask": 0,
-        "NormalsTextureDDXYMultiplier": 1,
-        "MicroblendsTextureDDXYMultiplier": 1
-      }
-    },
-    {
-      "Name": "engine\\materials\\multilayered.mt",
-      "EnableMask": false,
-      "Data": {
-        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
-        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
-        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
-        "GlobalNormalIntensity": 1,
-        "GlobalNormalUVScale": {
-          "X": 1,
-          "Y": 1,
-          "Z": 0,
-          "W": 0
-        },
-        "GlobalNormalUVBias": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskAtlas": "",
-        "MaskTiles": null,
-        "Layers": null,
-        "LayersStartIndex": 0,
-        "SurfaceTexAspectRatio": 0,
-        "MaskToTileScale": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskTileSize": 0,
-        "MaskAtlasDims": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskBaseResolution": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "SetupLayerMask": 0,
-        "NormalsTextureDDXYMultiplier": 1,
-        "MicroblendsTextureDDXYMultiplier": 1
-      }
-    },
-    {
-      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "engine\\textures\\editor\\grey.xbm",
-        "BaseColorScale": {
-          "Red": 229,
-          "Green": 36,
-          "Blue": 36,
-          "Alpha": 255
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 0,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 0,
-        "RoughnessBias": 0,
-        "Normal": "engine\\textures\\small_flat_normal.xbm",
-        "AlphaFromEmissive": 1,
-        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
-        "EmissiveEV": 6.20967817,
-        "AlphaThreshold": 0,
-        "EmissiveColor": {
-          "Red": 254,
-          "Green": 116,
-          "Blue": 15,
-          "Alpha": 255
-        },
-        "HistogramRange": 0.491935015,
-        "ScrollSpeed": 0.213709995,
-        "EmissiveTile": 1,
-        "Looped": 0
-      }
-    },
-    {
-      "Name": "engine\\materials\\metal_base.remt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "engine\\textures\\editor\\grey.xbm",
-        "BaseColorScale": {
-          "X": 1,
-          "Y": 1,
-          "Z": 1,
-          "W": 0
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 1,
-        "RoughnessBias": 0,
-        "Normal": "engine\\textures\\editor\\normal.xbm",
-        "NormalStrength": 1,
-        "AlphaThreshold": 0.379999995,
-        "Emissive": "engine\\textures\\editor\\black.xbm",
-        "EmissiveLift": 0,
-        "EmissiveEV": 0,
-        "EmissiveEVRaytracingBias": 0,
-        "EmissiveDirectionality": 0,
-        "EnableRaytracedEmissive": 1,
-        "EmissiveColor": {
-          "Red": 0,
-          "Green": 0,
-          "Blue": 0,
-          "Alpha": 255
-        },
-        "LayerTile": 1
-      }
-    },
-    {
-      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "engine\\textures\\editor\\grey.xbm",
-        "BaseColorScale": {
-          "Red": 229,
-          "Green": 36,
-          "Blue": 36,
-          "Alpha": 255
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 0,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 0,
-        "RoughnessBias": 0,
-        "Normal": "engine\\textures\\small_flat_normal.xbm",
-        "AlphaFromEmissive": 1,
-        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
-        "EmissiveEV": 6.20967817,
-        "AlphaThreshold": 0,
-        "EmissiveColor": {
-          "Red": 254,
-          "Green": 116,
-          "Blue": 15,
-          "Alpha": 255
-        },
-        "HistogramRange": 0.491935015,
-        "ScrollSpeed": 0.213709995,
-        "EmissiveTile": 1,
-        "Looped": 0
-      }
-    },
-    {
-      "Name": "base\\fx\\shaders\\device_diode.mt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
-        "BaseColorScale": {
-          "Red": 150,
-          "Green": 0,
-          "Blue": 0,
-          "Alpha": 0
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 1,
-        "MetalnessBias": 0,
-        "Roughness": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_r.xbm",
-        "RoughnessScale": 1,
-        "RoughnessBias": 0,
-        "Normal": "base\\surfaces\\materials\\plastic\\plastic_lightcover\\plastic_lightcover_01_50_n.xbm",
-        "Emissive": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm",
-        "EmissiveEV": 5,
-        "AlphaThreshold": 0.330000013,
-        "Blinking": 0,
-        "EmissiveEVRaytracingBias": 0,
-        "EmissiveDirectionality": 0,
-        "EnableRaytracedEmissive": 1,
-        "BlinkingSpeed": 8,
-        "UseMaterialParameter": 1,
-        "EmissiveColor1": {
-          "Red": 127,
-          "Green": 0,
-          "Blue": 0,
-          "Alpha": 255
-        },
-        "EmissiveColor2": {
-          "Red": 0,
-          "Green": 12,
-          "Blue": 127,
-          "Alpha": 255
-        },
-        "EmissiveInitialState": 0,
-        "UseTwoEmissiveColors": 0,
-        "SwitchingTwoEmissiveColorsSpeed": 0,
-        "UseFresnel": 0
-      }
-    },
-    {
-      "Name": "engine\\materials\\multilayered.mt",
-      "EnableMask": false,
-      "Data": {
-        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
-        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
-        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
-        "GlobalNormalIntensity": 1,
-        "GlobalNormalUVScale": {
-          "X": 1,
-          "Y": 1,
-          "Z": 0,
-          "W": 0
-        },
-        "GlobalNormalUVBias": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskAtlas": "",
-        "MaskTiles": null,
-        "Layers": null,
-        "LayersStartIndex": 0,
-        "SurfaceTexAspectRatio": 0,
-        "MaskToTileScale": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskTileSize": 0,
-        "MaskAtlasDims": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "MaskBaseResolution": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0,
-          "W": 0
-        },
-        "SetupLayerMask": 0,
-        "NormalsTextureDDXYMultiplier": 1,
-        "MicroblendsTextureDDXYMultiplier": 1
-      }
-    },
-    {
-      "Name": "base\\fx\\shaders\\metal_base_glitter.mt",
-      "EnableMask": true,
-      "Data": {
-        "BaseColor": "engine\\textures\\editor\\grey.xbm",
-        "BaseColorScale": {
-          "Red": 229,
-          "Green": 36,
-          "Blue": 36,
-          "Alpha": 255
-        },
-        "Metalness": "engine\\textures\\editor\\black.xbm",
-        "MetalnessScale": 0,
-        "MetalnessBias": 0,
-        "Roughness": "engine\\textures\\editor\\white.xbm",
-        "RoughnessScale": 0,
-        "RoughnessBias": 0,
-        "Normal": "engine\\textures\\small_flat_normal.xbm",
-        "AlphaFromEmissive": 1,
-        "EmissiveMask": "base\\fx\\_textures\\masks\\noise\\fx_digital_noise_01_d.xbm",
-        "EmissiveEV": 6.20967817,
-        "AlphaThreshold": 0,
-        "EmissiveColor": {
-          "Red": 254,
-          "Green": 116,
-          "Blue": 15,
-          "Alpha": 255
-        },
-        "HistogramRange": 0.491935015,
-        "ScrollSpeed": 0.213709995,
-        "EmissiveTile": 1,
-        "Looped": 0
       }
     }
   ],
   "Appearances": {
     "default0": [
       "default",
-      "emissiveStitches_bluePink",
+      "bluepink",
       "dec_zipper",
-      "dec_lcd_server",
-      "defaultCuffs",
+      "server",
       "default",
       "default",
-      "gloSilk_bluePurple",
-      "emissiveStitches_bluePink",
-      "emissiveStitches_bluePink",
-      "neonCablePinkBlue",
-      "gloPlasticPurple",
-      "purePreem"
+      "default",
+      "bluepurple",
+      "bluepink",
+      "bluepink",
+      "bluepink",
+      "gloplasticpurple",
+      "purepreem"
     ],
-    "badApple1": [
-      "badApple",
-      "emissiveStitches_greenPink",
+    "badapple1": [
+      "badapple",
+      "greenpink",
       "dec_zipper",
-      "dec_lcd_server",
-      "badAppleCuffs",
-      "badApple",
-      "badApple",
-      "gloSilk_yellowPink",
-      "emissiveStitches_greenPink",
-      "emissiveStitches_greenPink",
-      "neonCableGreen",
-      "gloPlasticGreen",
-      "purePreem"
+      "server",
+      "badapple",
+      "badapple",
+      "badapple",
+      "yellowpink",
+      "greenpink",
+      "greenpink",
+      "greenmagenta",
+      "gloplasticgreen",
+      "purepreem"
     ],
-    "silverSamurai2": [],
-    "holyPearl3": [],
-    "netWyrm4": [],
-    "sulfuricPsycho5": []
+    "silversamurai2": [
+      "silversamurai",
+      "redwhite",
+      "dec_zipper",
+      "waves_red",
+      "silversamurai",
+      "silversamurai",
+      "silversamurai",
+      "redwhite",
+      "redwhite",
+      "redwhite",
+      "redblack",
+      "arasakared",
+      "purepreem"
+    ],
+    "holypearl3": [
+      "holypearl",
+      "redwhite",
+      "dec_zipper",
+      "waves_red",
+      "holypearl",
+      "holypearl",
+      "holypearl",
+      "redwhite",
+      "redwhite",
+      "redwhite",
+      "redwhite",
+      "blackwallbits",
+      "purepreem"
+    ],
+    "netwyrm4": [
+      "netwyrm",
+      "cyanpurple",
+      "dec_zipper",
+      "waves",
+      "netwyrm",
+      "netwyrm",
+      "netwyrm",
+      "bluepurple",
+      "cyanpurple",
+      "cyanpurple",
+      "cyanpurple",
+      "gloplasticpurple",
+      "purepreem"
+    ],
+    "sulfuricpsycho5": [
+      "sulfuricpsycho",
+      "cyanpurple",
+      "dec_zipper",
+      "broken",
+      "sulfuricpsycho",
+      "sulfuricpsycho",
+      "sulfuricpsycho",
+      "cyan",
+      "cyanpurple",
+      "cyanpurple",
+      "cyanpurple",
+      "gloplasticcyan",
+      "purepreem"
+    ]
   }
 }
