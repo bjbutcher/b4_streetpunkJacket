@@ -5,5 +5,9 @@
   <Author>bafflinbill</Author>
   <Email />
   <Version>1.8</Version>
-  <OpenProjectFiles>output\materials\multilayers\shells\b4_streetpunkjacket_silversamurai.mlsetup</OpenProjectFiles>
+  <OpenProjectFiles>output\ents\b4_streetpunkjacket.ent</OpenProjectFiles>
+  <OpenProjectFiles>output\data\b4_streetpunkjacket.csv</OpenProjectFiles>
+  <OpenProjectFiles>output\data\b4_streetpunkjacketlogo.csv</OpenProjectFiles>
+  <OpenProjectFiles>output\data\translation_strings.json</OpenProjectFiles>
+  <OpenProjectFiles>output\data\preview_icons.inkatlas</OpenProjectFiles>
 </CP77Mod>

@@ -12,6 +12,28 @@ Items.b4_streetpunkjacket_$(variant):
   appearanceName: b4_streetpunkjacket_!$(variant)
   displayName: b4_streetpunkjacket_$(variant)
   localizedDescription: b4_streetpunkjacket_desc
+  tags:
+    - !append Punk
+    - !append Kitsch
+  icon:
+    atlasResourcePath: output\data\preview_icons.inkatlas
+    atlasPartName: $(variant)
+Items.b4_streetpunkjacket_logo$(variant):
+  $instances:
+    - { variant: default }
+    - { variant: variant1 }
+    - { variant: variant2 }
+
+  $base: Items.Outfit
+  placementSlots:
+    - !append OutfitSlots.Back
+  entityName: b4_streetpunkjacket_logo_factory_name
+  appearanceName: b4_streetpunkjacket_logo!$(variant)
+  displayName: b4_streetpunkjacket_logo_$(variant)
+  localizedDescription: b4_streetpunkjacket_logo_desc
+  tags:
+    - !append Punk
+    - !append Kitsch
   icon:
     atlasResourcePath: output\data\preview_icons.inkatlas
     atlasPartName: $(variant)

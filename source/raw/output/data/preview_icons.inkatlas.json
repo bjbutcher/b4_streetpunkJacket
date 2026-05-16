@@ -1,11 +1,11 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.18.1-nightly.2026-05-05",
-    "WKitJsonVersion": "0.0.9",
-    "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-11T03:18:40.0518996Z",
+    "WolvenKitVersion": "8.13.0-nightly.2024-03-17",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2120,
+    "ExportedDateTime": "2024-03-18T04:38:07.1672443Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\data\\preview_icons.inkatlas"
+    "ArchiveFileName": ""
   },
   "Data": {
     "Version": 195,
@@ -20,7 +20,7 @@
           "$storage": "uint64",
           "$value": "0"
         },
-        "Flags": "Soft"
+        "Flags": "Default"
       },
       "dynamicTextureSlot": {
         "$type": "inkDynamicTextureSlot",
@@ -31,7 +31,7 @@
             "$storage": "uint64",
             "$value": "0"
           },
-          "Flags": "Soft"
+          "Flags": "Default"
         }
       },
       "isSingleTextureMode": 1,
@@ -54,14 +54,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0,
-                  "Right": 0.0833333358,
-                  "Top": 0
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_40"
+                  "$value": "badapple"
                 }
               },
               {
@@ -76,14 +76,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
-                  "Top": 0
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_39"
+                  "$value": "default"
                 }
               },
               {
@@ -98,14 +98,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_38"
+                  "$value": "holypearl"
                 }
               },
               {
@@ -121,13 +121,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.25,
-                  "Right": 0.333333343,
-                  "Top": 0
+                  "Right": 0.3333333333333333,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_37"
+                  "$value": "logodefault"
                 }
               },
               {
@@ -142,14 +142,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.333333343,
-                  "Right": 0.416666687,
-                  "Top": 0
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_36"
+                  "$value": "logovariant1"
                 }
               },
               {
@@ -164,14 +164,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_35"
+                  "$value": "logovariant2"
                 }
               },
               {
@@ -187,13 +187,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.5,
-                  "Right": 0.583333313,
-                  "Top": 0
+                  "Right": 0.5833333333333334,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_34"
+                  "$value": "netwyrm"
                 }
               },
               {
@@ -208,14 +208,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.583333313,
-                  "Right": 0.666666627,
-                  "Top": 0
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_33"
+                  "$value": "silversamurai"
                 }
               },
               {
@@ -230,14 +230,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.666666687,
+                  "Left": 0.6666666666666666,
                   "Right": 0.75,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_32"
+                  "$value": "slot_06"
                 }
               },
               {
@@ -253,13 +253,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.75,
-                  "Right": 0.833333313,
-                  "Top": 0
+                  "Right": 0.8333333333333334,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_31"
+                  "$value": "slot_10"
                 }
               },
               {
@@ -274,14 +274,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.833333313,
-                  "Right": 0.916666627,
-                  "Top": 0
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_30"
+                  "$value": "slot_11"
                 }
               },
               {
@@ -296,14 +296,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.916666687,
-                  "Right": 1,
-                  "Top": 0
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_29"
+                  "$value": "slot_12"
                 }
               },
               {
@@ -318,14 +318,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_28"
+                  "$value": "slot_13"
                 }
               },
               {
@@ -340,14 +340,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_27"
+                  "$value": "slot_14"
                 }
               },
               {
@@ -362,14 +362,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_26"
+                  "$value": "slot_15"
                 }
               },
               {
@@ -385,13 +385,13 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_25"
+                  "$value": "slot_16"
                 }
               },
               {
@@ -406,14 +406,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.333333343,
-                  "Right": 0.416666687,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_24"
+                  "$value": "slot_17"
                 }
               },
               {
@@ -428,118 +428,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
-                  "Top": 0.25
-                },
-                "partName": {
-                  "$type": "CName",
-                  "$storage": "string",
-                  "$value": "slot_23"
-                }
-              },
-              {
-                "$type": "inkTextureAtlasMapper",
-                "clippingRectInPixels": {
-                  "$type": "Rect",
-                  "bottom": 320,
-                  "left": 960,
-                  "right": 1120,
-                  "top": 160
-                },
-                "clippingRectInUVCoords": {
-                  "$type": "RectF",
-                  "Bottom": 0.5,
-                  "Left": 0.5,
-                  "Right": 0.583333313,
-                  "Top": 0.25
-                },
-                "partName": {
-                  "$type": "CName",
-                  "$storage": "string",
-                  "$value": "slot_22"
-                }
-              },
-              {
-                "$type": "inkTextureAtlasMapper",
-                "clippingRectInPixels": {
-                  "$type": "Rect",
-                  "bottom": 320,
-                  "left": 1120,
-                  "right": 1280,
-                  "top": 160
-                },
-                "clippingRectInUVCoords": {
-                  "$type": "RectF",
-                  "Bottom": 0.5,
-                  "Left": 0.583333313,
-                  "Right": 0.666666627,
-                  "Top": 0.25
-                },
-                "partName": {
-                  "$type": "CName",
-                  "$storage": "string",
-                  "$value": "slot_21"
-                }
-              },
-              {
-                "$type": "inkTextureAtlasMapper",
-                "clippingRectInPixels": {
-                  "$type": "Rect",
-                  "bottom": 320,
-                  "left": 1280,
-                  "right": 1440,
-                  "top": 160
-                },
-                "clippingRectInUVCoords": {
-                  "$type": "RectF",
-                  "Bottom": 0.5,
-                  "Left": 0.666666687,
-                  "Right": 0.75,
-                  "Top": 0.25
-                },
-                "partName": {
-                  "$type": "CName",
-                  "$storage": "string",
-                  "$value": "slot_20"
-                }
-              },
-              {
-                "$type": "inkTextureAtlasMapper",
-                "clippingRectInPixels": {
-                  "$type": "Rect",
-                  "bottom": 320,
-                  "left": 1440,
-                  "right": 1600,
-                  "top": 160
-                },
-                "clippingRectInUVCoords": {
-                  "$type": "RectF",
-                  "Bottom": 0.5,
-                  "Left": 0.75,
-                  "Right": 0.833333313,
-                  "Top": 0.25
-                },
-                "partName": {
-                  "$type": "CName",
-                  "$storage": "string",
-                  "$value": "slot_19"
-                }
-              },
-              {
-                "$type": "inkTextureAtlasMapper",
-                "clippingRectInPixels": {
-                  "$type": "Rect",
-                  "bottom": 320,
-                  "left": 1600,
-                  "right": 1760,
-                  "top": 160
-                },
-                "clippingRectInUVCoords": {
-                  "$type": "RectF",
-                  "Bottom": 0.5,
-                  "Left": 0.833333313,
-                  "Right": 0.916666627,
                   "Top": 0.25
                 },
                 "partName": {
@@ -553,6 +443,116 @@
                 "clippingRectInPixels": {
                   "$type": "Rect",
                   "bottom": 320,
+                  "left": 960,
+                  "right": 1120,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.5,
+                  "Right": 0.5833333333333334,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_19"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1120,
+                  "right": 1280,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_20"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1280,
+                  "right": 1440,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.6666666666666666,
+                  "Right": 0.75,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_21"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1440,
+                  "right": 1600,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.75,
+                  "Right": 0.8333333333333334,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_22"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1600,
+                  "right": 1760,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_23"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
                   "left": 1760,
                   "right": 1920,
                   "top": 160
@@ -560,14 +560,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.916666687,
-                  "Right": 1,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_17"
+                  "$value": "slot_24"
                 }
               },
               {
@@ -582,14 +582,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_16"
+                  "$value": "slot_25"
                 }
               },
               {
@@ -604,14 +604,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_15"
+                  "$value": "slot_26"
                 }
               },
               {
@@ -626,14 +626,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_14"
+                  "$value": "slot_27"
                 }
               },
               {
@@ -649,13 +649,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_13"
+                  "$value": "slot_28"
                 }
               },
               {
@@ -670,14 +670,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.333333343,
-                  "Right": 0.416666687,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_12"
+                  "$value": "slot_29"
                 }
               },
               {
@@ -692,14 +692,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_11"
+                  "$value": "slot_30"
                 }
               },
               {
@@ -715,13 +715,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.5,
-                  "Right": 0.583333313,
+                  "Right": 0.5833333333333334,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_10"
+                  "$value": "slot_31"
                 }
               },
               {
@@ -736,14 +736,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.583333313,
-                  "Right": 0.666666627,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_09"
+                  "$value": "slot_32"
                 }
               },
               {
@@ -758,14 +758,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.666666687,
+                  "Left": 0.6666666666666666,
                   "Right": 0.75,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_08"
+                  "$value": "slot_33"
                 }
               },
               {
@@ -781,13 +781,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.75,
-                  "Right": 0.833333313,
+                  "Right": 0.8333333333333334,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_07"
+                  "$value": "slot_34"
                 }
               },
               {
@@ -802,14 +802,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.833333313,
-                  "Right": 0.916666627,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_06"
+                  "$value": "slot_35"
                 }
               },
               {
@@ -824,14 +824,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.916666687,
-                  "Right": 1,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_05"
+                  "$value": "slot_36"
                 }
               },
               {
@@ -845,15 +845,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Bottom": 1.0,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_04"
+                  "$value": "slot_37"
                 }
               },
               {
@@ -867,15 +867,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
+                  "Bottom": 1.0,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_03"
+                  "$value": "slot_38"
                 }
               },
               {
@@ -889,15 +889,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0.166666672,
+                  "Bottom": 1.0,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_02"
+                  "$value": "slot_39"
                 }
               },
               {
@@ -911,15 +911,37 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
+                  "Bottom": 1.0,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_01"
+                  "$value": "slot_40"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 640,
+                  "left": 640,
+                  "right": 800,
+                  "top": 480
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 1.0,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
+                  "Top": 0.75
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "sulfuricpsycho"
                 }
               }
             ],
@@ -928,33 +950,923 @@
               "DepotPath": {
                 "$type": "ResourcePath",
                 "$storage": "string",
-                "$value": "output\\data\\preview_icons.xbm"
+                "$value": "\\output\\data\\preview_icons.xbm"
               },
               "Flags": "Soft"
             }
           },
           {
             "$type": "inkTextureSlot",
-            "parts": [],
+            "parts": [
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 0,
+                  "right": 160,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "badapple"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 160,
+                  "right": 320,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "default"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 320,
+                  "right": 480,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.16666666666666666,
+                  "Right": 0.25,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "holypearl"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 480,
+                  "right": 640,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.25,
+                  "Right": 0.3333333333333333,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "logodefault"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 640,
+                  "right": 800,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "logovariant1"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 800,
+                  "right": 960,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.4166666666666667,
+                  "Right": 0.5,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "logovariant2"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 960,
+                  "right": 1120,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.5,
+                  "Right": 0.5833333333333334,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "netwyrm"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 1120,
+                  "right": 1280,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "silversamurai"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 1280,
+                  "right": 1440,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.6666666666666666,
+                  "Right": 0.75,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_06"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 1440,
+                  "right": 1600,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.75,
+                  "Right": 0.8333333333333334,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_10"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 1600,
+                  "right": 1760,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_11"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 160,
+                  "left": 1760,
+                  "right": 1920,
+                  "top": 0
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.25,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
+                  "Top": 0.0
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_12"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 0,
+                  "right": 160,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_13"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 160,
+                  "right": 320,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_14"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 320,
+                  "right": 480,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.16666666666666666,
+                  "Right": 0.25,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_15"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 480,
+                  "right": 640,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.25,
+                  "Right": 0.3333333333333333,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_16"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 640,
+                  "right": 800,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_17"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 800,
+                  "right": 960,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.4166666666666667,
+                  "Right": 0.5,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_18"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 960,
+                  "right": 1120,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.5,
+                  "Right": 0.5833333333333334,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_19"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1120,
+                  "right": 1280,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_20"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1280,
+                  "right": 1440,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.6666666666666666,
+                  "Right": 0.75,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_21"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1440,
+                  "right": 1600,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.75,
+                  "Right": 0.8333333333333334,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_22"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1600,
+                  "right": 1760,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_23"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 320,
+                  "left": 1760,
+                  "right": 1920,
+                  "top": 160
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.5,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
+                  "Top": 0.25
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_24"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 0,
+                  "right": 160,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_25"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 160,
+                  "right": 320,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_26"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 320,
+                  "right": 480,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.16666666666666666,
+                  "Right": 0.25,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_27"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 480,
+                  "right": 640,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.25,
+                  "Right": 0.3333333333333333,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_28"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 640,
+                  "right": 800,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_29"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 800,
+                  "right": 960,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.4166666666666667,
+                  "Right": 0.5,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_30"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 960,
+                  "right": 1120,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.5,
+                  "Right": 0.5833333333333334,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_31"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 1120,
+                  "right": 1280,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_32"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 1280,
+                  "right": 1440,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.6666666666666666,
+                  "Right": 0.75,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_33"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 1440,
+                  "right": 1600,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.75,
+                  "Right": 0.8333333333333334,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_34"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 1600,
+                  "right": 1760,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_35"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 1760,
+                  "right": 1920,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_36"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 640,
+                  "left": 0,
+                  "right": 160,
+                  "top": 480
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 1.0,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.75
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_37"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 640,
+                  "left": 160,
+                  "right": 320,
+                  "top": 480
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 1.0,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
+                  "Top": 0.75
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_38"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 640,
+                  "left": 320,
+                  "right": 480,
+                  "top": 480
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 1.0,
+                  "Left": 0.16666666666666666,
+                  "Right": 0.25,
+                  "Top": 0.75
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_39"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 640,
+                  "left": 480,
+                  "right": 640,
+                  "top": 480
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 1.0,
+                  "Left": 0.25,
+                  "Right": 0.3333333333333333,
+                  "Top": 0.75
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "slot_40"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 640,
+                  "left": 640,
+                  "right": 800,
+                  "top": 480
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 1.0,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
+                  "Top": 0.75
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "sulfuricpsycho"
+                }
+              }
+            ],
             "slices": [],
             "texture": {
               "DepotPath": {
                 "$type": "ResourcePath",
                 "$storage": "string",
-                "$value": "output\\data\\preview_icons_1080.xbm"
-              },
-              "Flags": "Soft"
-            }
-          },
-          {
-            "$type": "inkTextureSlot",
-            "parts": [],
-            "slices": [],
-            "texture": {
-              "DepotPath": {
-                "$type": "ResourcePath",
-                "$storage": "uint64",
-                "$value": "0"
+                "$value": "\\output\\data\\preview_icons_1080.xbm"
               },
               "Flags": "Soft"
             }
@@ -964,10 +1876,10 @@
       "texture": {
         "DepotPath": {
           "$type": "ResourcePath",
-          "$storage": "uint64",
-          "$value": "0"
+          "$storage": "string",
+          "$value": ""
         },
-        "Flags": "Soft"
+        "Flags": "Default"
       },
       "textureResolution": "UltraHD_3840_2160"
     },

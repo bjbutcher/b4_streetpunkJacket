@@ -165,6 +165,7 @@ manavortex\clothing\torso\pozer_jacket\meshes\t2_140_pwa__elegy__jacket__leather
 output\apps\b4_streetpunkjacket_logo.app
 output\apps\b4_streetpunkjacket.app
 output\data\b4_streetpunkjacket.csv
+output\data\preview_icons_1080.xbm
 output\data\preview_icons.inkatlas
 output\data\preview_icons.xbm
 output\data\translation_strings.json
@@ -184,6 +185,9 @@ output\materials\collar\dec_lcd_server.mi
 output\materials\collar\dec_lcd_waves_red.mi
 output\materials\collar\dec_lcd_waves.mi
 output\materials\collar\fx_server_scrolling_text.xbm
+output\materials\diffuse\b4logo_d01jacketsize.xbm
+output\materials\diffuse\electriconi_d01jacketsize.xbm
+output\materials\diffuse\powerskull_d01jacketsize.xbm
 output\materials\gimlets\arasakared.mi
 output\materials\gimlets\blackwallbits.mi
 output\materials\gimlets\gloplasticcyan.mi
@@ -209,6 +213,9 @@ output\materials\multilayers\shells\b4_streetpunkjacket_holypearl.mlsetup
 output\materials\multilayers\shells\b4_streetpunkjacket_netwyrm.mlsetup
 output\materials\multilayers\shells\b4_streetpunkjacket_silversamurai.mlsetup
 output\materials\multilayers\shells\b4_streetpunkjacket_sulfuricpsycho.mlsetup
+output\materials\normals\b4logo_n01jacketsize.xbm
+output\materials\normals\electriconi_n01jacketsize.xbm
+output\materials\normals\powerskull_n01jacketsize.xbm
 output\materials\silkscreen\glosilk_bluepurple.mi
 output\materials\silkscreen\glosilk_cyan.mi
 output\materials\silkscreen\glosilk_redwhite.mi
