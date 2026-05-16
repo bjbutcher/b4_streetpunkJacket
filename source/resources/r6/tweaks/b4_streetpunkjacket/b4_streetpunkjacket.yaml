@@ -29,11 +29,11 @@ Items.b4_streetpunkjacket_logo$(variant):
     - !append OutfitSlots.Back
   entityName: b4_streetpunkjacket_logo_factory_name
   appearanceName: b4_streetpunkjacket_logo!$(variant)
-  displayName: b4_streetpunkjacket_logo_$(variant)
+  displayName: b4_streetpunkjacket_logo_name
   localizedDescription: b4_streetpunkjacket_logo_desc
   tags:
     - !append Punk
     - !append Kitsch
   icon:
     atlasResourcePath: output\data\preview_icons.inkatlas
-    atlasPartName: $(variant)
+    atlasPartName: logo$(variant)

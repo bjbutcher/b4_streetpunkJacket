@@ -5,9 +5,10 @@
   <Author>bafflinbill</Author>
   <Email />
   <Version>1.8</Version>
-  <OpenProjectFiles>output\ents\b4_streetpunkjacket.ent</OpenProjectFiles>
-  <OpenProjectFiles>output\data\b4_streetpunkjacket.csv</OpenProjectFiles>
+  <OpenProjectFiles>output\data\preview_icons.inkatlas</OpenProjectFiles>
   <OpenProjectFiles>output\data\b4_streetpunkjacketlogo.csv</OpenProjectFiles>
   <OpenProjectFiles>output\data\translation_strings.json</OpenProjectFiles>
-  <OpenProjectFiles>output\data\preview_icons.inkatlas</OpenProjectFiles>
+  <OpenProjectFiles>output\apps\b4_streetpunkjacket_logo.app</OpenProjectFiles>
+  <OpenProjectFiles>output\apps\b4_streetpunkjacket.app</OpenProjectFiles>
+  <OpenProjectFiles>output\data\b4_streetpunkjacket.csv</OpenProjectFiles>
 </CP77Mod>

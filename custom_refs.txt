@@ -165,6 +165,7 @@ manavortex\clothing\torso\pozer_jacket\meshes\t2_140_pwa__elegy__jacket__leather
 output\apps\b4_streetpunkjacket_logo.app
 output\apps\b4_streetpunkjacket.app
 output\data\b4_streetpunkjacket.csv
+output\data\b4_streetpunkjacketlogo.csv
 output\data\preview_icons_1080.xbm
 output\data\preview_icons.inkatlas
 output\data\preview_icons.xbm
@@ -218,6 +219,9 @@ output\materials\normals\electriconi_n01jacketsize.xbm
 output\materials\normals\powerskull_n01jacketsize.xbm
 output\materials\silkscreen\glosilk_bluepurple.mi
 output\materials\silkscreen\glosilk_cyan.mi
+output\materials\silkscreen\glosilk_greenpink.mi
+output\materials\silkscreen\glosilk_pinkblue.mi
+output\materials\silkscreen\glosilk_redblack.mi
 output\materials\silkscreen\glosilk_redwhite.mi
 output\materials\silkscreen\glosilk_yellowpink.mi
 output\materials\stitches\emissivestitches_bluepink.mi
