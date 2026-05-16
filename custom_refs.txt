@@ -6,6 +6,7 @@
 *output\materials\silkscreen\glosilk_{material}.mi
 *output\materials\stitches\emissivestitches_{material}.mi
 *output\materials\zipspikes\{material}.mi
+*output\meshes\b4_streetpunkjacket_logo_{body}.mesh
 b4_luxCrystals\torso\b4_luxCrystals\apps\b4_luxCrystals.app
 b4_luxCrystals\torso\b4_luxCrystals\data\b4_luxCrystals_factory.csv
 b4_luxCrystals\torso\b4_luxCrystals\data\preview_icons.inkatlas
@@ -230,6 +231,7 @@ output\materials\stitches\emissivestitches_greenpink.mi
 output\materials\stitches\emissivestitches_redwhite.mi
 output\materials\zipspikes\dec_zipper.mi
 output\materials\zipspikes\purepreem.mi
+output\meshes\b4_streetpunkjacket_base_body_{body}.mesh
 output\meshes\b4_streetpunkjacket_base_body.mesh
 output\meshes\b4_streetpunkjacket_elegy.mesh
 output\meshes\b4_streetpunkjacket_flat_chest.mesh
