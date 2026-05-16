@@ -183,6 +183,7 @@ output\materials\collar\dec_lcd_info.mi
 output\materials\collar\dec_lcd_server.mi
 output\materials\collar\dec_lcd_waves_red.mi
 output\materials\collar\dec_lcd_waves.mi
+output\materials\collar\fx_server_scrolling_text.xbm
 output\materials\gimlets\arasakared.mi
 output\materials\gimlets\blackwallbits.mi
 output\materials\gimlets\gloplasticcyan.mi

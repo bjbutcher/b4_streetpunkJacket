@@ -1,11 +1,11 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
+    "WolvenKitVersion": "8.11.0",
     "WKitJsonVersion": "0.0.9",
-    "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-15T17:08:25.9389087Z",
+    "GameVersion": 2200,
+    "ExportedDateTime": "2026-05-15T20:04:26.092Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\materials\\multilayers\\shells\\b4_streetpunkjacket_holypearl.mlsetup"
+    "ArchiveFileName": ""
   },
   "Data": {
     "Version": 195,
@@ -25,11 +25,11 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\mylar\\mylar_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\silk\\silk_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
-          "matTile": 6,
+          "matTile": 6.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -49,18 +49,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -92,7 +91,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 6,
+          "matTile": 6.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -112,18 +111,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -155,7 +153,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 6,
+          "matTile": 6.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -175,18 +173,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -218,7 +215,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 6,
+          "matTile": 6.00,
           "mbTile": 3.91000009,
           "metalLevelsIn": {
             "$type": "CName",
@@ -238,18 +235,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.569999993,
-          "microblendNormalStrength": -0.579999983,
+          "microblendContrast": 0.57,
+          "microblendNormalStrength": -0.58,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -271,7 +267,7 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "3eaf77_d42857"
+            "$value": "92e7cf_null"
           },
           "material": {
             "DepotPath": {
@@ -281,7 +277,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 8,
+          "matTile": 8.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -301,18 +297,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "e6296e"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 0,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -326,7 +321,7 @@
           "roughLevelsOut": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "6d35b5"
+            "$value": "null"
           }
         },
         {
@@ -334,17 +329,17 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "e9bacf_69039f"
+            "$value": "92e7cf_null"
           },
           "material": {
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\mylar\\mylar_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\silk\\silk_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
-          "matTile": 7,
+          "matTile": 7.00,
           "mbTile": 8,
           "metalLevelsIn": {
             "$type": "CName",
@@ -364,18 +359,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.74000001,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.74,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -407,7 +401,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 8,
+          "matTile": 8.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -427,11 +421,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "e6296e"
@@ -470,7 +464,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 6,
+          "matTile": 6.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -490,18 +484,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -523,17 +516,17 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "74f868_null"
+            "$value": "92e7cf_null"
           },
           "material": {
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\leather\\leather_bull_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\velvet\\velvet_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
-          "matTile": 8,
+          "matTile": 8.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -553,18 +546,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "e6296e"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -596,7 +588,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 19,
+          "matTile": 19.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -616,11 +608,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "47c7da"
@@ -659,7 +651,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 4,
+          "matTile": 4.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -679,18 +671,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0.330000013,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -712,17 +703,17 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "e4f1dc_null"
+            "$value": "d4e4a5_null"
           },
           "material": {
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\metal\\gold\\gold_polished_01_300.mltemplate"
+              "$value": "base\\surfaces\\materials\\metal\\steel\\steel_rolled_bare_annodised_01_300.mltemplate"
             },
             "Flags": "Default"
           },
-          "matTile": 33,
+          "matTile": 33.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -742,18 +733,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -775,17 +765,17 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "b55c72_null"
+            "$value": "15a6fa_69039f"
           },
           "material": {
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\metal\\steel\\steel_bare_annodised_01_300.mltemplate"
+              "$value": "base\\surfaces\\materials\\metal\\steel_hq\\steel_hq_brushed_01_10.mltemplate"
             },
             "Flags": "Default"
           },
-          "matTile": 10.1000004,
+          "matTile": 10.10,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -805,18 +795,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -848,7 +837,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 6,
+          "matTile": 6.00,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -868,18 +857,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -911,7 +899,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 10.1000004,
+          "matTile": 10.10,
           "mbTile": 10.1000004,
           "metalLevelsIn": {
             "$type": "CName",
@@ -931,11 +919,11 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.5,
-          "microblendNormalStrength": 0.00999999978,
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
@@ -974,7 +962,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 6,
+          "matTile": 6.00,
           "mbTile": 7.80000019,
           "metalLevelsIn": {
             "$type": "CName",
@@ -994,18 +982,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.419999987,
-          "microblendNormalStrength": 1.10000002,
+          "microblendContrast": 0.42,
+          "microblendNormalStrength": 1.10,
           "microblendOffsetU": 0.349999994,
           "microblendOffsetV": 0.910000026,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -1033,11 +1020,11 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\mylar\\mylar_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\silk\\silk_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
-          "matTile": 4,
+          "matTile": 4.00,
           "mbTile": 5,
           "metalLevelsIn": {
             "$type": "CName",
@@ -1057,18 +1044,17 @@
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.140000001,
-          "microblendNormalStrength": 1,
+          "microblendContrast": 0.14,
+          "microblendNormalStrength": 1.00,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -1096,11 +1082,11 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\mylar\\mylar_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\silk\\silk_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
-          "matTile": 1.10000002,
+          "matTile": 1.10,
           "mbTile": 1.10000002,
           "metalLevelsIn": {
             "$type": "CName",
@@ -1116,22 +1102,21 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\microblends\\grunge_graffiti_01_100.xbm"
+              "$value": "base\\surfaces\\microblends\\pattern_roses.xbm"
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.379999995,
-          "microblendNormalStrength": -1.36000001,
+          "microblendContrast": 0.38,
+          "microblendNormalStrength": -1.36,
           "microblendOffsetU": 0.129999995,
           "microblendOffsetV": 0.49000001,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0.129999995,
           "offsetV": 0.49000001,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -1153,17 +1138,17 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "7c4101_69039f"
+            "$value": "2898f2_69039f"
           },
           "material": {
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\mylar\\mylar_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\silk\\silk_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
-          "matTile": 1,
+          "matTile": 1.00,
           "mbTile": 25.0100002,
           "metalLevelsIn": {
             "$type": "CName",
@@ -1179,22 +1164,21 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\microblends\\grunge_graffiti_01_100.xbm"
+              "$value": "base\\surfaces\\microblends\\pattern_roses.xbm"
             },
             "Flags": "Default"
           },
-          "microblendContrast": 0.370000005,
-          "microblendNormalStrength": 1.49000001,
+          "microblendContrast": 0.37,
+          "microblendNormalStrength": 1.49,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "null"
           },
           "offsetU": 0,
           "offsetV": 0,
-          "opacity": 1,
           "overrides": {
             "$type": "CName",
             "$storage": "string",
@@ -1226,7 +1210,7 @@
             },
             "Flags": "Default"
           },
-          "matTile": 1,
+          "matTile": 1.00,
           "mbTile": 11.6999998,
           "metalLevelsIn": {
             "$type": "CName",
@@ -1247,10 +1231,10 @@
             "Flags": "Default"
           },
           "microblendContrast": 0.25,
-          "microblendNormalStrength": 0.970000029,
+          "microblendNormalStrength": 0.97,
           "microblendOffsetU": 0,
           "microblendOffsetV": 0,
-          "normalStrength": {
+          "normalStrength":{
             "$type": "CName",
             "$storage": "string",
             "$value": "f3d6fb"
