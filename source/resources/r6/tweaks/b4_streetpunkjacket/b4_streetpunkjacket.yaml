@@ -28,7 +28,7 @@ Items.b4_streetpunkjacket_logo$(variant):
   placementSlots:
     - !append OutfitSlots.Back
   entityName: b4_streetpunkjacket_logo_factory_name
-  appearanceName: b4_streetpunkjacket_logo!$(variant)
+  appearanceName: b4_streetpunkjacket_logo_!$(variant)
   displayName: b4_streetpunkjacket_logo_name
   localizedDescription: b4_streetpunkjacket_logo_desc
   tags:
