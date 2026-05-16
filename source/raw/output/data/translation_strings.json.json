@@ -1,9 +1,9 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.18.1-nightly.2026-05-05",
+    "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-11T03:18:40.4794124Z",
+    "ExportedDateTime": "2026-05-16T05:17:25.3957683Z",
     "DataType": "CR2W",
     "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\data\\translation_strings.json"
   },
@@ -20,15 +20,64 @@
           "entries": [
             {
               "$type": "localizationPersistenceOnScreenEntry",
-              "femaleVariant": "Luminescent Streetpunk Jacket",
+              "femaleVariant": "Classic Luminescent Streetpunk Jacket",
               "maleVariant": "",
               "primaryKey": "0",
-              "secondaryKey": "b4_streetpunkjacket_name"
+              "secondaryKey": "b4_streetpunkjacket_default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Bad Apple Luminescent Streetpunk Jacket",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "b4_streetpunkjacket_badapple"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Silver Samurai Luminescent Streetpunk Jacket",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "b4_streetpunkjacket_silversamurai"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Netwyrm Luminescent Streetpunk Jacket",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "b4_streetpunkjacket_netwyrm"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Holy Justice Luminescent Streetpunk Jacket",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "b4_streetpunkjacket_holypearl"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Bad Acid Luminescent Streetpunk Jacket",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "b4_streetpunkjacket_sulfuricpsycho"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Wearable Decal",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "b4_streetpunkjacket_logoname"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "For that extra kick",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "b4_streetpunkjacket_logo_desc"
             },
             {
               "$type": "localizationPersistenceOnScreenEntry",
               "femaleVariant": "Careful kid! You could put an eye out with that thing.",
-              "maleVariant": "\\",
+              "maleVariant": "",
               "primaryKey": "0",
               "secondaryKey": "b4_streetpunkjacket_localization_desc"
             }

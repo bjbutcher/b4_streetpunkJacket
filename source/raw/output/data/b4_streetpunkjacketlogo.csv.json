@@ -1,0 +1,33 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2310,
+    "ExportedDateTime": "2026-05-16T05:17:22.8578376Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\data\\b4_streetpunkjacketlogo.csv"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "C2dArray",
+      "compiledData": [
+        [
+          "b4_streetpunkjacket_logo_factory_name",
+          "output\\ents\\streetpunkjacket_logo_root_entity.ent",
+          "true"
+        ]
+      ],
+      "compiledHeaders": [
+        "name",
+        "path",
+        "preload"
+      ],
+      "cookingPlatform": "PLATFORM_PC",
+      "data": [],
+      "headers": []
+    },
+    "EmbeddedFiles": []
+  }
+}

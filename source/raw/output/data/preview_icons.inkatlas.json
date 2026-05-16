@@ -1,11 +1,11 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.13.0-nightly.2024-03-17",
-    "WKitJsonVersion": "0.0.8",
-    "GameVersion": 2120,
-    "ExportedDateTime": "2024-03-18T04:38:07.1672443Z",
+    "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2310,
+    "ExportedDateTime": "2026-05-16T05:17:25.3699310Z",
     "DataType": "CR2W",
-    "ArchiveFileName": ""
+    "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\data\\preview_icons.inkatlas"
   },
   "Data": {
     "Version": 195,
@@ -54,9 +54,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.0,
-                  "Right": 0.08333333333333333,
-                  "Top": 0.0
+                  "Left": 0,
+                  "Right": 0.0833333358,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -76,9 +76,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.08333333333333333,
-                  "Right": 0.16666666666666666,
-                  "Top": 0.0
+                  "Left": 0.0833333358,
+                  "Right": 0.166666672,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -98,9 +98,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.16666666666666666,
+                  "Left": 0.166666672,
                   "Right": 0.25,
-                  "Top": 0.0
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -121,8 +121,8 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.25,
-                  "Right": 0.3333333333333333,
-                  "Top": 0.0
+                  "Right": 0.333333343,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -142,9 +142,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.3333333333333333,
-                  "Right": 0.4166666666666667,
-                  "Top": 0.0
+                  "Left": 0.333333343,
+                  "Right": 0.416666657,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -164,9 +164,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.4166666666666667,
+                  "Left": 0.416666657,
                   "Right": 0.5,
-                  "Top": 0.0
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -187,8 +187,8 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.5,
-                  "Right": 0.5833333333333334,
-                  "Top": 0.0
+                  "Right": 0.583333313,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -208,9 +208,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.5833333333333334,
-                  "Right": 0.6666666666666666,
-                  "Top": 0.0
+                  "Left": 0.583333313,
+                  "Right": 0.666666687,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -230,9 +230,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.6666666666666666,
+                  "Left": 0.666666687,
                   "Right": 0.75,
-                  "Top": 0.0
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -253,8 +253,8 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.75,
-                  "Right": 0.8333333333333334,
-                  "Top": 0.0
+                  "Right": 0.833333313,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -274,9 +274,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.8333333333333334,
-                  "Right": 0.9166666666666666,
-                  "Top": 0.0
+                  "Left": 0.833333313,
+                  "Right": 0.916666687,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -296,9 +296,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.9166666666666666,
-                  "Right": 1.0,
-                  "Top": 0.0
+                  "Left": 0.916666687,
+                  "Right": 1,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -318,8 +318,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.0,
-                  "Right": 0.08333333333333333,
+                  "Left": 0,
+                  "Right": 0.0833333358,
                   "Top": 0.25
                 },
                 "partName": {
@@ -340,8 +340,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.08333333333333333,
-                  "Right": 0.16666666666666666,
+                  "Left": 0.0833333358,
+                  "Right": 0.166666672,
                   "Top": 0.25
                 },
                 "partName": {
@@ -362,7 +362,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.16666666666666666,
+                  "Left": 0.166666672,
                   "Right": 0.25,
                   "Top": 0.25
                 },
@@ -385,7 +385,7 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.25,
-                  "Right": 0.3333333333333333,
+                  "Right": 0.333333343,
                   "Top": 0.25
                 },
                 "partName": {
@@ -406,8 +406,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.3333333333333333,
-                  "Right": 0.4166666666666667,
+                  "Left": 0.333333343,
+                  "Right": 0.416666657,
                   "Top": 0.25
                 },
                 "partName": {
@@ -428,7 +428,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.4166666666666667,
+                  "Left": 0.416666657,
                   "Right": 0.5,
                   "Top": 0.25
                 },
@@ -451,7 +451,7 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.5,
-                  "Right": 0.5833333333333334,
+                  "Right": 0.583333313,
                   "Top": 0.25
                 },
                 "partName": {
@@ -472,8 +472,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.5833333333333334,
-                  "Right": 0.6666666666666666,
+                  "Left": 0.583333313,
+                  "Right": 0.666666687,
                   "Top": 0.25
                 },
                 "partName": {
@@ -494,7 +494,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.6666666666666666,
+                  "Left": 0.666666687,
                   "Right": 0.75,
                   "Top": 0.25
                 },
@@ -517,7 +517,7 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.75,
-                  "Right": 0.8333333333333334,
+                  "Right": 0.833333313,
                   "Top": 0.25
                 },
                 "partName": {
@@ -538,8 +538,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.8333333333333334,
-                  "Right": 0.9166666666666666,
+                  "Left": 0.833333313,
+                  "Right": 0.916666687,
                   "Top": 0.25
                 },
                 "partName": {
@@ -560,8 +560,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.9166666666666666,
-                  "Right": 1.0,
+                  "Left": 0.916666687,
+                  "Right": 1,
                   "Top": 0.25
                 },
                 "partName": {
@@ -582,8 +582,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.0,
-                  "Right": 0.08333333333333333,
+                  "Left": 0,
+                  "Right": 0.0833333358,
                   "Top": 0.5
                 },
                 "partName": {
@@ -604,8 +604,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.08333333333333333,
-                  "Right": 0.16666666666666666,
+                  "Left": 0.0833333358,
+                  "Right": 0.166666672,
                   "Top": 0.5
                 },
                 "partName": {
@@ -626,7 +626,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.16666666666666666,
+                  "Left": 0.166666672,
                   "Right": 0.25,
                   "Top": 0.5
                 },
@@ -649,7 +649,7 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.25,
-                  "Right": 0.3333333333333333,
+                  "Right": 0.333333343,
                   "Top": 0.5
                 },
                 "partName": {
@@ -670,8 +670,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.3333333333333333,
-                  "Right": 0.4166666666666667,
+                  "Left": 0.333333343,
+                  "Right": 0.416666657,
                   "Top": 0.5
                 },
                 "partName": {
@@ -692,7 +692,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.4166666666666667,
+                  "Left": 0.416666657,
                   "Right": 0.5,
                   "Top": 0.5
                 },
@@ -715,7 +715,7 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.5,
-                  "Right": 0.5833333333333334,
+                  "Right": 0.583333313,
                   "Top": 0.5
                 },
                 "partName": {
@@ -736,8 +736,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.5833333333333334,
-                  "Right": 0.6666666666666666,
+                  "Left": 0.583333313,
+                  "Right": 0.666666687,
                   "Top": 0.5
                 },
                 "partName": {
@@ -758,7 +758,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.6666666666666666,
+                  "Left": 0.666666687,
                   "Right": 0.75,
                   "Top": 0.5
                 },
@@ -781,7 +781,7 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.75,
-                  "Right": 0.8333333333333334,
+                  "Right": 0.833333313,
                   "Top": 0.5
                 },
                 "partName": {
@@ -802,8 +802,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.8333333333333334,
-                  "Right": 0.9166666666666666,
+                  "Left": 0.833333313,
+                  "Right": 0.916666687,
                   "Top": 0.5
                 },
                 "partName": {
@@ -824,8 +824,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.9166666666666666,
-                  "Right": 1.0,
+                  "Left": 0.916666687,
+                  "Right": 1,
                   "Top": 0.5
                 },
                 "partName": {
@@ -845,9 +845,9 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
-                  "Left": 0.0,
-                  "Right": 0.08333333333333333,
+                  "Bottom": 1,
+                  "Left": 0,
+                  "Right": 0.0833333358,
                   "Top": 0.75
                 },
                 "partName": {
@@ -867,9 +867,9 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
-                  "Left": 0.08333333333333333,
-                  "Right": 0.16666666666666666,
+                  "Bottom": 1,
+                  "Left": 0.0833333358,
+                  "Right": 0.166666672,
                   "Top": 0.75
                 },
                 "partName": {
@@ -889,8 +889,8 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
-                  "Left": 0.16666666666666666,
+                  "Bottom": 1,
+                  "Left": 0.166666672,
                   "Right": 0.25,
                   "Top": 0.75
                 },
@@ -911,9 +911,9 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
+                  "Bottom": 1,
                   "Left": 0.25,
-                  "Right": 0.3333333333333333,
+                  "Right": 0.333333343,
                   "Top": 0.75
                 },
                 "partName": {
@@ -933,9 +933,9 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
-                  "Left": 0.3333333333333333,
-                  "Right": 0.4166666666666667,
+                  "Bottom": 1,
+                  "Left": 0.333333343,
+                  "Right": 0.416666657,
                   "Top": 0.75
                 },
                 "partName": {
@@ -950,7 +950,7 @@
               "DepotPath": {
                 "$type": "ResourcePath",
                 "$storage": "string",
-                "$value": "\\output\\data\\preview_icons.xbm"
+                "$value": "output\\data\\preview_icons.xbm"
               },
               "Flags": "Soft"
             }
@@ -970,9 +970,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.0,
-                  "Right": 0.08333333333333333,
-                  "Top": 0.0
+                  "Left": 0,
+                  "Right": 0.0833333358,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -992,9 +992,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.08333333333333333,
-                  "Right": 0.16666666666666666,
-                  "Top": 0.0
+                  "Left": 0.0833333358,
+                  "Right": 0.166666672,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1014,9 +1014,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.16666666666666666,
+                  "Left": 0.166666672,
                   "Right": 0.25,
-                  "Top": 0.0
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1037,8 +1037,8 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.25,
-                  "Right": 0.3333333333333333,
-                  "Top": 0.0
+                  "Right": 0.333333343,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1058,9 +1058,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.3333333333333333,
-                  "Right": 0.4166666666666667,
-                  "Top": 0.0
+                  "Left": 0.333333343,
+                  "Right": 0.416666657,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1080,9 +1080,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.4166666666666667,
+                  "Left": 0.416666657,
                   "Right": 0.5,
-                  "Top": 0.0
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1103,8 +1103,8 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.5,
-                  "Right": 0.5833333333333334,
-                  "Top": 0.0
+                  "Right": 0.583333313,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1124,9 +1124,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.5833333333333334,
-                  "Right": 0.6666666666666666,
-                  "Top": 0.0
+                  "Left": 0.583333313,
+                  "Right": 0.666666687,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1146,9 +1146,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.6666666666666666,
+                  "Left": 0.666666687,
                   "Right": 0.75,
-                  "Top": 0.0
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1169,8 +1169,8 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.75,
-                  "Right": 0.8333333333333334,
-                  "Top": 0.0
+                  "Right": 0.833333313,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1190,9 +1190,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.8333333333333334,
-                  "Right": 0.9166666666666666,
-                  "Top": 0.0
+                  "Left": 0.833333313,
+                  "Right": 0.916666687,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1212,9 +1212,9 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.9166666666666666,
-                  "Right": 1.0,
-                  "Top": 0.0
+                  "Left": 0.916666687,
+                  "Right": 1,
+                  "Top": 0
                 },
                 "partName": {
                   "$type": "CName",
@@ -1234,8 +1234,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.0,
-                  "Right": 0.08333333333333333,
+                  "Left": 0,
+                  "Right": 0.0833333358,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1256,8 +1256,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.08333333333333333,
-                  "Right": 0.16666666666666666,
+                  "Left": 0.0833333358,
+                  "Right": 0.166666672,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1278,7 +1278,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.16666666666666666,
+                  "Left": 0.166666672,
                   "Right": 0.25,
                   "Top": 0.25
                 },
@@ -1301,7 +1301,7 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.25,
-                  "Right": 0.3333333333333333,
+                  "Right": 0.333333343,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1322,8 +1322,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.3333333333333333,
-                  "Right": 0.4166666666666667,
+                  "Left": 0.333333343,
+                  "Right": 0.416666657,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1344,7 +1344,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.4166666666666667,
+                  "Left": 0.416666657,
                   "Right": 0.5,
                   "Top": 0.25
                 },
@@ -1367,7 +1367,7 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.5,
-                  "Right": 0.5833333333333334,
+                  "Right": 0.583333313,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1388,8 +1388,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.5833333333333334,
-                  "Right": 0.6666666666666666,
+                  "Left": 0.583333313,
+                  "Right": 0.666666687,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1410,7 +1410,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.6666666666666666,
+                  "Left": 0.666666687,
                   "Right": 0.75,
                   "Top": 0.25
                 },
@@ -1433,7 +1433,7 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.75,
-                  "Right": 0.8333333333333334,
+                  "Right": 0.833333313,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1454,8 +1454,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.8333333333333334,
-                  "Right": 0.9166666666666666,
+                  "Left": 0.833333313,
+                  "Right": 0.916666687,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1476,8 +1476,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.9166666666666666,
-                  "Right": 1.0,
+                  "Left": 0.916666687,
+                  "Right": 1,
                   "Top": 0.25
                 },
                 "partName": {
@@ -1498,8 +1498,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.0,
-                  "Right": 0.08333333333333333,
+                  "Left": 0,
+                  "Right": 0.0833333358,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1520,8 +1520,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.08333333333333333,
-                  "Right": 0.16666666666666666,
+                  "Left": 0.0833333358,
+                  "Right": 0.166666672,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1542,7 +1542,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.16666666666666666,
+                  "Left": 0.166666672,
                   "Right": 0.25,
                   "Top": 0.5
                 },
@@ -1565,7 +1565,7 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.25,
-                  "Right": 0.3333333333333333,
+                  "Right": 0.333333343,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1586,8 +1586,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.3333333333333333,
-                  "Right": 0.4166666666666667,
+                  "Left": 0.333333343,
+                  "Right": 0.416666657,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1608,7 +1608,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.4166666666666667,
+                  "Left": 0.416666657,
                   "Right": 0.5,
                   "Top": 0.5
                 },
@@ -1631,7 +1631,7 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.5,
-                  "Right": 0.5833333333333334,
+                  "Right": 0.583333313,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1652,8 +1652,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.5833333333333334,
-                  "Right": 0.6666666666666666,
+                  "Left": 0.583333313,
+                  "Right": 0.666666687,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1674,7 +1674,7 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.6666666666666666,
+                  "Left": 0.666666687,
                   "Right": 0.75,
                   "Top": 0.5
                 },
@@ -1697,7 +1697,7 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.75,
-                  "Right": 0.8333333333333334,
+                  "Right": 0.833333313,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1718,8 +1718,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.8333333333333334,
-                  "Right": 0.9166666666666666,
+                  "Left": 0.833333313,
+                  "Right": 0.916666687,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1740,8 +1740,8 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.9166666666666666,
-                  "Right": 1.0,
+                  "Left": 0.916666687,
+                  "Right": 1,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1761,9 +1761,9 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
-                  "Left": 0.0,
-                  "Right": 0.08333333333333333,
+                  "Bottom": 1,
+                  "Left": 0,
+                  "Right": 0.0833333358,
                   "Top": 0.75
                 },
                 "partName": {
@@ -1783,9 +1783,9 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
-                  "Left": 0.08333333333333333,
-                  "Right": 0.16666666666666666,
+                  "Bottom": 1,
+                  "Left": 0.0833333358,
+                  "Right": 0.166666672,
                   "Top": 0.75
                 },
                 "partName": {
@@ -1805,8 +1805,8 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
-                  "Left": 0.16666666666666666,
+                  "Bottom": 1,
+                  "Left": 0.166666672,
                   "Right": 0.25,
                   "Top": 0.75
                 },
@@ -1827,9 +1827,9 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
+                  "Bottom": 1,
                   "Left": 0.25,
-                  "Right": 0.3333333333333333,
+                  "Right": 0.333333343,
                   "Top": 0.75
                 },
                 "partName": {
@@ -1849,9 +1849,9 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1.0,
-                  "Left": 0.3333333333333333,
-                  "Right": 0.4166666666666667,
+                  "Bottom": 1,
+                  "Left": 0.333333343,
+                  "Right": 0.416666657,
                   "Top": 0.75
                 },
                 "partName": {
@@ -1866,7 +1866,20 @@
               "DepotPath": {
                 "$type": "ResourcePath",
                 "$storage": "string",
-                "$value": "\\output\\data\\preview_icons_1080.xbm"
+                "$value": "output\\data\\preview_icons_1080.xbm"
+              },
+              "Flags": "Soft"
+            }
+          },
+          {
+            "$type": "inkTextureSlot",
+            "parts": [],
+            "slices": [],
+            "texture": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "uint64",
+                "$value": "0"
               },
               "Flags": "Soft"
             }
@@ -1877,7 +1890,7 @@
         "DepotPath": {
           "$type": "ResourcePath",
           "$storage": "string",
-          "$value": ""
+          "$value": "none"
         },
         "Flags": "Default"
       },
