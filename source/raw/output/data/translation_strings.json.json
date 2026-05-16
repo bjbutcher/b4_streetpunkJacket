@@ -3,7 +3,7 @@
     "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-16T05:17:25.3957683Z",
+    "ExportedDateTime": "2026-05-16T17:44:21.4479339Z",
     "DataType": "CR2W",
     "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\data\\translation_strings.json"
   },
@@ -65,7 +65,7 @@
               "femaleVariant": "Wearable Decal",
               "maleVariant": "",
               "primaryKey": "0",
-              "secondaryKey": "b4_streetpunkjacket_logoname"
+              "secondaryKey": "b4_streetpunkjacket_logo_name"
             },
             {
               "$type": "localizationPersistenceOnScreenEntry",
@@ -79,7 +79,7 @@
               "femaleVariant": "Careful kid! You could put an eye out with that thing.",
               "maleVariant": "",
               "primaryKey": "0",
-              "secondaryKey": "b4_streetpunkjacket_localization_desc"
+              "secondaryKey": "b4_streetpunkjacket_desc"
             }
           ]
         }

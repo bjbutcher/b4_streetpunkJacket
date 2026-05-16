@@ -3,7 +3,7 @@
     "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-16T05:17:28.0110588Z",
+    "ExportedDateTime": "2026-05-16T17:44:24.4191785Z",
     "DataType": "CR2W",
     "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\ents\\b4_streetpunkjacket_logo.ent"
   },
@@ -25,7 +25,8 @@
           "CruidIndex": 0,
           "CruidDict": {
             "0": "0",
-            "1": "7957981733618158796"
+            "1": "7957981733618158796",
+            "2": "2363635079519318016"
           },
           "Chunks": [
             {
@@ -82,12 +83,12 @@
               "meshAppearance": {
                 "$type": "CName",
                 "$storage": "string",
-                "$value": "*{variant.1}"
+                "$value": "*{variant}"
               },
               "name": {
                 "$type": "CName",
                 "$storage": "string",
-                "$value": "t2_b4_streetpunkJacket_logo"
+                "$value": "t2_b4_streetpunkjacket_logo"
               },
               "navigationImpact": {
                 "$type": "NavGenNavigationSetting",
@@ -180,6 +181,21 @@
                 "$storage": "string",
                 "$value": "None"
               }
+            },
+            {
+              "$type": "entExternalComponent",
+              "externalComponentName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "root"
+              },
+              "id": "2363635079519318016",
+              "isReplicable": 0,
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "Component"
+              }
             }
           ]
         }
@@ -236,12 +252,12 @@
           "meshAppearance": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "*{variant.1}"
+            "$value": "*{variant}"
           },
           "name": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "t2_b4_streetpunkJacket_logo"
+            "$value": "t2_b4_streetpunkjacket_logo"
           },
           "navigationImpact": {
             "$type": "NavGenNavigationSetting",
@@ -268,6 +284,21 @@
             "$type": "CName",
             "$storage": "string",
             "$value": "None"
+          }
+        },
+        {
+          "$type": "entExternalComponent",
+          "externalComponentName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "root"
+          },
+          "id": "2363635079519318016",
+          "isReplicable": 0,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "Component"
           }
         }
       ],

@@ -1,9 +1,9 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.18.1-nightly.2026-05-05",
+    "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-11T03:19:07.0947273Z",
+    "ExportedDateTime": "2026-05-16T17:45:27.8783358Z",
     "DataType": "CR2W",
     "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\materials\\silkscreen\\glosilk_cyan.mi"
   },
@@ -35,35 +35,171 @@
           "EmissiveColor": {
             "$type": "Color",
             "Alpha": 255,
-            "Blue": 252,
-            "Green": 9,
-            "Red": 29
+            "Blue": 254,
+            "Green": 195,
+            "Red": 3
+          }
+        },
+        {
+          "$type": "rRef:ITexture",
+          "ParalaxTexture": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\fx\\_textures\\masks\\patterns\\fx_server_scrolling_text.xbm"
+            },
+            "Flags": "Default"
           }
         },
         {
           "$type": "Float",
-          "EmissiveEV": 10
+          "Emissive": 30
         },
         {
           "$type": "rRef:ITexture",
-          "Normal": {
+          "ScrollMaskTexture": {
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\characters\\garment\\player_equipment\\torso\\t2_140_jacket__leather\\textures\\t2_140_pwa_jacket__leather_n01.xbm"
+              "$value": "base\\fx\\_textures\\masks\\fx_server_neomilitarism_mask.xbm"
             },
             "Flags": "Default"
           }
         },
         {
-          "$type": "rRef:ITexture",
-          "BaseColor": {
-            "DepotPath": {
-              "$type": "ResourcePath",
-              "$storage": "string",
-              "$value": "base\\characters\\common\\character_customisation_items\\cyberware\\body\\woman_average\\fashionware\\textures\\t0_009_body__fashionware_d01.xbm"
-            },
-            "Flags": "Default"
+          "$type": "Float",
+          "ScrollVerticalOrHorizontal": 0
+        },
+        {
+          "$type": "Float",
+          "TextureOffsetY": -0.955555975
+        },
+        {
+          "$type": "Float",
+          "TilesWidth": 1
+        },
+        {
+          "$type": "Float",
+          "TilesHeight": 1
+        },
+        {
+          "$type": "Float",
+          "TextureOffsetX": 0
+        },
+        {
+          "$type": "Float",
+          "ScrollMaskHeight1": 1
+        },
+        {
+          "$type": "Float",
+          "SeparateLayersFromTexture": 0
+        },
+        {
+          "$type": "Float",
+          "AdditiveOrAlphaBlened": 0
+        },
+        {
+          "$type": "Float",
+          "ScrollSpeed1": 0.100000001
+        },
+        {
+          "$type": "Float",
+          "ScrollSpeed2": 0.150000006
+        },
+        {
+          "$type": "Float",
+          "ScrollMaskStartPoint2": 0
+        },
+        {
+          "$type": "Float",
+          "ScrollStepFactor1": 400
+        },
+        {
+          "$type": "Float",
+          "ScrollStepFactor2": 200
+        },
+        {
+          "$type": "Float",
+          "ScrollMaskHeight2": 1
+        },
+        {
+          "$type": "Float",
+          "NoPostORPost": 0
+        },
+        {
+          "$type": "Float",
+          "ScrollMaskStartPoint1": 0.0844440013
+        },
+        {
+          "$type": "Float",
+          "AdditiveAlphaBlend": 0
+        },
+        {
+          "$type": "Vector4",
+          "TexHSVControl": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0,
+            "Y": 1,
+            "Z": 1
+          }
+        },
+        {
+          "$type": "Vector4",
+          "ImageScale": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 1,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "$type": "Float",
+          "PlaySpeed": 0
+        },
+        {
+          "$type": "Float",
+          "InterlaceLines": 0
+        },
+        {
+          "$type": "Float",
+          "LayersSeparation": 0.0199999996
+        },
+        {
+          "$type": "Vector4",
+          "IntensityPerLayer": {
+            "$type": "Vector4",
+            "W": 0.0500000007,
+            "X": 1,
+            "Y": 0.349999994,
+            "Z": 0.119999997
+          }
+        },
+        {
+          "$type": "Float",
+          "ScanlinesDensity": 125
+        },
+        {
+          "$type": "Float",
+          "ScanlinesIntensity": 0
+        },
+        {
+          "$type": "Float",
+          "EdgesMask": 0
+        },
+        {
+          "$type": "Float",
+          "ClampUV": 1
+        },
+        {
+          "$type": "Vector4",
+          "LayersScrollSpeed": {
+            "$type": "Vector4",
+            "W": 0,
+            "X": 0,
+            "Y": 0,
+            "Z": 0
           }
         },
         {
@@ -71,40 +207,9 @@
           "BaseColorScale": {
             "$type": "Color",
             "Alpha": 255,
-            "Blue": 250,
+            "Blue": 255,
             "Green": 0,
-            "Red": 246
-          }
-        },
-        {
-          "$type": "Float",
-          "AlphaThreshold": 0.0862620026
-        },
-        {
-          "$type": "Float",
-          "HistogramRange": 0.169329002
-        },
-        {
-          "$type": "Float",
-          "ScrollSpeed": 0.323002994
-        },
-        {
-          "$type": "Float",
-          "Looped": 1
-        },
-        {
-          "$type": "Float",
-          "EmissiveTile": 15
-        },
-        {
-          "$type": "rRef:ITexture",
-          "EmissiveMask": {
-            "DepotPath": {
-              "$type": "ResourcePath",
-              "$storage": "string",
-              "$value": "base\\fx\\_textures\\masks\\patterns\\fx_server_scrolling_text.xbm"
-            },
-            "Flags": "Default"
+            "Red": 0
           }
         }
       ]

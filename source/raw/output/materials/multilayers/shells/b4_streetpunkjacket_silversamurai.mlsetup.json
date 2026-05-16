@@ -3,7 +3,7 @@
     "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-15T19:04:57.2578020Z",
+    "ExportedDateTime": "2026-05-16T17:45:23.3751745Z",
     "DataType": "CR2W",
     "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\materials\\multilayers\\shells\\b4_streetpunkjacket_silversamurai.mlsetup"
   },
@@ -19,7 +19,7 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "c2162c_null"
+            "$value": "cf0c02_a1b637"
           },
           "material": {
             "DepotPath": {
@@ -1101,7 +1101,7 @@
             "Flags": "Default"
           },
           "matTile": 1.10000002,
-          "mbTile": 1.10000002,
+          "mbTile": 5,
           "metalLevelsIn": {
             "$type": "CName",
             "$storage": "string",
@@ -1116,7 +1116,7 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\microblends\\grunge_graffiti_01_100.xbm"
+              "$value": "base\\surfaces\\microblends\\pattern_camo5.xbm"
             },
             "Flags": "Default"
           },
@@ -1179,7 +1179,7 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\microblends\\grunge_graffiti_01_100.xbm"
+              "$value": "base\\surfaces\\microblends\\pattern_camo5.xbm"
             },
             "Flags": "Default"
           },

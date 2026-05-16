@@ -3,7 +3,7 @@
     "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-15T18:21:29.1566204Z",
+    "ExportedDateTime": "2026-05-16T17:45:23.2253615Z",
     "DataType": "CR2W",
     "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\materials\\multilayers\\shells\\b4_streetpunkjacket_netwyrm.mlsetup"
   },
@@ -523,7 +523,7 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "3861be_null"
+            "$value": "305986_a1b637"
           },
           "material": {
             "DepotPath": {
@@ -586,7 +586,7 @@
           "colorScale": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "94b73b_null"
+            "$value": "3861be_null"
           },
           "material": {
             "DepotPath": {

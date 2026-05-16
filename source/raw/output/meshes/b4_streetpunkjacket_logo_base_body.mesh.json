@@ -1,9 +1,9 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.18.1-nightly.2026-05-05",
+    "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-11T03:19:08.3619733Z",
+    "ExportedDateTime": "2026-05-16T17:45:53.2806625Z",
     "DataType": "CR2W",
     "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\meshes\\b4_streetpunkjacket_logo_base_body.mesh"
   },
@@ -21,13 +21,13 @@
               {
                 "$type": "CName",
                 "$storage": "string",
-                "$value": "b4Logo"
+                "$value": "default"
               }
             ],
             "name": {
               "$type": "CName",
               "$storage": "string",
-              "$value": "b4Logo"
+              "$value": "default"
             },
             "tags": []
           }
@@ -40,13 +40,13 @@
               {
                 "$type": "CName",
                 "$storage": "string",
-                "$value": "electricOni"
+                "$value": "variant1"
               }
             ],
             "name": {
               "$type": "CName",
               "$storage": "string",
-              "$value": "electricOni"
+              "$value": "variant1"
             },
             "tags": []
           }
@@ -59,13 +59,13 @@
               {
                 "$type": "CName",
                 "$storage": "string",
-                "$value": "powerSkull"
+                "$value": "variant2"
               }
             ],
             "name": {
               "$type": "CName",
               "$storage": "string",
-              "$value": "powerSkull"
+              "$value": "variant2"
             },
             "tags": []
           }
@@ -3268,7 +3268,7 @@
                   "DepotPath": {
                     "$type": "ResourcePath",
                     "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\electriconi_d01jacketsize.xbm"
+                    "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
                   },
                   "Flags": "Default"
                 }
@@ -3283,7 +3283,197 @@
                   "DepotPath": {
                     "$type": "ResourcePath",
                     "$storage": "string",
-                    "$value": "output\\materials\\normals\\electriconi_n01jacketsize.xbm"
+                    "$value": "output\\materials\\logos\\normals\\b4logo_n01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "NormalAlpha": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "RoughnessTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "MetalnessTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\black.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "RoughnessMetalnessAlpha": 0.699999988
+              },
+              {
+                "$type": "Color",
+                "DiffuseColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 255,
+                  "Green": 255,
+                  "Red": 255
+                }
+              },
+              {
+                "$type": "Float",
+                "UVOffsetX": 0
+              },
+              {
+                "$type": "Float",
+                "UVOffsetY": 0
+              },
+              {
+                "$type": "Float",
+                "UVRotation": 0
+              },
+              {
+                "$type": "rRef:ITexture",
+                "SecondaryMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "SecondaryMaskUVScale": 1
+              },
+              {
+                "$type": "Float",
+                "SecondaryMaskInfluence": 0
+              },
+              {
+                "$type": "rRef:ITexture",
+                "NormalAlphaTex": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "NormalsBlendingMode": 1
+              },
+              {
+                "$type": "Float",
+                "AlphaMaskContrast": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationSpeed": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationFramesWidth": 1
+              },
+              {
+                "$type": "Float",
+                "AnimationFramesHeight": 1
+              },
+              {
+                "$type": "Float",
+                "DepthThreshold": 0.5
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 217,
+                  "Green": 187,
+                  "Red": 180
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 0.800000012
+              },
+              {
+                "$type": "rRef:ITexture",
+                "BaseColor": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\mesh_decal_emissive.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "DiffuseTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\logos\\diffuse\\electriconi_d01jacketsize.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "DiffuseAlpha": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "NormalTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "output\\materials\\logos\\normals\\electriconi_n01jacketsize.xbm"
                   },
                   "Flags": "Default"
                 }
@@ -3346,7 +3536,7 @@
                   "DepotPath": {
                     "$type": "ResourcePath",
                     "$storage": "string",
-                    "$value": "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_r01.xbm"
+                    "$value": "output\\materials\\logos\\diffuse\\electriconi_d01jacketsize.xbm"
                   },
                   "Flags": "Default"
                 }
@@ -3425,7 +3615,7 @@
                   "DepotPath": {
                     "$type": "ResourcePath",
                     "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\electriconi_d01jacketsize.xbm"
+                    "$value": "output\\materials\\logos\\diffuse\\electriconi_d01jacketsize.xbm"
                   },
                   "Flags": "Default"
                 }
@@ -3458,7 +3648,7 @@
                   "DepotPath": {
                     "$type": "ResourcePath",
                     "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                    "$value": "output\\materials\\logos\\diffuse\\powerskull_d01jacketsize.xbm"
                   },
                   "Flags": "Default"
                 }
@@ -3473,7 +3663,7 @@
                   "DepotPath": {
                     "$type": "ResourcePath",
                     "$storage": "string",
-                    "$value": "output\\materials\\normals\\powerskull_n01jacketsize.xbm"
+                    "$value": "output\\materials\\logos\\normals\\powerskull_n01jacketsize.xbm"
                   },
                   "Flags": "Default"
                 }
@@ -3488,7 +3678,7 @@
                   "DepotPath": {
                     "$type": "ResourcePath",
                     "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                    "$value": "output\\materials\\logos\\diffuse\\powerskull_d01jacketsize.xbm"
                   },
                   "Flags": "Default"
                 }
@@ -3535,7 +3725,7 @@
                   "DepotPath": {
                     "$type": "ResourcePath",
                     "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                    "$value": "output\\materials\\logos\\diffuse\\powerskull_d01jacketsize.xbm"
                   },
                   "Flags": "Default"
                 }
@@ -3543,196 +3733,6 @@
               {
                 "$type": "Float",
                 "EmissiveEV": 0.5
-              }
-            ]
-          },
-          {
-            "$type": "CMaterialInstance",
-            "audioTag": {
-              "$type": "CName",
-              "$storage": "string",
-              "$value": "None"
-            },
-            "baseMaterial": {
-              "DepotPath": {
-                "$type": "ResourcePath",
-                "$storage": "string",
-                "$value": "base\\materials\\mesh_decal_emissive.mt"
-              },
-              "Flags": "Default"
-            },
-            "cookingPlatform": "PLATFORM_None",
-            "enableMask": 0,
-            "metadata": null,
-            "resourceVersion": 4,
-            "values": [
-              {
-                "$type": "rRef:ITexture",
-                "DiffuseTexture": {
-                  "DepotPath": {
-                    "$type": "ResourcePath",
-                    "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                  },
-                  "Flags": "Default"
-                }
-              },
-              {
-                "$type": "Float",
-                "DiffuseAlpha": 1
-              },
-              {
-                "$type": "rRef:ITexture",
-                "NormalTexture": {
-                  "DepotPath": {
-                    "$type": "ResourcePath",
-                    "$storage": "string",
-                    "$value": "output\\materials\\normals\\b4logo_n01jacketsize.xbm"
-                  },
-                  "Flags": "Default"
-                }
-              },
-              {
-                "$type": "Float",
-                "NormalAlpha": 1
-              },
-              {
-                "$type": "rRef:ITexture",
-                "RoughnessTexture": {
-                  "DepotPath": {
-                    "$type": "ResourcePath",
-                    "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                  },
-                  "Flags": "Default"
-                }
-              },
-              {
-                "$type": "rRef:ITexture",
-                "MetalnessTexture": {
-                  "DepotPath": {
-                    "$type": "ResourcePath",
-                    "$storage": "string",
-                    "$value": "engine\\textures\\editor\\black.xbm"
-                  },
-                  "Flags": "Default"
-                }
-              },
-              {
-                "$type": "Float",
-                "RoughnessMetalnessAlpha": 0.699999988
-              },
-              {
-                "$type": "Color",
-                "DiffuseColor": {
-                  "$type": "Color",
-                  "Alpha": 255,
-                  "Blue": 255,
-                  "Green": 255,
-                  "Red": 255
-                }
-              },
-              {
-                "$type": "Float",
-                "UVOffsetX": 0
-              },
-              {
-                "$type": "Float",
-                "UVOffsetY": 0
-              },
-              {
-                "$type": "Float",
-                "UVRotation": 0
-              },
-              {
-                "$type": "rRef:ITexture",
-                "SecondaryMask": {
-                  "DepotPath": {
-                    "$type": "ResourcePath",
-                    "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                  },
-                  "Flags": "Default"
-                }
-              },
-              {
-                "$type": "Float",
-                "SecondaryMaskUVScale": 1
-              },
-              {
-                "$type": "Float",
-                "SecondaryMaskInfluence": 0
-              },
-              {
-                "$type": "rRef:ITexture",
-                "NormalAlphaTex": {
-                  "DepotPath": {
-                    "$type": "ResourcePath",
-                    "$storage": "string",
-                    "$value": "engine\\textures\\editor\\white.xbm"
-                  },
-                  "Flags": "Default"
-                }
-              },
-              {
-                "$type": "Float",
-                "NormalsBlendingMode": 1
-              },
-              {
-                "$type": "Float",
-                "AlphaMaskContrast": 1
-              },
-              {
-                "$type": "Float",
-                "AnimationSpeed": 1
-              },
-              {
-                "$type": "Float",
-                "AnimationFramesWidth": 1
-              },
-              {
-                "$type": "Float",
-                "AnimationFramesHeight": 1
-              },
-              {
-                "$type": "Float",
-                "DepthThreshold": 0.5
-              },
-              {
-                "$type": "Color",
-                "EmissiveColor": {
-                  "$type": "Color",
-                  "Alpha": 255,
-                  "Blue": 217,
-                  "Green": 187,
-                  "Red": 180
-                }
-              },
-              {
-                "$type": "rRef:ITexture",
-                "Emissive": {
-                  "DepotPath": {
-                    "$type": "ResourcePath",
-                    "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                  },
-                  "Flags": "Default"
-                }
-              },
-              {
-                "$type": "Float",
-                "EmissiveEV": 0.800000012
-              },
-              {
-                "$type": "rRef:ITexture",
-                "BaseColor": {
-                  "DepotPath": {
-                    "$type": "ResourcePath",
-                    "$storage": "string",
-                    "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                  },
-                  "Flags": "Default"
-                }
               }
             ]
           }
@@ -3772,7 +3772,7 @@
                         "DepotPath": {
                           "$type": "ResourcePath",
                           "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\electriconi_d01jacketsize.xbm"
+                          "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
                         },
                         "Flags": "Default"
                       }
@@ -3787,7 +3787,202 @@
                         "DepotPath": {
                           "$type": "ResourcePath",
                           "$storage": "string",
-                          "$value": "output\\materials\\normals\\electriconi_n01jacketsize.xbm"
+                          "$value": "output\\materials\\logos\\normals\\b4logo_n01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "NormalAlpha": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "RoughnessTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "MetalnessTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\black.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "RoughnessMetalnessAlpha": 0.699999988
+                    },
+                    {
+                      "$type": "Color",
+                      "DiffuseColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 255,
+                        "Green": 255,
+                        "Red": 255
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "UVOffsetX": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "UVOffsetY": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "UVRotation": 0
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "SecondaryMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "SecondaryMaskUVScale": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "SecondaryMaskInfluence": 0
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "NormalAlphaTex": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "NormalsBlendingMode": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AlphaMaskContrast": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationSpeed": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationFramesWidth": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "AnimationFramesHeight": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "DepthThreshold": 0.5
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 217,
+                        "Green": 187,
+                        "Red": 180
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 0.800000012
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "BaseColor": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\logos\\diffuse\\b4logo_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\mesh_decal_emissive.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "DiffuseTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\logos\\diffuse\\electriconi_d01jacketsize.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "DiffuseAlpha": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "NormalTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "output\\materials\\logos\\normals\\electriconi_n01jacketsize.xbm"
                         },
                         "Flags": "Default"
                       }
@@ -3850,7 +4045,7 @@
                         "DepotPath": {
                           "$type": "ResourcePath",
                           "$storage": "string",
-                          "$value": "base\\characters\\main_npc\\silverhand\\textures\\samurai_logo_r01.xbm"
+                          "$value": "output\\materials\\logos\\diffuse\\electriconi_d01jacketsize.xbm"
                         },
                         "Flags": "Default"
                       }
@@ -3929,7 +4124,7 @@
                         "DepotPath": {
                           "$type": "ResourcePath",
                           "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\electriconi_d01jacketsize.xbm"
+                          "$value": "output\\materials\\logos\\diffuse\\electriconi_d01jacketsize.xbm"
                         },
                         "Flags": "Default"
                       }
@@ -3967,7 +4162,7 @@
                         "DepotPath": {
                           "$type": "ResourcePath",
                           "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                          "$value": "output\\materials\\logos\\diffuse\\powerskull_d01jacketsize.xbm"
                         },
                         "Flags": "Default"
                       }
@@ -3982,7 +4177,7 @@
                         "DepotPath": {
                           "$type": "ResourcePath",
                           "$storage": "string",
-                          "$value": "output\\materials\\normals\\powerskull_n01jacketsize.xbm"
+                          "$value": "output\\materials\\logos\\normals\\powerskull_n01jacketsize.xbm"
                         },
                         "Flags": "Default"
                       }
@@ -3997,7 +4192,7 @@
                         "DepotPath": {
                           "$type": "ResourcePath",
                           "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                          "$value": "output\\materials\\logos\\diffuse\\powerskull_d01jacketsize.xbm"
                         },
                         "Flags": "Default"
                       }
@@ -4044,7 +4239,7 @@
                         "DepotPath": {
                           "$type": "ResourcePath",
                           "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\powerskull_d01jacketsize.xbm"
+                          "$value": "output\\materials\\logos\\diffuse\\powerskull_d01jacketsize.xbm"
                         },
                         "Flags": "Default"
                       }
@@ -4052,201 +4247,6 @@
                     {
                       "$type": "Float",
                       "EmissiveEV": 0.5
-                    }
-                  ]
-                },
-                "EmbeddedFiles": []
-              },
-              {
-                "Version": 195,
-                "BuildVersion": 0,
-                "RootChunk": {
-                  "$type": "CMaterialInstance",
-                  "audioTag": {
-                    "$type": "CName",
-                    "$storage": "string",
-                    "$value": "None"
-                  },
-                  "baseMaterial": {
-                    "DepotPath": {
-                      "$type": "ResourcePath",
-                      "$storage": "string",
-                      "$value": "base\\materials\\mesh_decal_emissive.mt"
-                    },
-                    "Flags": "Default"
-                  },
-                  "cookingPlatform": "PLATFORM_None",
-                  "enableMask": 0,
-                  "metadata": null,
-                  "resourceVersion": 4,
-                  "values": [
-                    {
-                      "$type": "rRef:ITexture",
-                      "DiffuseTexture": {
-                        "DepotPath": {
-                          "$type": "ResourcePath",
-                          "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                        },
-                        "Flags": "Default"
-                      }
-                    },
-                    {
-                      "$type": "Float",
-                      "DiffuseAlpha": 1
-                    },
-                    {
-                      "$type": "rRef:ITexture",
-                      "NormalTexture": {
-                        "DepotPath": {
-                          "$type": "ResourcePath",
-                          "$storage": "string",
-                          "$value": "output\\materials\\normals\\b4logo_n01jacketsize.xbm"
-                        },
-                        "Flags": "Default"
-                      }
-                    },
-                    {
-                      "$type": "Float",
-                      "NormalAlpha": 1
-                    },
-                    {
-                      "$type": "rRef:ITexture",
-                      "RoughnessTexture": {
-                        "DepotPath": {
-                          "$type": "ResourcePath",
-                          "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                        },
-                        "Flags": "Default"
-                      }
-                    },
-                    {
-                      "$type": "rRef:ITexture",
-                      "MetalnessTexture": {
-                        "DepotPath": {
-                          "$type": "ResourcePath",
-                          "$storage": "string",
-                          "$value": "engine\\textures\\editor\\black.xbm"
-                        },
-                        "Flags": "Default"
-                      }
-                    },
-                    {
-                      "$type": "Float",
-                      "RoughnessMetalnessAlpha": 0.699999988
-                    },
-                    {
-                      "$type": "Color",
-                      "DiffuseColor": {
-                        "$type": "Color",
-                        "Alpha": 255,
-                        "Blue": 255,
-                        "Green": 255,
-                        "Red": 255
-                      }
-                    },
-                    {
-                      "$type": "Float",
-                      "UVOffsetX": 0
-                    },
-                    {
-                      "$type": "Float",
-                      "UVOffsetY": 0
-                    },
-                    {
-                      "$type": "Float",
-                      "UVRotation": 0
-                    },
-                    {
-                      "$type": "rRef:ITexture",
-                      "SecondaryMask": {
-                        "DepotPath": {
-                          "$type": "ResourcePath",
-                          "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                        },
-                        "Flags": "Default"
-                      }
-                    },
-                    {
-                      "$type": "Float",
-                      "SecondaryMaskUVScale": 1
-                    },
-                    {
-                      "$type": "Float",
-                      "SecondaryMaskInfluence": 0
-                    },
-                    {
-                      "$type": "rRef:ITexture",
-                      "NormalAlphaTex": {
-                        "DepotPath": {
-                          "$type": "ResourcePath",
-                          "$storage": "string",
-                          "$value": "engine\\textures\\editor\\white.xbm"
-                        },
-                        "Flags": "Default"
-                      }
-                    },
-                    {
-                      "$type": "Float",
-                      "NormalsBlendingMode": 1
-                    },
-                    {
-                      "$type": "Float",
-                      "AlphaMaskContrast": 1
-                    },
-                    {
-                      "$type": "Float",
-                      "AnimationSpeed": 1
-                    },
-                    {
-                      "$type": "Float",
-                      "AnimationFramesWidth": 1
-                    },
-                    {
-                      "$type": "Float",
-                      "AnimationFramesHeight": 1
-                    },
-                    {
-                      "$type": "Float",
-                      "DepthThreshold": 0.5
-                    },
-                    {
-                      "$type": "Color",
-                      "EmissiveColor": {
-                        "$type": "Color",
-                        "Alpha": 255,
-                        "Blue": 217,
-                        "Green": 187,
-                        "Red": 180
-                      }
-                    },
-                    {
-                      "$type": "rRef:ITexture",
-                      "Emissive": {
-                        "DepotPath": {
-                          "$type": "ResourcePath",
-                          "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                        },
-                        "Flags": "Default"
-                      }
-                    },
-                    {
-                      "$type": "Float",
-                      "EmissiveEV": 0.800000012
-                    },
-                    {
-                      "$type": "rRef:ITexture",
-                      "BaseColor": {
-                        "DepotPath": {
-                          "$type": "ResourcePath",
-                          "$storage": "string",
-                          "$value": "output\\materials\\diffuse\\b4logo_d01jacketsize.xbm"
-                        },
-                        "Flags": "Default"
-                      }
                     }
                   ]
                 },
@@ -4259,17 +4259,17 @@
           {
             "$type": "meshLocalMaterialHeader",
             "offset": 0,
-            "size": 1712
+            "size": 1640
           },
           {
             "$type": "meshLocalMaterialHeader",
-            "offset": 1712,
-            "size": 1130
+            "offset": 1640,
+            "size": 1724
           },
           {
             "$type": "meshLocalMaterialHeader",
-            "offset": 2842,
-            "size": 1628
+            "offset": 3364,
+            "size": 1142
           }
         ]
       },
@@ -4286,7 +4286,7 @@
           "name": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "electricOni"
+            "$value": "default"
           }
         },
         {
@@ -4296,7 +4296,7 @@
           "name": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "powerSkull"
+            "$value": "variant1"
           }
         },
         {
@@ -4306,7 +4306,7 @@
           "name": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "b4Logo"
+            "$value": "variant2"
           }
         }
       ],
