@@ -5,7 +5,6 @@
   <Author>bafflinbill</Author>
   <Email />
   <Version>1.8</Version>
-  <OpenProjectFiles>output\apps\b4_streetpunkjacket_logo.app</OpenProjectFiles>
-  <OpenProjectFiles>output\ents\b4_streetpunkjacket_logo.ent</OpenProjectFiles>
-  <OpenProjectFiles>output\ents\streetpunkjacket_logo_root_entity.ent</OpenProjectFiles>
+  <OpenProjectFiles>output\meshes\b4_streetpunkjacket_logo_base_body.mesh</OpenProjectFiles>
+  <OpenProjectFiles>output\data\preview_icons.inkatlas</OpenProjectFiles>
 </CP77Mod>

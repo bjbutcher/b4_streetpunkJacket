@@ -1,11 +1,11 @@
 {
   "Header": {
-    "WolvenKitVersion": "8.18.1-nightly.2026-05-15",
-    "WKitJsonVersion": "0.0.9",
-    "GameVersion": 2310,
-    "ExportedDateTime": "2026-05-16T18:28:17.6654087Z",
+    "WolvenKitVersion": "8.13.0-nightly.2024-03-17",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2120,
+    "ExportedDateTime": "2024-03-18T04:38:07.1672443Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "B:\\billie\\tools\\cp77\\Wkit\\projects\\b4_streetpunkJacket\\source\\archive\\output\\data\\preview_icons.inkatlas"
+    "ArchiveFileName": ""
   },
   "Data": {
     "Version": 195,
@@ -54,14 +54,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0,
-                  "Right": 0.0833333358,
-                  "Top": 0
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "badapple"
+                  "$value": "jacket_badapple"
                 }
               },
               {
@@ -76,14 +76,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
-                  "Top": 0
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "default"
+                  "$value": "jacket_default"
                 }
               },
               {
@@ -98,14 +98,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "holypearl"
+                  "$value": "jacket_holypearl"
                 }
               },
               {
@@ -121,13 +121,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.25,
-                  "Right": 0.333333343,
-                  "Top": 0
+                  "Right": 0.3333333333333333,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "logodefault"
+                  "$value": "jacket_netwyrm"
                 }
               },
               {
@@ -142,14 +142,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.333333343,
-                  "Right": 0.416666657,
-                  "Top": 0
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "logovariant1"
+                  "$value": "jacket_silversamurai"
                 }
               },
               {
@@ -164,14 +164,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "logovariant2"
+                  "$value": "jacket_sulfuricpsycho"
                 }
               },
               {
@@ -187,13 +187,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.5,
-                  "Right": 0.583333313,
-                  "Top": 0
+                  "Right": 0.5833333333333334,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "netwyrm"
+                  "$value": "logodefault"
                 }
               },
               {
@@ -208,14 +208,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.583333313,
-                  "Right": 0.666666687,
-                  "Top": 0
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "silversamurai"
+                  "$value": "logovariant01"
                 }
               },
               {
@@ -230,14 +230,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.666666687,
+                  "Left": 0.6666666666666666,
                   "Right": 0.75,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_06"
+                  "$value": "logovariant02"
                 }
               },
               {
@@ -253,13 +253,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.75,
-                  "Right": 0.833333313,
-                  "Top": 0
+                  "Right": 0.8333333333333334,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_10"
+                  "$value": "logovariant03"
                 }
               },
               {
@@ -274,14 +274,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.833333313,
-                  "Right": 0.916666687,
-                  "Top": 0
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_11"
+                  "$value": "logovariant04"
                 }
               },
               {
@@ -296,14 +296,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.916666687,
-                  "Right": 1,
-                  "Top": 0
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_12"
+                  "$value": "logovariant05"
                 }
               },
               {
@@ -318,14 +318,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_13"
+                  "$value": "logovariant06"
                 }
               },
               {
@@ -340,14 +340,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_14"
+                  "$value": "logovariant07"
                 }
               },
               {
@@ -362,14 +362,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_15"
+                  "$value": "logovariant08"
                 }
               },
               {
@@ -385,13 +385,13 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_16"
+                  "$value": "logovariant09"
                 }
               },
               {
@@ -406,14 +406,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.333333343,
-                  "Right": 0.416666657,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_17"
+                  "$value": "logovariant10"
                 }
               },
               {
@@ -428,14 +428,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_18"
+                  "$value": "logovariant11"
                 }
               },
               {
@@ -451,13 +451,13 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.5,
-                  "Right": 0.583333313,
+                  "Right": 0.5833333333333334,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_19"
+                  "$value": "logovariant12"
                 }
               },
               {
@@ -472,14 +472,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.583333313,
-                  "Right": 0.666666687,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_20"
+                  "$value": "logovariant13"
                 }
               },
               {
@@ -494,14 +494,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.666666687,
+                  "Left": 0.6666666666666666,
                   "Right": 0.75,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_21"
+                  "$value": "logovariant14"
                 }
               },
               {
@@ -517,13 +517,13 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.75,
-                  "Right": 0.833333313,
+                  "Right": 0.8333333333333334,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_22"
+                  "$value": "logovariant15"
                 }
               },
               {
@@ -538,14 +538,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.833333313,
-                  "Right": 0.916666687,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_23"
+                  "$value": "logovariant16"
                 }
               },
               {
@@ -560,14 +560,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.916666687,
-                  "Right": 1,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_24"
+                  "$value": "logovariant17"
                 }
               },
               {
@@ -582,8 +582,30 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "logovariant18"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 160,
+                  "right": 320,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.5
                 },
                 "partName": {
@@ -597,28 +619,6 @@
                 "clippingRectInPixels": {
                   "$type": "Rect",
                   "bottom": 480,
-                  "left": 160,
-                  "right": 320,
-                  "top": 320
-                },
-                "clippingRectInUVCoords": {
-                  "$type": "RectF",
-                  "Bottom": 0.75,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
-                  "Top": 0.5
-                },
-                "partName": {
-                  "$type": "CName",
-                  "$storage": "string",
-                  "$value": "slot_26"
-                }
-              },
-              {
-                "$type": "inkTextureAtlasMapper",
-                "clippingRectInPixels": {
-                  "$type": "Rect",
-                  "bottom": 480,
                   "left": 320,
                   "right": 480,
                   "top": 320
@@ -626,14 +626,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_27"
+                  "$value": "slot_26"
                 }
               },
               {
@@ -649,13 +649,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_28"
+                  "$value": "slot_27"
                 }
               },
               {
@@ -670,14 +670,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.333333343,
-                  "Right": 0.416666657,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_29"
+                  "$value": "slot_28"
                 }
               },
               {
@@ -692,14 +692,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_30"
+                  "$value": "slot_29"
                 }
               },
               {
@@ -715,13 +715,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.5,
-                  "Right": 0.583333313,
+                  "Right": 0.5833333333333334,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_31"
+                  "$value": "slot_30"
                 }
               },
               {
@@ -736,14 +736,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.583333313,
-                  "Right": 0.666666687,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_32"
+                  "$value": "slot_31"
                 }
               },
               {
@@ -758,14 +758,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.666666687,
+                  "Left": 0.6666666666666666,
                   "Right": 0.75,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_33"
+                  "$value": "slot_32"
                 }
               },
               {
@@ -781,13 +781,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.75,
-                  "Right": 0.833333313,
+                  "Right": 0.8333333333333334,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_34"
+                  "$value": "slot_33"
                 }
               },
               {
@@ -802,14 +802,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.833333313,
-                  "Right": 0.916666687,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_35"
+                  "$value": "slot_34"
                 }
               },
               {
@@ -824,14 +824,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.916666687,
-                  "Right": 1,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_36"
+                  "$value": "slot_35"
                 }
               },
               {
@@ -845,15 +845,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Bottom": 1.0,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_37"
+                  "$value": "slot_36"
                 }
               },
               {
@@ -867,15 +867,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
+                  "Bottom": 1.0,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_38"
+                  "$value": "slot_37"
                 }
               },
               {
@@ -889,15 +889,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0.166666672,
+                  "Bottom": 1.0,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_39"
+                  "$value": "slot_38"
                 }
               },
               {
@@ -911,15 +911,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
+                  "Bottom": 1.0,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_40"
+                  "$value": "slot_39"
                 }
               },
               {
@@ -933,15 +933,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0.333333343,
-                  "Right": 0.416666657,
+                  "Bottom": 1.0,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "sulfuricpsycho"
+                  "$value": "slot_40"
                 }
               }
             ],
@@ -950,7 +950,7 @@
               "DepotPath": {
                 "$type": "ResourcePath",
                 "$storage": "string",
-                "$value": "output\\data\\preview_icons.xbm"
+                "$value": "\\output\\data\\preview_icons.xbm"
               },
               "Flags": "Soft"
             }
@@ -970,14 +970,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0,
-                  "Right": 0.0833333358,
-                  "Top": 0
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "badapple"
+                  "$value": "jacket_badapple"
                 }
               },
               {
@@ -992,14 +992,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
-                  "Top": 0
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "default"
+                  "$value": "jacket_default"
                 }
               },
               {
@@ -1014,14 +1014,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "holypearl"
+                  "$value": "jacket_holypearl"
                 }
               },
               {
@@ -1037,13 +1037,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.25,
-                  "Right": 0.333333343,
-                  "Top": 0
+                  "Right": 0.3333333333333333,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "logodefault"
+                  "$value": "jacket_netwyrm"
                 }
               },
               {
@@ -1058,14 +1058,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.333333343,
-                  "Right": 0.416666657,
-                  "Top": 0
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "logovariant1"
+                  "$value": "jacket_silversamurai"
                 }
               },
               {
@@ -1080,14 +1080,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "logovariant2"
+                  "$value": "jacket_sulfuricpsycho"
                 }
               },
               {
@@ -1103,13 +1103,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.5,
-                  "Right": 0.583333313,
-                  "Top": 0
+                  "Right": 0.5833333333333334,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "netwyrm"
+                  "$value": "logodefault"
                 }
               },
               {
@@ -1124,14 +1124,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.583333313,
-                  "Right": 0.666666687,
-                  "Top": 0
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "silversamurai"
+                  "$value": "logovariant01"
                 }
               },
               {
@@ -1146,14 +1146,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.666666687,
+                  "Left": 0.6666666666666666,
                   "Right": 0.75,
-                  "Top": 0
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_06"
+                  "$value": "logovariant02"
                 }
               },
               {
@@ -1169,13 +1169,13 @@
                   "$type": "RectF",
                   "Bottom": 0.25,
                   "Left": 0.75,
-                  "Right": 0.833333313,
-                  "Top": 0
+                  "Right": 0.8333333333333334,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_10"
+                  "$value": "logovariant03"
                 }
               },
               {
@@ -1190,14 +1190,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.833333313,
-                  "Right": 0.916666687,
-                  "Top": 0
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_11"
+                  "$value": "logovariant04"
                 }
               },
               {
@@ -1212,14 +1212,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.25,
-                  "Left": 0.916666687,
-                  "Right": 1,
-                  "Top": 0
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
+                  "Top": 0.0
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_12"
+                  "$value": "logovariant05"
                 }
               },
               {
@@ -1234,14 +1234,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_13"
+                  "$value": "logovariant06"
                 }
               },
               {
@@ -1256,14 +1256,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_14"
+                  "$value": "logovariant07"
                 }
               },
               {
@@ -1278,14 +1278,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_15"
+                  "$value": "logovariant08"
                 }
               },
               {
@@ -1301,13 +1301,13 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_16"
+                  "$value": "logovariant09"
                 }
               },
               {
@@ -1322,14 +1322,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.333333343,
-                  "Right": 0.416666657,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_17"
+                  "$value": "logovariant10"
                 }
               },
               {
@@ -1344,14 +1344,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_18"
+                  "$value": "logovariant11"
                 }
               },
               {
@@ -1367,13 +1367,13 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.5,
-                  "Right": 0.583333313,
+                  "Right": 0.5833333333333334,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_19"
+                  "$value": "logovariant12"
                 }
               },
               {
@@ -1388,14 +1388,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.583333313,
-                  "Right": 0.666666687,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_20"
+                  "$value": "logovariant13"
                 }
               },
               {
@@ -1410,14 +1410,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.666666687,
+                  "Left": 0.6666666666666666,
                   "Right": 0.75,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_21"
+                  "$value": "logovariant14"
                 }
               },
               {
@@ -1433,13 +1433,13 @@
                   "$type": "RectF",
                   "Bottom": 0.5,
                   "Left": 0.75,
-                  "Right": 0.833333313,
+                  "Right": 0.8333333333333334,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_22"
+                  "$value": "logovariant15"
                 }
               },
               {
@@ -1454,14 +1454,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.833333313,
-                  "Right": 0.916666687,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_23"
+                  "$value": "logovariant16"
                 }
               },
               {
@@ -1476,14 +1476,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.5,
-                  "Left": 0.916666687,
-                  "Right": 1,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
                   "Top": 0.25
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_24"
+                  "$value": "logovariant17"
                 }
               },
               {
@@ -1498,8 +1498,30 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
+                  "Top": 0.5
+                },
+                "partName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "logovariant18"
+                }
+              },
+              {
+                "$type": "inkTextureAtlasMapper",
+                "clippingRectInPixels": {
+                  "$type": "Rect",
+                  "bottom": 480,
+                  "left": 160,
+                  "right": 320,
+                  "top": 320
+                },
+                "clippingRectInUVCoords": {
+                  "$type": "RectF",
+                  "Bottom": 0.75,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.5
                 },
                 "partName": {
@@ -1513,28 +1535,6 @@
                 "clippingRectInPixels": {
                   "$type": "Rect",
                   "bottom": 480,
-                  "left": 160,
-                  "right": 320,
-                  "top": 320
-                },
-                "clippingRectInUVCoords": {
-                  "$type": "RectF",
-                  "Bottom": 0.75,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
-                  "Top": 0.5
-                },
-                "partName": {
-                  "$type": "CName",
-                  "$storage": "string",
-                  "$value": "slot_26"
-                }
-              },
-              {
-                "$type": "inkTextureAtlasMapper",
-                "clippingRectInPixels": {
-                  "$type": "Rect",
-                  "bottom": 480,
                   "left": 320,
                   "right": 480,
                   "top": 320
@@ -1542,14 +1542,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.166666672,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_27"
+                  "$value": "slot_26"
                 }
               },
               {
@@ -1565,13 +1565,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_28"
+                  "$value": "slot_27"
                 }
               },
               {
@@ -1586,14 +1586,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.333333343,
-                  "Right": 0.416666657,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_29"
+                  "$value": "slot_28"
                 }
               },
               {
@@ -1608,14 +1608,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.416666657,
+                  "Left": 0.4166666666666667,
                   "Right": 0.5,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_30"
+                  "$value": "slot_29"
                 }
               },
               {
@@ -1631,13 +1631,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.5,
-                  "Right": 0.583333313,
+                  "Right": 0.5833333333333334,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_31"
+                  "$value": "slot_30"
                 }
               },
               {
@@ -1652,14 +1652,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.583333313,
-                  "Right": 0.666666687,
+                  "Left": 0.5833333333333334,
+                  "Right": 0.6666666666666666,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_32"
+                  "$value": "slot_31"
                 }
               },
               {
@@ -1674,14 +1674,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.666666687,
+                  "Left": 0.6666666666666666,
                   "Right": 0.75,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_33"
+                  "$value": "slot_32"
                 }
               },
               {
@@ -1697,13 +1697,13 @@
                   "$type": "RectF",
                   "Bottom": 0.75,
                   "Left": 0.75,
-                  "Right": 0.833333313,
+                  "Right": 0.8333333333333334,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_34"
+                  "$value": "slot_33"
                 }
               },
               {
@@ -1718,14 +1718,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.833333313,
-                  "Right": 0.916666687,
+                  "Left": 0.8333333333333334,
+                  "Right": 0.9166666666666666,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_35"
+                  "$value": "slot_34"
                 }
               },
               {
@@ -1740,14 +1740,14 @@
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
                   "Bottom": 0.75,
-                  "Left": 0.916666687,
-                  "Right": 1,
+                  "Left": 0.9166666666666666,
+                  "Right": 1.0,
                   "Top": 0.5
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_36"
+                  "$value": "slot_35"
                 }
               },
               {
@@ -1761,15 +1761,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0,
-                  "Right": 0.0833333358,
+                  "Bottom": 1.0,
+                  "Left": 0.0,
+                  "Right": 0.08333333333333333,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_37"
+                  "$value": "slot_36"
                 }
               },
               {
@@ -1783,15 +1783,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0.0833333358,
-                  "Right": 0.166666672,
+                  "Bottom": 1.0,
+                  "Left": 0.08333333333333333,
+                  "Right": 0.16666666666666666,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_38"
+                  "$value": "slot_37"
                 }
               },
               {
@@ -1805,15 +1805,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0.166666672,
+                  "Bottom": 1.0,
+                  "Left": 0.16666666666666666,
                   "Right": 0.25,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_39"
+                  "$value": "slot_38"
                 }
               },
               {
@@ -1827,15 +1827,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
+                  "Bottom": 1.0,
                   "Left": 0.25,
-                  "Right": 0.333333343,
+                  "Right": 0.3333333333333333,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "slot_40"
+                  "$value": "slot_39"
                 }
               },
               {
@@ -1849,15 +1849,15 @@
                 },
                 "clippingRectInUVCoords": {
                   "$type": "RectF",
-                  "Bottom": 1,
-                  "Left": 0.333333343,
-                  "Right": 0.416666657,
+                  "Bottom": 1.0,
+                  "Left": 0.3333333333333333,
+                  "Right": 0.4166666666666667,
                   "Top": 0.75
                 },
                 "partName": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "sulfuricpsycho"
+                  "$value": "slot_40"
                 }
               }
             ],
@@ -1866,20 +1866,7 @@
               "DepotPath": {
                 "$type": "ResourcePath",
                 "$storage": "string",
-                "$value": "output\\data\\preview_icons_1080.xbm"
-              },
-              "Flags": "Soft"
-            }
-          },
-          {
-            "$type": "inkTextureSlot",
-            "parts": [],
-            "slices": [],
-            "texture": {
-              "DepotPath": {
-                "$type": "ResourcePath",
-                "$storage": "uint64",
-                "$value": "0"
+                "$value": "\\output\\data\\preview_icons_1080.xbm"
               },
               "Flags": "Soft"
             }
@@ -1890,7 +1877,7 @@
         "DepotPath": {
           "$type": "ResourcePath",
           "$storage": "string",
-          "$value": "none"
+          "$value": ""
         },
         "Flags": "Default"
       },
