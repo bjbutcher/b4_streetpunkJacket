@@ -11,9 +11,9 @@ resource:
     - output\meshes\b4_streetpunkjacket_elegy.mesh
     - output\meshes\b4_streetpunkjacket_flat_chest.mesh
     - output\meshes\b4_streetpunkjacket_fryja.mesh
-    - output\meshes\b4_streetpunkjacket_hyst_ebbrb.mesh
-    - output\meshes\b4_streetpunkjacket_hyst_ebb.mesh
-    - output\meshes\b4_streetpunkjacket_hyst_rb.mesh
+    - output\meshes\b4_streetpunkjacket_ebbrb.mesh
+    - output\meshes\b4_streetpunkjacket_ebb.mesh
+    - output\meshes\b4_streetpunkjacket_rb.mesh
     - output\meshes\b4_streetpunkjacket_lush.mesh
     - output\meshes\b4_streetpunkjacket_solo_ultimate.mesh
     - output\meshes\b4_streetpunkjacket_vanillafem_bigboobs.mesh
@@ -22,9 +22,9 @@ resource:
     - output\meshes\b4_streetpunkjacket_logo_elegy.mesh
     - output\meshes\b4_streetpunkjacket_logo_flat_chest.mesh
     - output\meshes\b4_streetpunkjacket_logo_fryja.mesh
-    - output\meshes\b4_streetpunkjacket_logo_hyst_ebb_rb.mesh
-    - output\meshes\b4_streetpunkjacket_logo_hyst_ebb.mesh
-    - output\meshes\b4_streetpunkjacket_logo_hyst_rb.mesh
+    - output\meshes\b4_streetpunkjacket_logo_ebbrb.mesh
+    - output\meshes\b4_streetpunkjacket_logo_ebb.mesh
+    - output\meshes\b4_streetpunkjacket_logo_rb.mesh
     - output\meshes\b4_streetpunkjacket_logo_lush.mesh
     - output\meshes\b4_streetpunkjacket_logo_solo_ultimate.mesh
     - output\meshes\b4_streetpunkjacket_logo_vanillafem_bigboobs.mesh
