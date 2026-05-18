@@ -1,6 +1,5 @@
 factories:  
   - output\data\b4_streetpunkjacket.csv
-  - output\data\b4_streetpunkjacketlogo.csv
 localization:  
   onscreens:  
     en-us: 
