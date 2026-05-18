@@ -26,6 +26,7 @@ b4\meshes\t2_123_pma_full__space_suit_trauma_pack.mesh
 b4\meshes\t2_123_pwa_full__space_suit_trauma_pack.mesh
 b4\ops\atelier_icon.inkatlas
 b4\ops\atelier_icon.xbm
+base\40_item_template.xbm
 base\characters\common\character_customisation_items\makeup\lips\textures\hx_lips_makeup_01_d05_black.xbm
 base\characters\common\character_customisation_items\makeup\lips\textures\hx_lips_makeup_01_d05_d2.xbm
 base\characters\common\character_customisation_items\makeup\lips\textures\hx_lips_makeup_01_d06_d2.xbm
@@ -52,6 +53,10 @@ output\apps\b4_streetpunkjacket.app
 output\data\b4_holowareBackDecal.csv
 output\data\b4_streetpunkjacket.csv
 output\data\b4_streetpunkjacketlogo.csv
+output\data\decal_icons_1080.xbm
+output\data\decal_icons.xbm
+output\data\jacket_icons_1080.xbm
+output\data\jacket_icons.xbm
 output\data\preview_icons_1080.xbm
 output\data\preview_icons.inkatlas
 output\data\preview_icons.xbm
