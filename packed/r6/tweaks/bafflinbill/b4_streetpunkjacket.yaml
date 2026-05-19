@@ -15,51 +15,63 @@ Items.b4_streetpunkjacket_$(variant):
   tags:
     - !append Punk
     - !append Kitsch
+  statModifiers:
+  - !append Quality.Legendary
+  - !append
+    $type: ConstantStatModifier
+    statType: BaseStats.ItemArmor
+    modifierType: Additive
+    value: 30.0
+  - !append
+    $type: ConstantStatModifier
+    statType: BaseStats.MitigationChance
+    modifierType: Additive
+    value: 20.0
   icon:
     atlasResourcePath: output\data\jacket_icons.inkatlas
     atlasPartName: jacket_$(variant)
 Items.b4_streetpunkjacket_logo$(variant):
   $instances:
-    - { variant: default, slot: 40 }
-    - { variant: variant1, slot: 01 }
-    - { variant: variant2, slot: 02 }
-    - { variant: variant3, slot: 03 }
-    - { variant: variant4, slot: 04 }
-    - { variant: variant5, slot: 05 }
-    - { variant: variant6, slot: 06 }
-    - { variant: variant7, slot: 07 }
-    - { variant: variant8, slot: 08 }
-    - { variant: variant9, slot: 09 }
-    - { variant: variant10, slot: 10 }
-    - { variant: variant11, slot: 11 }
-    - { variant: variant12, slot: 12 }
-    - { variant: variant13, slot: 13 }
-    - { variant: variant14, slot: 14 }
-    - { variant: variant15, slot: 15 }
-    - { variant: variant16, slot: 16 }
-    - { variant: variant17, slot: 17 }
-    - { variant: variant18, slot: 18 }
-    - { variant: variant19, slot: 19 }
-    - { variant: variant20, slot: 20 }
-    - { variant: variant21, slot: 21 }
-    - { variant: variant22, slot: 22 }
-    - { variant: variant23, slot: 23 }
-    - { variant: variant24, slot: 24 }
-    - { variant: variant25, slot: 25 }
-    - { variant: variant26, slot: 26 }
-    - { variant: variant27, slot: 27 }
-    - { variant: variant28, slot: 28 }
-    - { variant: variant29, slot: 29 }
-    - { variant: variant30, slot: 30 }
-    - { variant: variant31, slot: 31 }
-    - { variant: variant32, slot: 32 }
-    - { variant: variant33, slot: 33 }
-    - { variant: variant34, slot: 34 }
-    - { variant: variant35, slot: 35 }
-    - { variant: variant36, slot: 36 }
-    - { variant: variant37, slot: 37 }
-    - { variant: variant38, slot: 38 }
-    - { variant: variant39, slot: 39 }
+    - { variant: default }
+    - { variant: variant01 }
+    - { variant: variant02 }
+    - { variant: variant03 }
+    - { variant: variant04 }
+    - { variant: variant05 }
+    - { variant: variant06 }
+    - { variant: variant07 }
+    - { variant: variant08 }
+    - { variant: variant09 }
+    - { variant: variant10 }
+    - { variant: variant11 }
+    - { variant: variant12 }
+    - { variant: variant13 }
+    - { variant: variant14 }
+    - { variant: variant15 }
+    - { variant: variant16 }
+    - { variant: variant17 }
+    - { variant: variant18 }
+    - { variant: variant19 }
+    - { variant: variant20 }
+    - { variant: variant21 }
+    - { variant: variant22 }
+    - { variant: variant23 }
+    - { variant: variant24 }
+    - { variant: variant25 }
+    - { variant: variant26 }
+    - { variant: variant27 }
+    - { variant: variant28 }
+    - { variant: variant29 }
+    - { variant: variant30 }
+    - { variant: variant31 }
+    - { variant: variant32 }
+    - { variant: variant33 }
+    - { variant: variant34 }
+    - { variant: variant35 }
+    - { variant: variant36 }
+    - { variant: variant37 }
+    - { variant: variant38 }
+    - { variant: variant39 }
   $base: Items.Outfit
   placementSlots:
     - !append OutfitSlots.Back
@@ -71,5 +83,5 @@ Items.b4_streetpunkjacket_logo$(variant):
     - !append Punk
     - !append Kitsch
   icon:
-    atlasResourcePath: output\data\decal_icons.inkatlas
-    atlasPartName: slot_$(slot)
+    atlasResourcePath: output\data\b4_streetpunkjacket_logo_icons.inkatlas
+    atlasPartName: $(variant)

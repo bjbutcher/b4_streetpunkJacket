@@ -565,7 +565,7 @@
           "DepotPath": {
             "$type": "ResourcePath",
             "$storage": "string",
-            "$value": "output\\meshes\\b4_streetpunkjacket_logo_base_body.mesh"
+            "$value": "output\\meshes\\logos\\b4_streetpunkjacket_logo_base_body.mesh"
           },
           "Flags": "Default"
         },

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<InstalLog Project="b4_streetpunkJacket" Build_date="05/18/26 10:36:55 AM">
+<InstalLog Project="b4_streetpunkJacket" Build_date="05/19/26 1:27:22 PM">
   <Files>
     <Directory Path="C:\Games\Cyberpunk2077\archive">
       <Directory Path="C:\Games\Cyberpunk2077\archive\pc">
@@ -14,8 +14,8 @@
         <file>C:\Games\Cyberpunk2077\r6\scripts\BafflingBillsBizarreBazaar-atelier-store.reds</file>
       </Directory>
       <Directory Path="C:\Games\Cyberpunk2077\r6\tweaks">
-        <Directory Path="C:\Games\Cyberpunk2077\r6\tweaks\b4_streetpunkjacket">
-          <file>C:\Games\Cyberpunk2077\r6\tweaks\b4_streetpunkjacket\b4_streetpunkjacket.yaml</file>
+        <Directory Path="C:\Games\Cyberpunk2077\r6\tweaks\bafflinbill">
+          <file>C:\Games\Cyberpunk2077\r6\tweaks\bafflinbill\b4_streetpunkjacket.yaml</file>
         </Directory>
       </Directory>
     </Directory>
