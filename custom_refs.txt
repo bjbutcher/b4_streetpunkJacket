@@ -408,6 +408,7 @@ output\meshes\b4_streetpunkjacket_ebbrb.mesh
 output\meshes\b4_streetpunkjacket_elegy.mesh
 output\meshes\b4_streetpunkjacket_flat_chest.mesh
 output\meshes\b4_streetpunkjacket_fryja.mesh
+output\meshes\b4_streetpunkjacket_logo_{body}.mesh
 output\meshes\b4_streetpunkjacket_logo_base_body.mesh
 output\meshes\b4_streetpunkjacket_logo_ebb.mesh
 output\meshes\b4_streetpunkjacket_logo_ebbrb.mesh
